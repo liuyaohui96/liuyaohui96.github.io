@@ -1,0 +1,54 @@
+
+
+/* footer */
+footer{
+    height: 200px;
+    margin-top: 200px;
+    background-color: #343a40;
+}
+
+footer .row{
+    padding: 20px 0 0 20px;
+}
+footer .git-resposity{
+    padding: 20px 0 0 20px;
+}
+footer .footer-logo{
+    width: 100px;
+}
+footer .footer-text{
+    color:#c5d2df;
+    font-size: .7rem;
+    font-style: italic;
+}
+footer .footer-program > img{
+    height: 59.22px;
+}
+footer .footer-program > span{
+    color:#c5d2df;
+}
+footer a{
+    text-decoration: none;
+    color:#c5d2df;
+    font-size: .7rem;
+}
+footer a:hover{
+    color:#0d6efd;
+}
+
+footer .footer-gitee{
+    margin-left: 20px;
+}
+footer .footer-github > img{
+    width: 40px;
+}
+footer .footer-gitee > img{
+    width: 40px;
+}
+
+footer .footer-copyright-text{
+    color:#c5d2df;
+    font-size: .7rem;
+}
+
+/* footer end */

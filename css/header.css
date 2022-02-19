@@ -1,0 +1,21 @@
+
+/* header nav */
+header{
+    background-color: #f8f9fa;
+    height: 50px;
+}
+nav{
+    height: 100%;
+}
+nav > a{
+    text-decoration: none;
+}
+nav > a:first-child > img{
+    width: 70px;
+    border-radius: 50%;
+}
+nav > a > span{
+    font-size: .7rem;
+    font-style: italic;
+    color: #6c757d;
+}
