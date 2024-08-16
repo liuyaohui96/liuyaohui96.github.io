@@ -1,0 +1,41 @@
+/* header nav */
+header {
+  background-color: #f8f9fa;
+  height: 50px;
+}
+
+nav {
+  height: 100%;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:first-child>img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+nav span.logo-text {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #6c757d;
+}
+
+
+/* 导航栏简历转换过渡效果 */
+.transform-scale {
+  display: inline-block;
+  animation: transform-scale .8s infinite;
+}
+
+@keyframes transform-scale {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}

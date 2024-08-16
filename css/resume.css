@@ -1,0 +1,87 @@
+main {
+  width: 80%;
+  margin: 60px auto 0;
+  letter-spacing: 2px;
+}
+
+
+/* 基础信息 */
+.basic-info {
+  display: flex;
+  gap: 50px;
+}
+
+.basic-info>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+main img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* === 基础信息 end */
+
+
+/* 教育背景 */
+.education {
+  margin-top: 40px;
+}
+
+.section-header {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.section-header::after {
+  position: absolute;
+  content: '';
+  top: calc(100% + 5px);
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgba(0, 0, 0, .4);
+  transition: width .8s;
+}
+
+.education:hover .section-header::after {
+  width: 100%;
+}
+
+.education-content {
+  margin-top: 20px;
+}
+
+
+/* ability */
+.ability {
+  margin-top: 40px;
+}
+
+.ability:hover .section-header::after {
+  width: 100%;
+}
+
+.ability-content {
+  margin-top: 20px;
+}
+
+/* ability end */
+
+
+/* @media */
+@media screen and (max-width: 576px) {
+  .basic-info {
+    flex-direction: column;
+  }
+
+  main img {
+    align-self: center;
+  }
+}
