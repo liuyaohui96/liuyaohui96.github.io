@@ -72,6 +72,14 @@ main img {
   margin-top: 20px;
 }
 
+.ability .ability-content div{
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.ability div li{
+  margin-left: 40px;
+}
 /* ability end */
 
 

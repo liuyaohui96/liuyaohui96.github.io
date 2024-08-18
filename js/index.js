@@ -23,13 +23,14 @@ const link_list = [
     'address': '../index.html',
   },
   {
-    'file_path': './children_program.md',
-    'address': 'https://gitee.com/liuyaohui96/children_program',
+    'file_path': './python_docs.md',
+    'address': 'https://gitee.com/liuyaohui96_admin/docs/tree/master/python',
   },
   {
-    'file_path': './program_summary.md',
-    'address': 'https://gitee.com/liuyaohui96/program_summary',
+    'file_path': './children_program.md',
+    'address': 'https://gitee.com/liuyaohui96_admin/docs/tree/master/儿童编程',
   },
+
   // ===
   {
     'file_path': './javascript_docs.md',
@@ -62,8 +63,8 @@ const link_list = [
     'address': 'https://gitee.com/liuyaohui96_admin/docs',
   },
   {
-    'file_path': './python_docs.md',
-    'address': 'https://gitee.com/liuyaohui96_admin/docs',
+    'file_path': './编程学习路线.md',
+    'address': 'https://gitee.com/liuyaohui96_admin/docs/blob/master/编程学习路线.md',
   },
   {
     'file_path': './typescript_docs.md',
