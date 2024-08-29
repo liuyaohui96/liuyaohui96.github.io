@@ -1,0 +1,39 @@
+{
+    "root": {
+        "data": {
+            "id": "d3p86f77e7k0",
+            "created": 1724612696338,
+            "text": "可变序列-字节数组"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3p966ffxdk0",
+                    "created": 1724615498354,
+                    "text": "字节数组基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3p96al0mo00",
+                            "created": 1724615507399,
+                            "text": " 字节数组概念"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3p96gvjna80",
+                    "created": 1724615521096,
+                    "text": "字节数组bytearray类"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

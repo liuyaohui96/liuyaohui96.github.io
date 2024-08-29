@@ -1,0 +1,96 @@
+{
+    "root": {
+        "data": {
+            "id": "d3q37q6do340",
+            "created": 1724700253004,
+            "text": "可迭代对象和迭代器对象"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3q380ua9sw0",
+                    "created": 1724700276217,
+                    "text": "可迭代对象"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3q386znfz40",
+                            "created": 1724700289602,
+                            "text": "可迭代对象概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3q388s7xpc0",
+                            "created": 1724700293506,
+                            "text": "可迭代对象类型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3q38b0nl000",
+                            "created": 1724700298370,
+                            "text": "判断可迭代对象方法"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3q38dx85cg0",
+                    "created": 1724700304693,
+                    "text": "迭代器对象"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3q38j36heo0",
+                            "created": 1724700315938,
+                            "text": "迭代器对象概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3q38letqk00",
+                            "created": 1724700320994,
+                            "text": "使用场景"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3q38ut6bc00",
+                            "created": 1724700341453,
+                            "text": "迭代器对象实现"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3q39k47cj40",
+                            "created": 1724700396540,
+                            "text": "可迭代对象和迭代器对象的联系与区别"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3q39xtqxmg0",
+                    "created": 1724700426382,
+                    "text": "for循环迭代背后的逻辑"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

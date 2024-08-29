@@ -1,0 +1,186 @@
+{
+    "root": {
+        "data": {
+            "id": "d3p7cux770w0",
+            "created": 1724610379636,
+            "text": "数字"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3p7d4pbjs00",
+                    "created": 1724610400928,
+                    "text": "数字基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3p7dtwpjfk0",
+                            "created": 1724610455794,
+                            "text": "数字类型分类"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3p7dwy68vc0",
+                                    "created": 1724610462413,
+                                    "text": "整数类型int"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3p7dyvba5s0",
+                                    "created": 1724610466593,
+                                    "text": "布尔类型bool"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3p7e0wqy000",
+                                    "created": 1724610471034,
+                                    "text": "浮点数类型float"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3p7e2ngt0g0",
+                                    "created": 1724610474826,
+                                    "text": "复数类型complex"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7e9udj6g0",
+                            "created": 1724610490481,
+                            "text": "不同数字类型的字面值"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3p7ebq9a3k0",
+                                    "created": 1724610494586,
+                                    "text": "整数字面值"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3p7eruih0o0",
+                                    "created": 1724610529672,
+                                    "text": "布尔字面值"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3p7edev8e80",
+                                    "created": 1724610498251,
+                                    "text": "浮点数字面值"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3p7efa2pio0",
+                                    "created": 1724610502314,
+                                    "text": "复数字面值"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7fekjl940",
+                            "created": 1724610579135,
+                            "text": "数字类型常用运算符"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3p7fh82bs80",
+                                    "created": 1724610584911,
+                                    "text": "算术运算符"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3p7fiwhlhc0",
+                                    "created": 1724610588565,
+                                    "text": "位运算符"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3p7fkcapcw0",
+                                    "created": 1724610591697,
+                                    "text": "比较运算符"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7fn9cjts0",
+                            "created": 1724610598049,
+                            "text": "数字类型之间的算术转换"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7gdeu2lc0",
+                            "created": 1724610654977,
+                            "text": "_ 提高数字可读性"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3p7gb2ezvc0",
+                    "created": 1724610649873,
+                    "text": "整数int类"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p7f6aub280",
+                    "created": 1724610561134,
+                    "text": "布尔bool类"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p7j2t8qt40",
+                    "created": 1724610866996,
+                    "text": "浮点数float类"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p7j5fvquo0",
+                    "created": 1724610872719,
+                    "text": "复数conplex类"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

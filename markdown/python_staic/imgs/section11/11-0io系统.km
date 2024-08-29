@@ -1,0 +1,38 @@
+{
+    "root": {
+        "data": {
+            "id": "d3pawwkh7u80",
+            "created": 1724620413833,
+            "text": "io系统"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3paxa8n8mw0",
+                    "created": 1724620443593,
+                    "text": "简单输入输出"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3paxgspegw0",
+                    "created": 1724620457867,
+                    "text": "文件输入输出"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3paxn94jxc0",
+                    "created": 1724620471920,
+                    "text": "IO模块"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

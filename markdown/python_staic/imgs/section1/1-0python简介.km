@@ -1,0 +1,165 @@
+{
+    "root": {
+        "data": {
+            "text": "python简介",
+            "imageSize": {}
+        },
+        "children": [
+            {
+                "data": {
+                    "text": "python的语言特点",
+                    "imageSize": {}
+                },
+                "children": [
+                    {
+                        "data": {
+                            "text": "解释型语言",
+                            "imageSize": {}
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "text": "动态语言",
+                            "imageSize": {}
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "text": "面向对象",
+                            "imageSize": {}
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "text": "简洁易读",
+                            "imageSize": {}
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "text": "python应用场景",
+                    "imageSize": {}
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3qyv2bioyw0",
+                            "created": 1724789536219,
+                            "text": "编程入门"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3qyv2bjh4w0",
+                            "created": 1724789536220,
+                            "text": "自动化脚本"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3qyv2bjdjs0",
+                            "created": 1724789536220,
+                            "text": "爬虫"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3qyv2bjexs0",
+                            "created": 1724789536220,
+                            "text": "科学计算"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3qyv2bjrrk0",
+                            "created": 1724789536220,
+                            "text": "数据处理和分析",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3qyv2bjjso0",
+                                    "created": 1724789536220,
+                                    "text": "自然语言处理"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3qyv2bk9400",
+                                    "created": 1724789536221,
+                                    "text": "图像处理"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3qyv2bk9nk0",
+                                    "created": 1724789536221,
+                                    "text": "数据可视化"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3qyv2bk7bs0",
+                            "created": 1724789536221,
+                            "text": "人工智能和机器学习"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3qyw1qa3xk0",
+                            "created": 1724789613299,
+                            "text": "其他应用场景",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3qyv2bk0kw0",
+                                    "created": 1724789536221,
+                                    "text": "web 编程"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3qyv2bkdmw0",
+                                    "created": 1724789536221,
+                                    "text": "游戏编程"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3qyv2bke2w0",
+                                    "created": 1724789536221,
+                                    "text": "用户界面编程"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}

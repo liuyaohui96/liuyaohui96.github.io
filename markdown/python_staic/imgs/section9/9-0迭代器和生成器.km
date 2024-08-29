@@ -1,0 +1,30 @@
+{
+    "root": {
+        "data": {
+            "id": "d3q369973680",
+            "created": 1724700137804,
+            "text": "迭代器和生成器"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3q36hnfdjk0",
+                    "created": 1724700156079,
+                    "text": "可迭代对象和迭代器对象"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q36jp7wyg0",
+                    "created": 1724700160541,
+                    "text": "生成器"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

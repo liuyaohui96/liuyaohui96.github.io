@@ -1,0 +1,119 @@
+{
+    "root": {
+        "data": {
+            "id": "d3pb56tsl9s0",
+            "created": 1724621063078,
+            "text": "io模块"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3pbf4nmgds0",
+                    "created": 1724621841993,
+                    "text": "用途"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3pbf7z78gw0",
+                    "created": 1724621849223,
+                    "text": "主要的类"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3pbid4ybyo0",
+                            "created": 1724622095548,
+                            "text": "io.IOBase"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pbid4zl4g0",
+                            "created": 1724622095550,
+                            "text": "io.TextIOBase"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pbid4zzj40",
+                            "created": 1724622095550,
+                            "text": "io.RawIOBase"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pbid509200",
+                            "created": 1724622095551,
+                            "text": "io.BufferedIOBase"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pbid50go00",
+                            "created": 1724622095551,
+                            "text": "io.StringIO"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pbid511qw0",
+                            "created": 1724622095552,
+                            "text": "io.BytesIO"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pbid516tc0",
+                            "created": 1724622095552,
+                            "text": "io.FileIO"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pbid51cww0",
+                            "created": 1724622095553,
+                            "text": "io.BufferedReader"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pbid51tw00",
+                            "created": 1724622095553,
+                            "text": "io.BufferedWriter"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pbid51ujc0",
+                            "created": 1724622095553,
+                            "text": "io.BufferedRandom"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pbid522140",
+                            "created": 1724622095554,
+                            "text": "io.TextIOWrapper"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

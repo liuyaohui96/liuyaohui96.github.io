@@ -1,0 +1,46 @@
+{
+    "root": {
+        "data": {
+            "id": "d3par9ylh5k0",
+            "created": 1724619972800,
+            "text": "异常"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3parnec5wo0",
+                    "created": 1724620002050,
+                    "text": "异常概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3pasl4safs0",
+                    "created": 1724620075483,
+                    "text": "异常类型"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3patampqnk0",
+                    "created": 1724620130987,
+                    "text": "try复合语句捕获和处理异常"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3patt0uc9s0",
+                    "created": 1724620171023,
+                    "text": "raise语句主动抛出异常"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

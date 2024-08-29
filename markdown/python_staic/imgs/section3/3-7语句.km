@@ -1,0 +1,167 @@
+{
+    "root": {
+        "data": {
+            "id": "d3os949sc680",
+            "created": 1724567769883,
+            "text": "语句"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3osaz3css00",
+                    "created": 1724567915339,
+                    "text": "简单语句"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3osb7pwalc0",
+                            "created": 1724567934116,
+                            "text": "gloabl 和 nonlocal语句"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3osbjrllww0",
+                            "created": 1724567960340,
+                            "text": "break和continue语句",
+                            "layout": null,
+                            "note": null,
+                            "resource": [
+                                "循环语句中使用"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3osbo7pmow0",
+                            "created": 1724567970022,
+                            "text": "return语句"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3oscdkb02w0",
+                            "created": 1724568025203,
+                            "text": "import语句"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3oscg7l61k0",
+                            "created": 1724568030964,
+                            "text": "raise语句"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3osclbc5ig0",
+                            "created": 1724568042075,
+                            "text": "assert语句"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3oscq1bkog0",
+                            "created": 1724568052353,
+                            "text": "del语句"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3oscsniqt40",
+                            "created": 1724568058049,
+                            "text": "pass语句"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3oscv19rpk0",
+                            "created": 1724568063234,
+                            "text": "with语句"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3osb0mok5s0",
+                    "created": 1724567918684,
+                    "text": "复合语句"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3osd5f9vag0",
+                            "created": 1724568085848,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3osd71s1i80",
+                            "created": 1724568089386,
+                            "text": "类型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3osdc9x1uo0",
+                                    "created": 1724568100762,
+                                    "text": "条件语句"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3osdhew1oo0",
+                                    "created": 1724568111946,
+                                    "text": "循环语句"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d3osdxxka8o0",
+                                            "created": 1724568147904,
+                                            "text": "while循环语句"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d3ose45c3oo0",
+                                            "created": 1724568161435,
+                                            "text": "for循环语句"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d3osgljyr080",
+                                    "created": 1724568356053,
+                                    "text": "try语句"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

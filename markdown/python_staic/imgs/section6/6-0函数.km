@@ -1,0 +1,157 @@
+{
+    "root": {
+        "data": {
+            "id": "d3p9ztlw0ps0",
+            "created": 1724617821371,
+            "text": "函数"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3pa08fc7vk0",
+                    "created": 1724617853627,
+                    "text": "函数基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3pa0d0qwtk0",
+                            "created": 1724617863628,
+                            "text": "函数概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pa0eu0wn40",
+                            "created": 1724617867575,
+                            "text": "创建函数的方式"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pa0i0n1c80",
+                            "created": 1724617874506,
+                            "text": "调用函数"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3pa0k50wxk0",
+                    "created": 1724617879124,
+                    "text": "函数参数",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3pa0mmoay00",
+                            "created": 1724617884545,
+                            "text": "形参和实参"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pa0v2adco0",
+                            "created": 1724617902904,
+                            "text": "函数参数传递"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pa14stc2g0",
+                            "created": 1724617924099,
+                            "text": "实参传递给形参的方式"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3pa1bzv5fk0",
+                                    "created": 1724617939762,
+                                    "text": "位置实参"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3pa1e8a3080",
+                                    "created": 1724617944625,
+                                    "text": "关键字实参"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3paeu42z480",
+                            "created": 1724618997934,
+                            "text": "形态列表规定参数传递",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3pa20ixxvk0",
+                                    "created": 1724617993159,
+                                    "text": "形参列表中用 / 和 * 指定参数传递方式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3pa9vilyqo0",
+                                    "created": 1724618609168,
+                                    "text": "形态列表规定默认形参"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3paa3em0zk0",
+                                    "created": 1724618626340,
+                                    "text": "形态列表规定可变形参"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d3paa9artk00",
+                                            "created": 1724618639169,
+                                            "text": "可变位置形参"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d3paab61mls0",
+                                            "created": 1724618643237,
+                                            "text": "可变关键字形参"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3pabl4kesg0",
+                            "created": 1724618743279,
+                            "text": "解包实参"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

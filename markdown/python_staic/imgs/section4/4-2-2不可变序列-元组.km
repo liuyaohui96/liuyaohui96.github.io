@@ -1,0 +1,47 @@
+{
+    "root": {
+        "data": {
+            "id": "d3p7xetnzaw0",
+            "created": 1724611990241,
+            "text": "不可变序列-元组"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3p7xqi36aw0",
+                    "created": 1724612015663,
+                    "text": "元组基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3p7xwt2ehc0",
+                            "created": 1724612029387,
+                            "text": "元组概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7y1t9b7c0",
+                            "created": 1724612040283,
+                            "text": "元组字面量"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3p7y4w4a740",
+                    "created": 1724612046986,
+                    "text": "元组tuple类"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

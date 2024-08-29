@@ -1,0 +1,98 @@
+{
+    "root": {
+        "data": {
+            "id": "d3q3qgnhwj40",
+            "created": 1724701721190,
+            "text": "json模块"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3q3qpyxq280",
+                    "created": 1724701741473,
+                    "text": "json模块用途"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q3qy83vts0",
+                    "created": 1724701759441,
+                    "text": "json基础以及语法"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q3r7vt3740",
+                    "created": 1724701780465,
+                    "text": "python数据类型和json数据类型的相互对应"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q3ran4skg0",
+                    "created": 1724701786471,
+                    "text": "常用方法"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3q3rdb6rqo0",
+                            "created": 1724701792279,
+                            "text": "序列化方法"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3q3sccx0js0",
+                                    "created": 1724701868571,
+                                    "text": "dumps()"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3q3sccx2080",
+                                    "created": 1724701868571,
+                                    "text": "dump()"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3q3rg1cyjc0",
+                            "created": 1724701798215,
+                            "text": " 反序列化方法",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3q3sccxp0o0",
+                                    "created": 1724701868572,
+                                    "text": "loads()"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3q3sccxli80",
+                                    "created": 1724701868572,
+                                    "text": "load() "
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

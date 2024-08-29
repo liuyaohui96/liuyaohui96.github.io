@@ -1,3 +1,8 @@
+/* 这里用来避免思维导图的溢出 */
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 .d-none{
     display: none;

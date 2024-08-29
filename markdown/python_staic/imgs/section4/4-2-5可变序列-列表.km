@@ -1,0 +1,47 @@
+{
+    "root": {
+        "data": {
+            "id": "d3p82tdd7sw0",
+            "created": 1724612413728,
+            "text": "可变序列-列表"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3p834s8ttc0",
+                    "created": 1724612438573,
+                    "text": "列表基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3p83bf7eeo0",
+                            "created": 1724612453022,
+                            "text": "列表概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p83dfa9eo0",
+                            "created": 1724612457380,
+                            "text": "列表字面量"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3p847sdgzs0",
+                    "created": 1724612523475,
+                    "text": "列表list类"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

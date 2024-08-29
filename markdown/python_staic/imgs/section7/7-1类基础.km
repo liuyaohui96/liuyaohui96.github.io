@@ -1,0 +1,70 @@
+{
+    "root": {
+        "data": {
+            "id": "d3q27zd1ey00",
+            "created": 1724697451887,
+            "text": "类基础"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3q28a7v8hc0",
+                    "created": 1724697475519,
+                    "text": "类概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q28bv972o0",
+                    "created": 1724697479110,
+                    "text": "创建类的方式"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q28nbs1i80",
+                    "created": 1724697504054,
+                    "text": "构造方法与创建实例化对象"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q28qqjb8g0",
+                    "created": 1724697511477,
+                    "text": "类的属性"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q28uy8qnk0",
+                    "created": 1724697520650,
+                    "text": "类的方法"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q292cm8m80",
+                    "created": 1724697536756,
+                    "text": "私有属性"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q295334dc0",
+                    "created": 1724697542710,
+                    "text": "私有方法"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

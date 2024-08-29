@@ -1,0 +1,54 @@
+{
+    "root": {
+        "data": {
+            "id": "d3q2in77a680",
+            "created": 1724698287419,
+            "text": "类中特殊的属性"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3q2j71kkq00",
+                    "created": 1724698330614,
+                    "text": "__name__"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q2j71mgso0",
+                    "created": 1724698330617,
+                    "text": "__module__"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q2j71n4ts0",
+                    "created": 1724698330618,
+                    "text": "__dict__"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q2j71naow0",
+                    "created": 1724698330619,
+                    "text": "__bases__"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q2j71o1600",
+                    "created": 1724698330620,
+                    "text": "__slot__"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

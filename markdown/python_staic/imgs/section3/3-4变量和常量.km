@@ -1,0 +1,55 @@
+{
+    "root": {
+        "data": {
+            "id": "d3orhk8q9io0",
+            "created": 1724565610451,
+            "text": "变量和常量"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3orhuka9wg0",
+                    "created": 1724565632918,
+                    "text": "变量"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3ori3jbw200",
+                            "created": 1724565652451,
+                            "text": "变量概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3orifvv5cw0",
+                            "created": 1724565679330,
+                            "text": "变量的数据类型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3oriiujca00",
+                            "created": 1724565685780,
+                            "text": "变量作用域"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3orhvq18080",
+                    "created": 1724565635442,
+                    "text": "常量"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}

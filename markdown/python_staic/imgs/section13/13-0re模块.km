@@ -1,0 +1,46 @@
+{
+    "root": {
+        "data": {
+            "id": "d3q3t64jz1s0",
+            "created": 1724701933369,
+            "text": "re模块"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3q3tg7m1w00",
+                    "created": 1724701955322,
+                    "text": "re模块用途"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q3tw8d76w0",
+                    "created": 1724701990196,
+                    "text": "正则表达式字面量"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q3uabd5xs0",
+                    "created": 1724702020852,
+                    "text": "正则表达式语法"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q3ujiuuao0",
+                    "created": 1724702040896,
+                    "text": "常用方法"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

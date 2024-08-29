@@ -1,0 +1,62 @@
+{
+    "root": {
+        "data": {
+            "id": "d3pbw77vbrs0",
+            "created": 1724623179761,
+            "text": "类"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3pbwfhan1c0",
+                    "created": 1724623197746,
+                    "text": "类基础"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3pbwkjszsw0",
+                    "created": 1724623208781,
+                    "text": "继承"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3pbwnczssw0",
+                    "created": 1724623214900,
+                    "text": "多态"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3pbwsaa3pc0",
+                    "created": 1724623225620,
+                    "text": "封装"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3pbwvss6vs0",
+                    "created": 1724623233269,
+                    "text": "类中特殊的属性"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3pbx3363p40",
+                    "created": 1724623249134,
+                    "text": "类中特殊的方法"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

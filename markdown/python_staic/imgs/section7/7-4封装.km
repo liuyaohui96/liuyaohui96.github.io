@@ -1,0 +1,63 @@
+{
+    "root": {
+        "data": {
+            "id": "d3q2e7kg8gg0",
+            "created": 1724697939935,
+            "text": "封装"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3q2ef40s600",
+                    "created": 1724697956356,
+                    "text": "封装概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q2g7fkew00",
+                    "created": 1724698096368,
+                    "text": "封装的实现"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3q2gib5l4w0",
+                            "created": 1724698120046,
+                            "text": "设置受保护属性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3q2gk6zgog0",
+                            "created": 1724698124147,
+                            "text": " 设置私有属性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3q2gm4yblc0",
+                            "created": 1724698128378,
+                            "text": "提供访问器和修改器方法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3q2gvmpxuw0",
+                            "created": 1724698149043,
+                            "text": "@property装饰器"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

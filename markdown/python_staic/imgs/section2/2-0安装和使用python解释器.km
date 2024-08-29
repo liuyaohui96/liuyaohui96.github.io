@@ -1,0 +1,90 @@
+{
+    "root": {
+        "data": {
+            "text": "安装和使用python解释器",
+            "imageSize": {}
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3r0pfmft080",
+                    "created": 1724794737212,
+                    "text": "windows下，安装python解释器"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3r0pl2p1kw0",
+                    "created": 1724794749079,
+                    "text": "windows下，配置python环境变量"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3r0pu7dcs80",
+                    "created": 1724794768952,
+                    "text": "命令行下，python解释器常用命令"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3r0pwkt8mg0",
+                    "created": 1724794774119,
+                    "text": "vscode下，配置python运行环境"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3rsgfonx6o0",
+                    "created": 1724873023146,
+                    "text": "python解释器解释源代码过程",
+                    "note": null,
+                    "resource": [
+                        "扩展内容"
+                    ]
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3rsghwr7io0",
+                            "created": 1724873027989,
+                            "text": "词法分析"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3rsghwrw4g0",
+                            "created": 1724873027990,
+                            "text": "语法分析"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3rsghwroyo0",
+                            "created": 1724873027990,
+                            "text": "编译"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3rsghwsdvs0",
+                            "created": 1724873027991,
+                            "text": "解释执行 "
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

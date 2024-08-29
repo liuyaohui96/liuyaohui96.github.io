@@ -1,0 +1,39 @@
+{
+    "root": {
+        "data": {
+            "id": "d3p7yqyvxnk0",
+            "created": 1724612095043,
+            "text": "不可变序列-range"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3p7zof3bxc0",
+                    "created": 1724612167856,
+                    "text": "range基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3p7zwrfi3s0",
+                            "created": 1724612186017,
+                            "text": "range概念"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3p818hx62o0",
+                    "created": 1724612289927,
+                    "text": "范围range类"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

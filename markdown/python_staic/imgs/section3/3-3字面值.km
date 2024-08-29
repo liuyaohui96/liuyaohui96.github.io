@@ -1,0 +1,129 @@
+{
+    "root": {
+        "data": {
+            "id": "d3oqqjv7yk00",
+            "created": 1724563493802,
+            "text": "字面值"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3oqqp4c6680",
+                    "created": 1724563505237,
+                    "text": "概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3oqqu7r19c0",
+                    "created": 1724563516327,
+                    "text": "字面值类型"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3orfp64cug0",
+                            "created": 1724565464449,
+                            "text": "基本字面值"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3orkes30hk0",
+                                    "created": 1724565833653,
+                                    "text": "整数字面值"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3orl4w5egg0",
+                                    "created": 1724565890495,
+                                    "text": "布尔字面值"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3orkhnkfuo0",
+                                    "created": 1724565839910,
+                                    "text": "浮点数字面值"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3orkjgnhnk0",
+                                    "created": 1724565843846,
+                                    "text": "虚数字面值"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3orkm33yqw0",
+                                    "created": 1724565849557,
+                                    "text": "字符串字面值"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3orkr0eu9k0",
+                                    "created": 1724565860278,
+                                    "text": "None"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3orfrfcw280",
+                            "created": 1724565469361,
+                            "text": "组合字面值"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3orlfyvh800",
+                                    "created": 1724565914605,
+                                    "text": "元组字面值"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3orll0nee80",
+                                    "created": 1724565925596,
+                                    "text": "列表字面值"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3orln0x7cg0",
+                                    "created": 1724565929966,
+                                    "text": "集合字面值"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3orlr0ujso0",
+                                    "created": 1724565938669,
+                                    "text": "字典字面值"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}

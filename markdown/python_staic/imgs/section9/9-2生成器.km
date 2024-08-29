@@ -1,0 +1,55 @@
+{
+    "root": {
+        "data": {
+            "id": "d3q3aamhk9s0",
+            "created": 1724700454241,
+            "text": "生成器"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3q3b6y5psg0",
+                    "created": 1724700524604,
+                    "text": "生成器概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q3b4sa0gg0",
+                    "created": 1724700519895,
+                    "text": "生成器实现方式"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3q3bcc0yw00",
+                            "created": 1724700536327,
+                            "text": "生成器函数"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3q3bfdu5fk0",
+                            "created": 1724700542967,
+                            "text": "生成器表达式"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3q3bier7rc0",
+                    "created": 1724700549552,
+                    "text": "迭代器和生成器的联系和区别"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

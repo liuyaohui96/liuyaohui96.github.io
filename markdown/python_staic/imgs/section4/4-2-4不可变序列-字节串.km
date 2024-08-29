@@ -1,0 +1,47 @@
+{
+    "root": {
+        "data": {
+            "id": "d3p81qfavg00",
+            "created": 1724612328951,
+            "text": "不可变序列-字节串"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3p827vdwrs0",
+                    "created": 1724612366929,
+                    "text": "字节串基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3p829x1lps0",
+                            "created": 1724612371383,
+                            "text": "字节串概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p82bst16g0",
+                            "created": 1724612375480,
+                            "text": "字节串字面量"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3p82fg251k0",
+                    "created": 1724612383416,
+                    "text": "字节串类bytes"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

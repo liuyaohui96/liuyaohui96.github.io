@@ -1,0 +1,62 @@
+{
+    "root": {
+        "data": {
+            "id": "d3q2abysug00",
+            "created": 1724697636053,
+            "text": "继承"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3q2aqxt6kg0",
+                    "created": 1724697668645,
+                    "text": "继承作用"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q2atbtl6g0",
+                    "created": 1724697673846,
+                    "text": "继承的实现方式"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q2b6f2fkg0",
+                    "created": 1724697702340,
+                    "text": "方法重写"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q2b9atixs0",
+                    "created": 1724697708613,
+                    "text": "super()函数"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q2bs0r3ls0",
+                    "created": 1724697749364,
+                    "text": "父类私有属性和方法的访问方式"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q2c8cr1c80",
+                    "created": 1724697784918,
+                    "text": "检测类的继承关系"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

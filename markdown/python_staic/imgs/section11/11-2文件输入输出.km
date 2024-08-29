@@ -1,0 +1,129 @@
+{
+    "root": {
+        "data": {
+            "id": "d3pazfwud0g0",
+            "created": 1724620612668,
+            "text": "文件输入输出"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3pazt4uha80",
+                    "created": 1724620641450,
+                    "text": " 文件输入输出基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3pb09z3uu80",
+                            "created": 1724620678109,
+                            "text": "文件路径"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3pb0btj0jk0",
+                                    "created": 1724620682125,
+                                    "text": "不同系统下分隔符"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3pb0gozdt40",
+                                    "created": 1724620692734,
+                                    "text": "相对文件路径"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3pb0ikjyo00",
+                                    "created": 1724620696820,
+                                    "text": "绝对文件路径"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3pb0myigog0",
+                            "created": 1724620706371,
+                            "text": "文件读取过程"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pb0q2vdcw0",
+                            "created": 1724620713165,
+                            "text": "文件写入过程"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pb0xl1dn40",
+                            "created": 1724620729501,
+                            "text": "with语句与文件操作"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pb15kdzsg0",
+                            "created": 1724620746876,
+                            "text": "缓冲"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pb1atta0o0",
+                            "created": 1724620758330,
+                            "text": "文件编码与解码"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pb1er3xz40",
+                            "created": 1724620766873,
+                            "text": "文件异常处理"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3pb1jruc4g0",
+                    "created": 1724620777801,
+                    "text": "open()函数"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3pb32fi9pk0",
+                            "created": 1724620896779,
+                            "text": "通过mode参数指定文件模式"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pb3lez5h40",
+                            "created": 1724620938105,
+                            "text": "open()函数不同参数组合，返回的对象"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

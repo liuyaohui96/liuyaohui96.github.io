@@ -1,0 +1,47 @@
+{
+    "root": {
+        "data": {
+            "id": "d3q2cu9uug00",
+            "created": 1724697832632,
+            "text": "多态"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3q2d33lbs00",
+                    "created": 1724697851844,
+                    "text": " 多态概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q2dg8x6ag0",
+                    "created": 1724697880464,
+                    "text": "多态的实现"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3q2hal7ksw0",
+                            "created": 1724698181603,
+                            "text": "方法重写"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3q2hwfrakg0",
+                            "created": 1724698229163,
+                            "text": "方法覆盖"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

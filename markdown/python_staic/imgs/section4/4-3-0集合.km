@@ -1,0 +1,30 @@
+{
+    "root": {
+        "data": {
+            "id": "d3p9dmhobeo0",
+            "created": 1724616081867,
+            "text": "集合"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3p9duyty1s0",
+                    "created": 1724616100319,
+                    "text": "集合set"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p9dzyr3k00",
+                    "created": 1724616111199,
+                    "text": "冻结集合frozenset"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}

@@ -1,0 +1,30 @@
+{
+    "root": {
+        "data": {
+            "id": "d3paylxw6cg0",
+            "created": 1724620547428,
+            "text": "简单输入输出"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3payyrzuko0",
+                    "created": 1724620575370,
+                    "text": "input()函数"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3paz19yvz40",
+                    "created": 1724620580810,
+                    "text": "print()函数"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

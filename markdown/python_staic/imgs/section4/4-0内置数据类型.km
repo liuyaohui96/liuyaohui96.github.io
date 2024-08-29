@@ -1,0 +1,46 @@
+{
+    "root": {
+        "data": {
+            "id": "d3p772sp7b40",
+            "created": 1724609926593,
+            "text": "内置数据类型"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3p77hm7gbs0",
+                    "created": 1724609958853,
+                    "text": "数字"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p77tr4jds0",
+                    "created": 1724609985271,
+                    "text": "序列"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p77wkg5vk0",
+                    "created": 1724609991398,
+                    "text": "集合"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p77z1xqds0",
+                    "created": 1724609996809,
+                    "text": "字典"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}

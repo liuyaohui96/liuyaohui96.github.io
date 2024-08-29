@@ -1,0 +1,170 @@
+{
+    "root": {
+        "data": {
+            "id": "d3p7lp90jow0",
+            "created": 1724611072567,
+            "text": "序列"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3p7lz9uyu80",
+                    "created": 1724611094386,
+                    "text": "序列基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3p7m1fcgo00",
+                            "created": 1724611099072,
+                            "text": "序列的概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7m41jbvc0",
+                            "created": 1724611104767,
+                            "text": "序列的类型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3p7m9qcwx40",
+                                    "created": 1724611117152,
+                                    "text": "不可变序列"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3p7mbsggw80",
+                                    "created": 1724611121632,
+                                    "text": "可变序列"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7mfh7ars0",
+                            "created": 1724611129659,
+                            "text": "序列访问"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3p7min1fgw0",
+                                    "created": 1724611136542,
+                                    "text": "索引访问、切片访问"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7mtpanm80",
+                            "created": 1724611160623,
+                            "text": "序列修改"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3p7nlv12zc0",
+                                    "created": 1724611221920,
+                                    "text": "索引访问、切片访问、修改方法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7o4a6pk80",
+                            "created": 1724611262018,
+                            "text": "序列遍历"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7og2dupk0",
+                            "created": 1724611287668,
+                            "text": "序列常用运算符"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7pc0q7340",
+                            "created": 1724611357225,
+                            "text": "del语句与序列"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7pfntc3s0",
+                            "created": 1724611365151,
+                            "text": "序列常用内置函数"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3p7pvuuwr40",
+                    "created": 1724611400405,
+                    "text": "不可变序列-字符串"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p7pyjelg80",
+                    "created": 1724611406243,
+                    "text": "不可变序列-元组"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p7q2h09ew0",
+                    "created": 1724611414805,
+                    "text": "不可变序列-range"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p7q53wcm80",
+                    "created": 1724611420543,
+                    "text": "不可变序列-字节串"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p7qfoe94o0",
+                    "created": 1724611443550,
+                    "text": "可变序列-列表"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p7qjgohns0",
+                    "created": 1724611451791,
+                    "text": "可变序列-字节数组"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

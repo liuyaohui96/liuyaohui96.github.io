@@ -1,0 +1,106 @@
+{
+    "root": {
+        "data": {
+            "id": "d3paiq17puo0",
+            "created": 1724619302510,
+            "text": "模块"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3pak7s3t080",
+                    "created": 1724619419505,
+                    "text": "模块基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3pakb4qtzk0",
+                            "created": 1724619426800,
+                            "text": "模块概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3pakd4gv1c0",
+                            "created": 1724619431137,
+                            "text": "导入模块",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3pakeyqz0g0",
+                                    "created": 1724619435144,
+                                    "text": "基本导入"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3pakgxjfq00",
+                                    "created": 1724619439425,
+                                    "text": "部分导入"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3pakj0ewzc0",
+                                    "created": 1724619443952,
+                                    "text": "导入时重命名"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d3pank0sbmo0",
+                                            "created": 1724619681244,
+                                            "text": "基本导入重命名"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d3panltpzps0",
+                                            "created": 1724619685170,
+                                            "text": "部分导入重命名"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d3pansyk71k0",
+                                    "created": 1724619700700,
+                                    "text": "导入模块所有内容"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3pao5q6l0g0",
+                            "created": 1724619728492,
+                            "text": "模块搜索顺序"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3paoe61qcg0",
+                            "created": 1724619746866,
+                            "text": "模块的常用属性"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

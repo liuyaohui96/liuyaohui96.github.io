@@ -1,0 +1,70 @@
+{
+    "root": {
+        "data": {
+            "id": "d3opblsrym80",
+            "created": 1724559501435,
+            "text": "基本语法"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3oq2uvph400",
+                    "created": 1724561637036,
+                    "text": "行结构"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3oq2zfwfyo0",
+                    "created": 1724561646964,
+                    "text": "标识符和关键字"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3oq38kjcr40",
+                    "created": 1724561666835,
+                    "text": "字面值"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3oq3b91vso0",
+                    "created": 1724561672671,
+                    "text": "变量和常量"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3oq3eeuago0",
+                    "created": 1724561679552,
+                    "text": "运算符"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3oq3gdj6000",
+                    "created": 1724561683826,
+                    "text": "表达式"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3oq3i241600",
+                    "created": 1724561687489,
+                    "text": "语句"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}

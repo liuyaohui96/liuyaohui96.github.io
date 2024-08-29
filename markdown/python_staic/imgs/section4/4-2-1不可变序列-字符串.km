@@ -1,0 +1,79 @@
+{
+    "root": {
+        "data": {
+            "id": "d3p7s6kmzu00",
+            "created": 1724611580460,
+            "text": "不可变序列-字符串"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3p7url3abk0",
+                    "created": 1724611782929,
+                    "text": "字符串基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3p7uulko340",
+                            "created": 1724611789488,
+                            "text": "字符串概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7uwdbiig0",
+                            "created": 1724611793343,
+                            "text": "字符串字面量"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7v2x35og0",
+                            "created": 1724611807599,
+                            "text": "转义字符"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7v4wj3680",
+                            "created": 1724611811918,
+                            "text": "原始字符串"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7v73wrz40",
+                            "created": 1724611816718,
+                            "text": "格式字符串"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p7v9p59m80",
+                            "created": 1724611822356,
+                            "text": "字符串连接方法"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3p7wsm72a80",
+                    "created": 1724611941901,
+                    "text": "字符串str类"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

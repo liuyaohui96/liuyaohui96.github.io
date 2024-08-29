@@ -1,0 +1,71 @@
+{
+    "root": {
+        "data": {
+            "id": "d3p9w6hv5ao0",
+            "created": 1724617535969,
+            "text": "解包"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3p9wf5c6ew0",
+                    "created": 1724617554803,
+                    "text": "解包概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p9wh79k740",
+                    "created": 1724617559273,
+                    "text": "解包分类"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3p9wjeag340",
+                            "created": 1724617564051,
+                            "text": "左操作数解包"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p9wl7qwg00",
+                            "created": 1724617568009,
+                            "text": "右操作数解包"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3p9wnycl280",
+                    "created": 1724617573971,
+                    "text": "序列解包"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p9wsfrgmw0",
+                    "created": 1724617583731,
+                    "text": "字典解包"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3p9wvhqlfc0",
+                    "created": 1724617590381,
+                    "text": "嵌套解包"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}

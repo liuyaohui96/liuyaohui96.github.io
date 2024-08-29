@@ -1,0 +1,96 @@
+{
+    "root": {
+        "data": {
+            "id": "d3p9s7eb9000",
+            "created": 1724617224475,
+            "text": "字典"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3p9t3r6leo0",
+                    "created": 1724617294910,
+                    "text": "字典基础",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3p9sma0uyw0",
+                            "created": 1724617256867,
+                            "text": "字典概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p9sqj9jjs0",
+                            "created": 1724617266133,
+                            "text": "字典字面量"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p9su82esw0",
+                            "created": 1724617274163,
+                            "text": "字典访问"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p9szt3mts0",
+                            "created": 1724617286319,
+                            "text": "字典修改"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p9t27mb740",
+                            "created": 1724617291550,
+                            "text": "字典遍历"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p9tikk1rs0",
+                            "created": 1724617327161,
+                            "text": "字典常用运算符"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p9trebio00",
+                            "created": 1724617346375,
+                            "text": "del语句与字典"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3p9twm4m2o0",
+                            "created": 1724617357731,
+                            "text": "字典常用内置函数"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3p9tznx4940",
+                    "created": 1724617364370,
+                    "text": "字典dict类"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

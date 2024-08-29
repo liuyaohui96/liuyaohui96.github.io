@@ -1,0 +1,94 @@
+{
+    "root": {
+        "data": {
+            "id": "d3q2z4r7gw80",
+            "created": 1724699579460,
+            "text": "类中特殊的方法"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3q33754eh40",
+                    "created": 1724699898112,
+                    "text": "__new__()"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q33754mn40",
+                    "created": 1724699898112,
+                    "text": "__str__()"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q33754vww0",
+                    "created": 1724699898113,
+                    "text": "__eq__()"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q337558aw0",
+                    "created": 1724699898113,
+                    "text": "__len__()"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q33754qoo0",
+                    "created": 1724699898113,
+                    "text": "__getitem__()"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q33755wa00",
+                    "created": 1724699898114,
+                    "text": "__setitem__()"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q33755fjc0",
+                    "created": 1724699898114,
+                    "text": "__getattr__()"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q33755kxk0",
+                    "created": 1724699898114,
+                    "text": "__iter__()"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q33755wuo0",
+                    "created": 1724699898114,
+                    "text": "__next__()"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3q33755iwg0",
+                    "created": 1724699898114,
+                    "text": "__call__() "
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

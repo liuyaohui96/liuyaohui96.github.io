@@ -1,0 +1,167 @@
+{
+    "root": {
+        "data": {
+            "id": "d3oq5nd9hzs0",
+            "created": 1724561855776,
+            "text": "行结构"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3oq5z4yrkw0",
+                    "created": 1724561881395,
+                    "text": "物理行和逻辑行",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3rrv5uuz3s0",
+                            "created": 1724871356106,
+                            "text": "物理行",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3rrv5uuupk0",
+                            "created": 1724871356106,
+                            "text": "逻辑行",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3rrv5uvl400",
+                            "created": 1724871356107,
+                            "text": "物理行和逻辑行关系",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3rrv5uvx0g0",
+                            "created": 1724871356107,
+                            "text": "物理行拼接逻辑行",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3rrvf13opc0",
+                                    "created": 1724871376074,
+                                    "text": "显式拼接",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3rrvqxh6340",
+                                    "created": 1724871401976,
+                                    "text": "隐式拼接",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3oq6726zxc0",
+                    "created": 1724561898642,
+                    "text": "注释",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3ru2gb6bds0",
+                            "created": 1724877569629,
+                            "text": "注释用途",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3ru2q0ggts0",
+                            "created": 1724877590749,
+                            "text": "注释方式",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3rrynikkg80",
+                                    "created": 1724871629637,
+                                    "text": "单行注释",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3rrynikdgo0",
+                                    "created": 1724871629637,
+                                    "text": "多行注释",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3oq6bqqv600",
+                    "created": 1724561908834,
+                    "text": "缩进",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3rs2h2psp40",
+                            "created": 1724871929075,
+                            "text": "缩进用途",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3rs2h2qseo0",
+                            "created": 1724871929076,
+                            "text": "缩进方式",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3rs2h2r5xs0",
+                            "created": 1724871929077,
+                            "text": "缩进异常",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}
