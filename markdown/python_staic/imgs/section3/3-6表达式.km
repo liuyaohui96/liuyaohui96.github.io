@@ -10,7 +10,8 @@
                 "data": {
                     "id": "d3orub1mbgg0",
                     "created": 1724566609164,
-                    "text": "表达式组成"
+                    "text": "表达式组成",
+                    "layout": null
                 },
                 "children": []
             },
@@ -18,7 +19,8 @@
                 "data": {
                     "id": "d3oruev95540",
                     "created": 1724566617486,
-                    "text": "表达式求值顺序"
+                    "text": "表达式求值顺序",
+                    "layout": null
                 },
                 "children": []
             },
@@ -27,69 +29,61 @@
                     "id": "d3orwpy97880",
                     "created": 1724566798341,
                     "text": "表达式类型",
-                    "expandState": "expand"
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "d3orwz7ojdc0",
-                            "created": 1724566818502,
-                            "text": "() [] {}创建内置类型的表达式及其推导式"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3os08mnsi00",
-                            "created": 1724567074091,
-                            "text": "x[index],x[index:index],x(arguments...),x.attribute相关表达式"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3os16wbg4g0",
-                            "created": 1724567148686,
-                            "text": " 算术表达式"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3os1besqco0",
-                            "created": 1724567158510,
-                            "text": "位运算表达式"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3os1fob8bc0",
-                            "created": 1724567167793,
-                            "text": "比较检测表达式"
+                            "id": "d3tjfxjjmug0",
+                            "created": 1725050713579,
+                            "text": "创建内置数据类型的表达式",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "d3os1l6gn4o0",
-                                    "created": 1724567179774,
-                                    "text": "比较表达式"
+                                    "id": "d3tjg1k9p9k0",
+                                    "created": 1725050722330,
+                                    "text": "元组表达式",
+                                    "layout": null
                                 },
                                 "children": []
                             },
                             {
                                 "data": {
-                                    "id": "d3os1ojq6o80",
-                                    "created": 1724567187106,
-                                    "text": "成员检测表达式"
+                                    "id": "d3tjg56zaqg0",
+                                    "created": 1725050730233,
+                                    "text": "列表表达式",
+                                    "layout": null
                                 },
                                 "children": []
                             },
                             {
                                 "data": {
-                                    "id": "d3os1rqbank0",
-                                    "created": 1724567194035,
-                                    "text": "身份比较运算符"
+                                    "id": "d3tjg71dydc0",
+                                    "created": 1725050734249,
+                                    "text": "集合表达式",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3tjg99xs6w0",
+                                    "created": 1725050739119,
+                                    "text": "字典表达式",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3tjgbk8bdc0",
+                                    "created": 1725050744095,
+                                    "text": "推导式",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -97,9 +91,150 @@
                     },
                     {
                         "data": {
-                            "id": "d3os3p58poo0",
-                            "created": 1724567345136,
-                            "text": "逻辑表达式"
+                            "id": "d3tjghuhc7s0",
+                            "created": 1725050757776,
+                            "text": "序列有关表达式",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3tjgk999s80",
+                                    "created": 1725050763023,
+                                    "text": "索引表达式",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3tjgm0s1m80",
+                                    "created": 1725050766864,
+                                    "text": "切片表达式",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3tjgonms7c0",
+                            "created": 1725050772599,
+                            "text": "字典索引表达式",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3tjgr3uuko0",
+                            "created": 1725050777934,
+                            "text": "函数调用表达式",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3tjgthc29s0",
+                            "created": 1725050783102,
+                            "text": "对象有关的表达式",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3tjhktxwg80",
+                                    "created": 1725050842638,
+                                    "text": "对象属性访问表达式",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3tjhni9src0",
+                                    "created": 1725050848462,
+                                    "text": "对象方法调用表达式",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3tjbtgiyzs0",
+                            "created": 1725050391233,
+                            "text": "运算符相关的表达式",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3os16wbg4g0",
+                                    "created": 1724567148686,
+                                    "text": " 算术表达式",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3tjcwllniw0",
+                                    "created": 1725050476434,
+                                    "text": "正负运算表达式",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3tjcs8r0wo0",
+                                    "created": 1725050466950,
+                                    "text": "位运算表达式",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3tjd7xlggw0",
+                                    "created": 1725050501104,
+                                    "text": "比较检测相关的",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3tjdbylr2g0",
+                                    "created": 1725050509872,
+                                    "text": "逻辑运算符",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3tjdf20anc0",
+                                    "created": 1725050516608,
+                                    "text": " 赋值运算符",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3os3tm3vsg0",
+                            "created": 1724567354863,
+                            "text": "Lambda表达式",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -107,31 +242,26 @@
                         "data": {
                             "id": "d3os3r8gdy80",
                             "created": 1724567349683,
-                            "text": "条件表达式"
+                            "text": "条件表达式",
+                            "layout": null
                         },
                         "children": []
                     },
                     {
                         "data": {
-                            "id": "d3os3tm3vsg0",
-                            "created": 1724567354863,
-                            "text": "Lambda表达式"
+                            "id": "d3tjj3luan40",
+                            "created": 1725050961871,
+                            "text": "生成器表达式和yield表达式",
+                            "layout": null
                         },
                         "children": []
                     },
                     {
                         "data": {
-                            "id": "d3os40i7oi80",
-                            "created": 1724567369865,
-                            "text": "赋值表达式"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3os44pl23k0",
-                            "created": 1724567379017,
-                            "text": "其他表达式"
+                            "id": "d3tjj5wwofc0",
+                            "created": 1725050966894,
+                            "text": "await表达式",
+                            "layout": null
                         },
                         "children": []
                     }

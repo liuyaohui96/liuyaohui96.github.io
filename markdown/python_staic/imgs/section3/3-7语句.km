@@ -8,85 +8,19 @@
         "children": [
             {
                 "data": {
-                    "id": "d3osaz3css00",
-                    "created": 1724567915339,
-                    "text": "简单语句"
+                    "id": "d3ud9gfj0wg0",
+                    "created": 1725134839443,
+                    "text": "语句基础",
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "d3osb7pwalc0",
-                            "created": 1724567934116,
-                            "text": "gloabl 和 nonlocal语句"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3osbjrllww0",
-                            "created": 1724567960340,
-                            "text": "break和continue语句",
-                            "layout": null,
-                            "note": null,
-                            "resource": [
-                                "循环语句中使用"
-                            ]
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3osbo7pmow0",
-                            "created": 1724567970022,
-                            "text": "return语句"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3oscdkb02w0",
-                            "created": 1724568025203,
-                            "text": "import语句"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3oscg7l61k0",
-                            "created": 1724568030964,
-                            "text": "raise语句"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3osclbc5ig0",
-                            "created": 1724568042075,
-                            "text": "assert语句"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3oscq1bkog0",
-                            "created": 1724568052353,
-                            "text": "del语句"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3oscsniqt40",
-                            "created": 1724568058049,
-                            "text": "pass语句"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3oscv19rpk0",
-                            "created": 1724568063234,
-                            "text": "with语句"
+                            "id": "d3tud8jubfs0",
+                            "created": 1725081534658,
+                            "text": "语句概念",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -94,66 +28,240 @@
             },
             {
                 "data": {
-                    "id": "d3osb0mok5s0",
-                    "created": 1724567918684,
-                    "text": "复合语句"
+                    "id": "d3tudgoetog0",
+                    "created": 1725081552349,
+                    "text": "语句类型",
+                    "expandState": "expand"
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "d3osd5f9vag0",
-                            "created": 1724568085848,
-                            "text": "概念"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d3osd71s1i80",
-                            "created": 1724568089386,
-                            "text": "类型"
+                            "id": "d3osaz3css00",
+                            "created": 1724567915339,
+                            "text": "简单语句",
+                            "layout_right_offset": {
+                                "x": 90.99999728798878,
+                                "y": -1.9999999403953979
+                            }
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "d3osdc9x1uo0",
-                                    "created": 1724568100762,
-                                    "text": "条件语句"
+                                    "id": "d3uda2ojbr40",
+                                    "created": 1725134887877,
+                                    "text": "概念"
                                 },
                                 "children": []
                             },
                             {
                                 "data": {
-                                    "id": "d3osdhew1oo0",
-                                    "created": 1724568111946,
-                                    "text": "循环语句"
+                                    "id": "d3uda7ex0fk0",
+                                    "created": 1725134898179,
+                                    "text": "类型"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "d3osdxxka8o0",
-                                            "created": 1724568147904,
-                                            "text": "while循环语句"
+                                            "id": "d3osb7pwalc0",
+                                            "created": 1724567934116,
+                                            "text": "gloabl 和 nonlocal语句"
                                         },
                                         "children": []
                                     },
                                     {
                                         "data": {
-                                            "id": "d3ose45c3oo0",
-                                            "created": 1724568161435,
-                                            "text": "for循环语句"
+                                            "id": "d3osbjrllww0",
+                                            "created": 1724567960340,
+                                            "text": "break和continue语句",
+                                            "layout": null,
+                                            "note": null,
+                                            "resource": [
+                                                "循环语句中使用"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d3oscq1bkog0",
+                                            "created": 1724568052353,
+                                            "text": "del语句"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d3osbo7pmow0",
+                                            "created": 1724567970022,
+                                            "text": "return语句",
+                                            "resource": [
+                                                "函数"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d3oscdkb02w0",
+                                            "created": 1724568025203,
+                                            "text": "import语句",
+                                            "resource": [
+                                                "模块"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d3oscg7l61k0",
+                                            "created": 1724568030964,
+                                            "text": "raise语句",
+                                            "resource": [
+                                                "异常"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d3osclbc5ig0",
+                                            "created": 1724568042075,
+                                            "text": "assert语句"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d3oscsniqt40",
+                                            "created": 1724568058049,
+                                            "text": "pass语句"
                                         },
                                         "children": []
                                     }
                                 ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d3osb0mok5s0",
+                            "created": 1724567918684,
+                            "text": "复合语句"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3osd5f9vag0",
+                                    "created": 1724568085848,
+                                    "text": "概念"
+                                },
+                                "children": []
                             },
                             {
                                 "data": {
-                                    "id": "d3osgljyr080",
-                                    "created": 1724568356053,
-                                    "text": "try语句"
+                                    "id": "d3osd71s1i80",
+                                    "created": 1724568089386,
+                                    "text": "类型",
+                                    "expandState": "expand"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d3udocspi3k0",
+                                            "created": 1725136006995,
+                                            "text": "控制程序结构",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d3osdc9x1uo0",
+                                                    "created": 1724568100762,
+                                                    "text": "条件语句"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d3osdhew1oo0",
+                                                    "created": 1724568111946,
+                                                    "text": "循环语句"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d3osdxxka8o0",
+                                                            "created": 1724568147904,
+                                                            "text": "while循环语句"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d3ose45c3oo0",
+                                                            "created": 1724568161435,
+                                                            "text": "for循环语句"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d3udolkvrx40",
+                                            "created": 1725136026113,
+                                            "text": "封装功能",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d3udbencqcg0",
+                                                    "created": 1725134992291,
+                                                    "text": "函数定义，类定义",
+                                                    "resource": [
+                                                        "函数",
+                                                        "类"
+                                                    ]
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d3udov323js0",
+                                            "created": 1725136046803,
+                                            "text": "其他功能",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d3osgljyr080",
+                                                    "created": 1724568356053,
+                                                    "text": "try语句",
+                                                    "resource": [
+                                                        "异常"
+                                                    ]
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d3oscv19rpk0",
+                                                    "created": 1724568063234,
+                                                    "text": "with语句",
+                                                    "layout": null,
+                                                    "resource": []
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     }

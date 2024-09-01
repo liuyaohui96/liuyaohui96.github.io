@@ -1,16 +1,3 @@
-<head>
-  <style>
-    .separator {
-        border-top: 5px solid;
-        border-image: linear-gradient(to right, #f44336, #e91e63, #9c27b0, #673ab7, #3f51b5) 1;
-        margin: 100px auto;
-        width:10%;
-    }
-  </style> 
-</head>
-
-
-
 
 # python_docs
 1. [python简介](#python简介)
@@ -23,11 +10,13 @@
     5. [运算符](#运算符)
     6. [表达式](#表达式)
     7. [语句](#语句)
-        1. [简单语句](#简单语句)
-        2. [复合语句](#复合语句)
-            1. [复合语句基础](#复合语句基础)
-            2. [条件语句](#条件语句)
-            3. [循环语句](#循环语句)
+        1. [语句基础](#语句基础)
+        2. [简单语句-表达式语句](#简单语句-表达式语句)
+        3. [简单语句-关键字语句](#简单语句-关键字语句)
+        4. [复合语句-条件语句](#复合语句-条件语句)
+        5. [复合语句-循环语句](#复合语句-循环语句)
+        6. [复合语句-with语句](#复合语句-with语句)
+    8. [程序构成](#程序构成)
 4. [内置数据类型](#内置数据类型)
     1. [数字](#数字)
         1. [数字基础](#数字基础)
@@ -88,20 +77,17 @@
                 1. [字节数组构造方法](#字节数组构造方法)
                 2. [字节数组其他方法](#字节数组其他方法)
     3. [集合](#集合)
-        1. [集合set](#集合set)
-            1. [集合基础](#集合基础)
-            2. [集合set类](#集合set类)
-                1. [集合构造方法](#集合构造方法)
-                2. [集合关系判断方法](#集合关系判断方法)
-                3. [集合运算方法](#集合运算方法)
-                4. [集合运算更新集合方法](#集合运算更新集合方法)
-                5. [集合增删元素方法](#集合增删元素方法)
-                6. [集合其他方法](#集合其他方法)
-        2. [冻结集合frozenset](#冻结集合frozenset)
-            1. [冰冻集合基础](#冰冻集合基础)
-            2. [冰冻集合frozenset类](#冰冻集合frozenset类)
-                1. [冰冻集合构造方法](#冰冻集合构造方法)
-                2. [冰冻集合其他方法](#冰冻集合其他方法)
+        1. [集合基础](#集合基础)
+        2. [集合set类](#集合set类)
+            1. [集合构造方法](#集合构造方法)
+            2. [集合关系判断方法](#集合关系判断方法)
+            3. [集合运算方法](#集合运算方法)
+            4. [集合运算更新集合方法](#集合运算更新集合方法)
+            5. [集合增删元素方法](#集合增删元素方法)
+            6. [集合其他方法](#集合其他方法)
+        3. [冰冻集合frozenset类](#冰冻集合frozenset类)
+            1. [冰冻集合构造方法](#冰冻集合构造方法)
+            2. [冰冻集合其他方法](#冰冻集合其他方法)
     4. [字典](#字典)
         1. [字典基础](#字典基础)
         2. [字典dict类](#字典dict类)
@@ -307,9 +293,8 @@ python简介：
         * 用户界面编程：Tkinter（ Python 标准库的一部分）和PyQt库等进行用户界面编程
 
 
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
-
-[回到顶部](#python_docs)<div class="separator"></div>
 
 
 
@@ -349,7 +334,7 @@ python简介：
     * 编译（Compilation）：将抽象语法树转换为字节码，因为字节码比原始代码更快
     * 解释执行：Python 解释器逐使用一个称为 “虚拟机”（Virtual Machine）的机制来执行字节码
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -358,11 +343,8 @@ python简介：
 
 ![基本语法](./python_staic/imgs/section3/3-0基本语法.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
-<br>
-<br>
-<br>
 
 ### 行结构
 
@@ -423,7 +405,7 @@ python简介：
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -502,7 +484,7 @@ class Dog:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -529,9 +511,9 @@ class Dog:
         * 整数字面值
         * 布尔字面值：True或者False
         * 浮点数字面值
-        * 虚数字面值
+        * 复数字面值
         * 字符串字面值
-        * `None`：表示空值或无值
+        * `None`：表示空值或无值，通常用于表示变量尚未赋值或函数没有返回值
     * 组合字面值：
         * 元组字面值
         * 列表字面值
@@ -542,30 +524,37 @@ class Dog:
     # 整数字面值
     int_literal = 10
 
+    # 布尔字面值
+    bool_literal = True
+    
     # 浮点数字面值
     float_literal = 3.14
 
     # 字符串字面值
     string_literal = "hello"
 
-    # 布尔字面值
-    bool_literal = True
+    # 复数字面值
+    complex_value = 2 + 3j
 
     # None 字面值
     none_literal = None
 
-    # 列表字面值
-    list_literal = [1, 2, 3]
 
     # 元组字面值
     tuple_literal = (4, 5, 6)
+
+    # 列表字面值
+    list_literal = [1, 2, 3]
+
+    # 集合字面值
+    set_value = {1, 2, 3}
 
     # 字典字面值
     dict_literal = {"key1": "value1", "key2": "value2"}
     ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -574,67 +563,189 @@ class Dog:
 ![变量和常量](./python_staic/imgs/section3/3-4变量和常量.png)
 
 变量：
-1. 变量概念：可以赋值的标识符运行过程中，它的值可以被改变
-
-2. 变量的数据类型：后续内置数据类型章节中设置
-
-3. 变量作用域:
-    * 全局作用域：有全局作用域的变量，叫全局变量
-    * 函数作用域：有函数内有效的变量，叫局部变量
-    * global语句：
-        * 用于在函数内部声明一个变量为全局变量；
-        * 同一个代码块内，global不能作用于当前作用域已经声明的变量；
-        * global的变量不能作为形式参数，for循环列表，函数定义，类定义等等
-    * `nonlocal`语句：在作用域外查找指定标识符
+1. 变量概念：存储数据的标识符，运行过程中值可以改变
+2. 变量命名规则：遵循标识符命名规则
+3. 变量声明和赋值：
+    * 不需要显式声明变量的数据类型
+    * 通过`=`赋值
+    * 根据赋值的内容动态推断变量的数据类型
+4. 变量的数据类型：见内置数据类型章节部分
+5. 变量作用域:
+    * 全局作用域：在函数外部定义，全局可以访问
+    * 函数作用域（局部作用域）：在函数内部定义，只能在该函数内部访问
+    * global 语句：
+        * 在函数内部使用，用于声明使用全局作用域变量
+        * 限制：同一个代码块内，当前作用域的标识符（包括函数形参），不能再用global声明
+        * 为了提高代码可读性和降低维护难度，global声明的变量不应该过度使用
+    * nonlocal 语句：用于在嵌套函数中，从外层非全局作用域查找指定标识符
 
     ```python
     def scope_test():
         def do_local():
-            spam = "local spam"
+            spam = "do_local spam"
+
 
         def do_nonlocal():
+            # 引用外部的scope_test函数作用域的spam，
+            # 加入到do_nonlocal函数作用域中
             nonlocal spam
-            spam = "nonlocal spam"
+            spam = "do_nonlocal spam"
 
         def do_global():
+            # 引用全局作用域的spam，全局没有则在全局创建一个spam，
+            # 加入到do_global函数作用域中
             global spam
-            spam = "global spam"
+            spam = "do_global spam"
 
-        spam = "test spam"
+
+        spam = "scope_test spam"
+
+
         do_local()
-        print("After local assignment:", spam)
-        # => After local assignment: test spam
+        # 调用do_local函数后
+        # => 在局部赋值后: scope_test spam
+        print("在局部赋值后:", spam)
+    
         do_nonlocal()
-        print("After nonlocal assignment:", spam)
-        # => After nonlocal assignment: nonlocal spam
+        # 调用do_nonlocal函数后
+        # => 在非局部赋值后: do_nonlocal spam
+        print("在非局部赋值后:", spam)
+        
         do_global()
-        print("After global assignment:", spam)
-        # => After global assignment: nonlocal spam
+        # 调用do_global函数后
+        # => 在全局赋值后: do_nonlocal spam
+        print("在全局赋值后:", spam)
 
     scope_test()
-    print("In global scope:", spam)
-    # => In global scope: global spam
+    # 调用scope_test函数后
+    # => 在全局作用域中: do_global spam
+    print("在全局作用域中:", spam)
+
+
+    # global的限制
+    x = 10  # 全局变量
+
+    def my_function():
+        x = 5  # 这是一个局部变量
+        global x  # 错误！不能在这里将已经声明为局部的 x 再声明为全局
+        x = 20  # 会引发错误
+
+    my_function()
+    
+
+
+    # nonlocal是用于在嵌套函数内部
+    # 向外层（非全局）的作用域查找指定标识符
+    x = "global"
+    def func():
+        # 错误，无法通过 nonlocal 访问全局变量 
+        nonlocal x
+
+    func()
     ```
 
-4. 常量：python没有像其他语言一样明确常量，但是一般将一般会将全大写的变量名视为常量，意味着值不能被随意修改
+6. 常量：Python 中，没有严格意义上的常量，通常约定，将全大写字母命名的变量视为常量，表示其值在程序运行过程中不能被修改
 
     ```python
     PI = 3.14159  # 通常视为常量
     ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+
 
 
 ### 运算符
 
 
-![运算符优先级](./python_staic/imgs/section3/3-5运算符优先级.png)
+![运算符](./python_staic/imgs/section3/3-5-0运算符.png)
 
-注意：
-1. python没有++（Increment），--（Decrement）运算符
+1. 运算符概念：用于对操作数进行运算的符号或者关键字
+2. 运算符类型及其优先级
+    ![运算符类型及其优先级](./python_staic/imgs/section3/3-5-1运算符类型及其优先级.png)
+    * 算术运算符
+        * `**`（幂运算）：计算一个数的指定次幂
+        * `+`（加法）：用于将两个数相加。
+        * `-`（减法）：用于从一个数中减去另一个数。
+        * `*`（乘法）：用于两个数的乘法运算。
+        * `/`（除法）：执行浮点数除法
+        * `//`（整除）：返回商的整数部分，其结果总是向下取整
+        * `%`（取模）：返回除法的余数
+        * `/`, `//`, `%`右操作数为0引发ZeroDivisionError异常
+    * 位运算符
+        * `~`：按位取反
+        * `<<`：位左移，高位溢出截去，低位补0，移动一位相当于乘上2
+        * `>>`：位右移，低位溢出截去，高位根据符号补充，对于正数，正数高位补 0，负数高位补 1，移动一位相当于除以 2 取整
+        * `&`：按位与，对应位都是1，结果才为1，否则为 0
+        * `^`：按位异或，对应位不相同，结果为1，相同时为 0
+        * `|`: 按位或，对应数位都是0，结果才为0，否则为 1
+    * 比较检测相关的运算符
+        * 比较运算符
+            * `==`（等于）：检查两个值是否相等。
+            * `!=`（不等于）：检查两个值是否不相等。
+            * `>`（大于）：判断左边的值是否大于右边的值。
+            * `<`（小于）：判断左边的值是否小于右边的值。
+            * `>=`（大于等于）：左边的值大于或等于右边的值时为真。
+            * `<=`（小于等于）：左边的值小于或等于右边的值时为真
+            * 比较运算符可以串联：如`x < y <= z`相当于` x < y and y <= z`
+        * 成员检测运算符：`in 和 not in`检查某个元素是否存在于（或不存在于）指定的序列中
+        * 身份检测运算符:`is | is not`判断两个对象是否是同一个对象（内存地址是否相同）
+    * 逻辑运算符
+        * and（与）：当两个操作数都为真时，结果为真。
+        * or（或）：只要其中一个操作数为真，结果为真。
+        * not（非）：对操作数的逻辑值取反
+    * 赋值运算符
+        * `=`
+        * 与算术运算符结合的`**= += -=  *=  /= //= %=`的复合赋值运算符
 
-2. 很多运算符可以通过方法重载，重新定义行为（更多方法可以参考类的特殊方法中的模拟数字类型方法）：
+
+    ```python
+    # 位运算符例子
+
+    a = 10  # 二进制为 1010
+    b = 3   # 二进制为 0011
+
+    # 按位取反
+    # 10 的二进制 1010 取反后为 0101，即-11
+    result1 = ~a 
+    
+
+    # 右移
+    # 1010 右移 1 位变为 0101，即 5
+    result2 = a >> 1  
+   
+
+    # 左移
+    # 1010 左移 1 位变为 10100，即 20
+    result3 = a << 1  
+
+    # 按位与
+    # 1010 与 0011 进行按位与操作得到 0010，即 2
+    result4 = a & b  
+
+    # 按位异或
+    # 1010 与 0011 进行按位异或操作得到 1001，即 9
+    result5 = a ^ b  
+
+    # 按位或
+    # 1010 与 0011 进行按位或操作得到 1011，即 11
+    result6 = a | b  
+    ```
+3. 与其他编程语言运算符的主要区别：
+    * python没有++（Increment），--（Decrement）运算符
+    * python没有与位运算符结合的`<<=, >>=, ^= , |=, &=`复合赋值运算符
+    * Python 中使用`and or not`进行逻辑判断，而不是`&& || !`
+4. 运算符方法重载：改变运算符在操作类的对象时的行为，可以通过类中运算符方法重载来实现（更多见类中的特殊方法）：
+    * `__add__` ：用于实现加法运算符 + 的重载
+    * `__sub__` ：用于实现减法运算符 - 的重载
+    * `__mul__` ：用于实现乘法运算符 * 的重载
+    * `__truediv__` ：用于实现真除法运算符 / 的重载
+    * `__floordiv__` ：用于实现整除运算符 // 的重载
+    * `__mod__` ：用于实现取模运算符 % 的重载
+    * `__eq__` ：用于实现等于运算符 == 的重载
+    * `__lt__` ：用于实现小于运算符 < 的重载
+    * `__gt__` ：用于实现大于运算符 > 的重载：
+    
     ```python
     class SpecialNumber:
         def __init__(self, num):
@@ -645,67 +756,16 @@ class Dog:
             return SpecialNumber(self.num + 10)
 
     sn = SpecialNumber(5)
-    # +使得result = +sn 表示对sn对象使用一元正号运算符
-    # 执行这样的操作，触发 SpecialNumber 类中定义的 __pos__ 方法来执行相应的自定义操作
-    # 返回一个返回一个新的 SpecialNumber 实例给result
+    # 对sn对象使用正号运算符
+    # 触发 SpecialNumber 类中定义的 __pos__ 方法
+    # 来执行相应的自定义操作
+    # 返回一个新的 SpecialNumber 实例给result
     result = +sn
     print(result.num) 
-    ```
+    ```   
 
 
-3. 位运算符的操作：
-    * `~`：按位取反
-    * `<<`：位左移，高位溢出截去，低位补0，移动一位相当于乘上2
-    * `>>`：位右移，低位溢出截去，高位根据符号补充，对于正数，高位都是补充0，对于负数，高位都是补充1，移动一位相当于除以2的一个整数
-    * `&`：按位与，对应位都是1，结果才为1，只要一个为0，都是0
-    * `^`：按位异或，对应位不相同，结果为1，对应位相同结果为0
-    * `|`:按位或，对应数位都是0，结果才为0，只要一个为1，都是1
-
-    ```python
-    a = 10  # 二进制为 1010
-    b = 3   # 二进制为 0011
-
-    # 按位取反
-    result1 = ~a 
-    # 10 的二进制 1010 取反后为 0101，即-11
-
-    # 右移
-    result2 = a >> 1  
-    # 1010 右移 1 位变为 0101，即 5
-
-    # 左移
-    result3 = a << 1  
-    # 1010 左移 1 位变为 10100，即 20
-
-    # 按位与
-    result4 = a & b  
-    # 1010 与 0011 进行按位与操作得到 0010，即 2
-
-    # 按位异或
-    result5 = a ^ b  
-    # 1010 与 0011 进行按位异或操作得到 1001，即 9
-
-    # 按位或
-    result6 = a | b  
-    # 1010 与 0011 进行按位或操作得到 1011，即 11
-    ```
-4. `/`, `//`, `%`右操作数为0引发ZeroDivisionError异常
-
-5. 比较运算符可以串联：如`x < y <= z`相当于` x < y and y <= z`
-
-6. 标志号检测运算符`is | is not`用于检测对象的标识号
-
-7. 使用`and or not`进行逻辑判断，而不是`&& || !`
-
-8. 条件运算符不是不是`?:`，是`value_if_true if condition else value_if_false`
-
-9. 赋值运算符有
-    * `==`
-    * 与二元运算符结合的`+=  -=  *=  /=  %=  **=`等
-    * 与位运算符结合的`<<=, >>=, ^= , |=, &=`等
-
-
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -714,79 +774,78 @@ class Dog:
 
 ![表达式](./python_staic/imgs/section3/3-6表达式.png)
 
+
 1. 表达式组成：由运算符和操作数组成，产生一个值，操作数是字面量或者标识符
 
-2. 表达式求值顺序：从左至右的顺序对表达式求值；注意在对赋值操作求值时，右侧会先于左侧被求值
-
-<br>
-<br>
-<br>
-
-表达式类型：
-
-1. `() [] {}`创建内置类型的表达式及其推导式
-    * 元组创建表达式：详细见内置类型元组部分，元组没有推导式，因为元组是不可变的序列
-    * 列表创建表达式及其推导式：详细见 内置数据类型-列表 部分
-    * 集合创建表达式及其推导式：详细见 内置类型-集合  部分
-    * 字典创建表达式及其推导式：详细见 内置类型-字典部分
-    * 推导式是一种简洁的语法，用于创建列表、字典和集合等数据结构
+2. 表达式求值顺序：
+    * 首先计算括号内的表达式
+    * 然后按照运算符的优先级进行计算
+    * 对于具有相同优先级的运算符，根据运算符与操作数的结合性来确定计算顺序，如大多数算术运算符是左结合的，即从左到右计算
+    * 逻辑运算符的求值顺序通常是短路的：在逻辑与（and）运算中，如果第一个操作数为假，就不再计算第二个操作数；在逻辑或（or）运算中，如果第一个操作数为真，就不再计算第二个操作数 
 
     ```python
-    # 普通元组创建表达式
-    tuple1 = (1, 2, 3)
-    # 元组推导式（实际生成的是生成器对象，需要通过tuple()转换为元组）
-    tuple2 = tuple(i for i in range(5))
+    # 先计算乘法 3 * 4 = 12，然后计算加法 2 + 12 = 14
+    result = 2 + 3 * 4 
+    print(result)  
 
-    # 普通列表创建表达式
-    list1 = [1, 2, 3]
-    # 列表推导式
-    list2 = [i for i in range(5)]
-
-    # 普通集合创建表达式
-    set1 = {1, 2, 3}
-    # 集合推导式
-    set2 = {i for i in range(5)}
-
-
-    # 普通字典创建表达式
-    dict1 = {'a': 1, 'b': 2}
-    # 字典推导式
-    dict2 = {f'key_{i}': i for i in range(5)}
+    # 先计算括号内的加法 2 + 3 = 5，然后计算乘法 5 * 4 = 20
+    result = (2 + 3) * 4  
+    print(result) 
     ```
 
+3. 表达式类型：
+    * 创建内置数据类型的表达式（详细见内置数据类型部分）
+        * 元组表达式：`(expressions...)`，用于创建元组对象
+        * 列表表达式：`[expressions...]`，用于创建列表对象
+        * 集合表达式：`{expressions...}`，用于创建集合对象
+        * 字典表达式：`{key:value}`，用于创建字典对象
+        * 推导式：列表，集合，字典还可以使用推导式创建，元组推导式生成的是生成器对象
 
-2. `x[index],x[index:index],x(arguments...),x.attribute`相关表达式
-    * 索引访问表达式`x[index]`和切片访问表达式`x[index:index]`
-    * 函数调用表达式`x(arguments...)`：产生过程通过`__getattr__()`方法自定义，属性不可用，则将引发AttributeError异常
-    * 对象访问表达式`x.attribute`
-    * 字典值访问表达式：`x[property]`：通过自定义`__getitem__()`自定义
+        ```python
+        # 元组表达式
+        tuple1 = (1, 2, 3)
+        # 元组推导式（实际生成的是生成器对象，需要通过tuple()转换为元组）
+        tuple2 = tuple(i for i in range(5))
+
+        # 列表表达式
+        list1 = [1, 2, 3]
+        # 列表推导式
+        list2 = [i for i in range(5)]
+
+        # 集合表达式
+        set1 = {1, 2, 3}
+        # 集合推导式
+        set2 = {i for i in range(5)}
 
 
-3. 算术表达式：运算符`** + - * / // %` 相关
-
-4. 位运算表达式：与运算符`~ >> << & ^ |`相关
-
-5. 比较检测表达式：
-    * 比较表达式：与`== != > >= < <=`运算符相关
-    * 成员检测表达式：与`in 和 not in`运算符相关
-    * 身份比较运算符：与`is 和 is not`运算符相关
-
-6. 逻辑表达式：与`and or not`运算符相关
-
-7. 条件表达式：与`value_if_true if condition else value_if_false`运算符相关
-
-8. Lambda表达式：创建匿名函数的方式，见函数部分
-
-9. 赋值表达式：与赋值运算符相关
-
-10. 其他表达式
-    * await表达式：等待一个异步操作的结果，所以是表达式，这个值是等待计算出来的，所以是表达式
+        # 字典表达式
+        dict1 = {'a': 1, 'b': 2}
+        # 字典推导式
+        dict2 = {f'key_{i}': i for i in range(5)}
+        ```
+    * 序列有关表达式
+        * 索引表达式`x[index]`：用于获取序列中指定位置的元素
+        * 切片表达式`x[index:index]`：用于从序列中提取一部分连续的元素
+    * 字典索引表达式：`dict_name[key_name]`通过指定的键 key_name 从字典 dict_name 中获取对应的值
+    * 函数调用表达式`x(arguments...)`：调用函数，并获取函数返回的结果
+    * 对象有关的表达式：
+        * 对象属性访问表达式：`x.attr x.method()`
+        * 对象方法调用表达式：`x.method()`
+    * 运算符相关的表达式（不再列举，参考运算符部分）
+        * 算术表达式
+        * 正负运算表达式
+        * 位运算表达式
+        * 比较检测相关的
+        * 逻辑运算符
+        * 赋值运算符
+    * 条件表达式：`value_if_true if condition else value_if_false`，而不是`?:`
+    * Lambda表达式：创建匿名函数的方式，详细见函数部分
     * 生成器表达式和yield表达式：详细见迭代器和生成器部分
+    * await表达式：等待一个异步操作的结果，所以是表达式，这个值是等待计算出来的，所以是表达式
+   
    
 
-[回到顶部](#python_docs)<div class="separator"></div>
-
-
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -795,41 +854,46 @@ class Dog:
 ![语句](./python_staic/imgs/section3/3-7语句.png)
 
 
-
-[回到顶部](#python_docs)<div class="separator"></div>
-
-
-#### 简单语句
+<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
+#### 语句基础
 
-简单语句：
-1. 表达式语句：表达式列表（也可能为单一表达式）进行求值的语句
+1. 语句概念：表示执行特定操作，组成程序的基本部分
+2. 语句类型
+    * 简单语句：
+        * 简单语句概念：一条单独的语句（或者说一行逻辑行语句），用于执行特定的操作，如赋值、函数调用、条件判断等
+        * 简单语句分类：表达式语句和关键字语句
+    * 复合语句：
+        * 复合语句概念：若干语句组成的语句结构，是一个代码块
+        * 复合语句分类：
+            * 控制程序结构：条件语句、循环语句
+            * 封装功能：函数定义（见函数部分）、类定义（见类部分）
+            * 其他功能：try语句（见依次部分）、with语句等
 
-2. gloabl 和 nonlocal语句：变量部分已经介绍
 
-3. break和continue语句：在复合语句中的循环语句部分介绍
 
-5. return语句（函数相关语句）：结束当前函数返回表达式列表的值，没有值返回则返回`None`
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
-6. import语句（模块相关语句）：详细见模块部分
 
-7. raise语句（异常处理相关语句）：强制异常发生，见异常部分
 
-8. assert语句：程序中插入调试性断言，`assert expression, wrong_output`，当条件表达式为真时，程序正常执行；如果条件表达式为假，就会触发 AssertionError 异常
-    ```python
-    # assert语句
-    # 当尝试用 0 作为除数时，assert 条件不满足，
-    # 就会抛出 AssertionError 并显示指定的错误信息
-    def divide(a, b):
-        assert b!= 0, "除数不能为 0"
-        return a / b
+#### 简单语句-表达式语句
 
-    print(divide(10, 2))  
-    print(divide(10, 0))  
-    ```
+表达式语句：表达式被执行时，它会产生某种效果，例如修改变量的值、执行函数产生输出等
 
-9. del语句：删除变量、对象或对象的某些元素
+
+<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+
+
+#### 简单语句-关键字语句
+
+
+关键字语句(通过关键字指定完成某些操作的语句)：
+1. gloabl 和 nonlocal语句：变量部分已经介绍
+
+2. break和continue语句：在复合语句中的循环语句部分介绍
+
+3. del语句：删除变量、对象或对象的某些元素
     * 删除列表，列表的删除将从左至右递归地删除每一个目标；
     * 名称的删除将从局部或全局命名空间中移除该名称的绑定；
     * 索引访问，切片访问，属性访问的删除会被传递给相应的原型对象;
@@ -854,55 +918,35 @@ class Dog:
     print(my_list)  
     # 输出：[1, 2, 7, 8, 9]
     ```
+       
+4. return语句（函数相关语句）：结束当前函数返回表达式列表的值，没有值返回则返回`None`，详细见函数部分
 
-10. pass语句：表示空操作或者占位
+5. import语句（模块相关语句）：详细见模块部分
 
+6. raise语句（异常处理相关语句）：强制异常发生，见异常部分
 
-11. with语句：用于创建一个上下文管理器，确保在代码块执行完毕后，相关的资源能够被正确地清理或者释放
-    * 应用场景：文件操作，数据库连接，网络连接，多线程锁等进行管理的场景
-    * 在 with 语句中，as 用于为通过上下文管理器创建的资源指定一个别名，以便在 with 代码块中使用这个别名来操作资源
-    * 工作原理：进入 with 代码块之前，会调用上下文管理器对象的 `__enter__()` 方法；在离开 with 代码块时（无论是正常结束还是因为异常），都会调用上下文管理器对象的 `__exit__()` 方法
-
+7.  assert语句：程序中插入调试性断言，`assert expression, wrong_output`，当条件表达式为真时，程序正常执行；如果条件表达式为假，就会触发 AssertionError 异常
     ```python
-    # with 语句进行文件操作管理
-    with open('example.txt', 'r') as file:
-        content = file.read()
-        print(content)
+    # assert语句
+    # 当尝试用 0 作为除数时，assert 条件不满足，
+    # 就会抛出 AssertionError 并显示指定的错误信息
+    def divide(a, b):
+        assert b!= 0, "除数不能为 0"
+        return a / b
 
+    print(divide(10, 2))  
+    print(divide(10, 0))  
     ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+8.  pass语句：表示空操作或者占位
+
+
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
-#### 复合语句
+#### 复合语句-条件语句
 
-
-[回到顶部](#python_docs)<div class="separator"></div>
-
-
-
-##### 复合语句基础
-
-
-
-复合语句：
-1. 复合语句：多个语句组成的一个代码块
-2. 常用复合语句有：
-    * 条件语句
-    * 循环语句
-    * try语句：捕获和处理异常，更多见异常部分
-
-
-[回到顶部](#python_docs)<div class="separator"></div>
-
-
-
-##### 条件语句
-
-
-
-条件语句：
 1. 条件语句：根据条件表达式（condition expressoin）的true或false值决定执行哪个语句块，语法表达如下
     
     ```python
@@ -939,11 +983,11 @@ else:
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
-##### 循环语句
+#### 复合语句-循环语句
 
 
 1. 循环语句：
@@ -1022,8 +1066,46 @@ else:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
+
+#### 复合语句-with语句
+
+
+1. 用途：用于创建一个上下文管理器，确保在代码块执行完毕后，相关的资源能够被正确地清理或者释放，常用语文件操作，数据库连接，网络连接，多线程锁等进行管理的场景
+2. 在 with 语句中，as 用于为通过上下文管理器创建的资源指定一个别名，以便在 with 代码块中使用这个别名来操作资源
+3. 工作原理：进入 with 代码块之前，会调用上下文管理器对象的 `__enter__()` 方法；在离开 with 代码块时（无论是正常结束还是因为异常），都会调用上下文管理器对象的 `__exit__()` 方法
+
+```python
+# with 语句进行文件操作管理
+with open('example.txt', 'r') as file:
+    content = file.read()
+    print(content)
+
+```
+
+
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+
+### 程序构成
+
+![程序构成](./python_staic/imgs/section3/3-8程序构成.png)
+1. 程序构成：
+    * 程序是由若干语句构成的
+    * 复合语句是可以控制程序结构，封装功能的代码块
+    * 简单语句是一条语句
+    * 简单语句可以分为关键字语句和表达式语句
+    * 表达式语句构成：标识符 + 操作数 -> 表达式 -> 表达式语句
+
+2. 运算符，表达式，语句的区别：
+    * 运算符只是单个的运算符号或关键字，本身不产生结果
+    * 表达式是运算符对操作数运算，产生一个值
+    * 语句不一定产生值，表示执行特定操作
+
+
+
+
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -1035,7 +1117,7 @@ else:
 ![内置数据类型](./python_staic/imgs/section4/4-0内置数据类型.png)
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 <br>
 <br>
@@ -1047,7 +1129,7 @@ else:
 ![数字](./python_staic/imgs/section4/4-1-0数字.png)
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -1137,13 +1219,13 @@ number：
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 #### 整数int类
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ##### 整数构造方法
@@ -1166,7 +1248,7 @@ def __new__(cls, x: str | bytes | bytearray, /, base: SupportsIndex) -> Self:
 
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -1618,14 +1700,14 @@ def __index__(self) -> int:
     pass
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 #### 布尔bool类
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -1642,7 +1724,7 @@ def __new__(cls, o: object =..., /) -> Self:
     pass
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -1747,13 +1829,13 @@ def __invert__(self) -> int:
     pass
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 #### 浮点数float类
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 ##### 浮点数构造方法
 
@@ -1767,7 +1849,7 @@ def __new__(cls, x: ConvertibleToFloat =..., /) -> Self:
     pass
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -2034,7 +2116,7 @@ def __bool__(self) -> bool:
     pass
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -2042,7 +2124,7 @@ def __bool__(self) -> bool:
 #### 复数conplex类
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ##### 复数构造方法
@@ -2068,7 +2150,7 @@ def __new__(cls, real: str | SupportsComplex | SupportsFloat | SupportsIndex | c
     pass
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ##### 复数其他方法
@@ -2214,7 +2296,7 @@ def __bool__(self) -> bool:
     pass
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -2223,12 +2305,10 @@ def __bool__(self) -> bool:
 
 ![序列](./python_staic/imgs/section4/4-2-0序列.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 #### 序列基础
 
-
-序列：
 1. 序列的概念：有序的集合，可以通过索引访问
 
 2. 序列的类型
@@ -2448,7 +2528,7 @@ def __bool__(self) -> bool:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -2460,7 +2540,7 @@ def __bool__(self) -> bool:
 ![不可变序列-字符串](./python_staic/imgs/section4/4-2-1不可变序列-字符串.png)
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ##### 字符串基础
@@ -2554,14 +2634,14 @@ def __bool__(self) -> bool:
     ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ##### 字符串str类
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 ###### 字符串构造方法
 
@@ -2590,7 +2670,7 @@ def __init__(self, object=''):
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -2672,7 +2752,7 @@ def isspace(self) -> bool:
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -2752,7 +2832,7 @@ def isupper(self) -> bool:
 
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -2845,7 +2925,7 @@ def count(self, sub: str, start: SupportsIndex | None = 0,
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -2900,7 +2980,7 @@ def removesuffix(self, suffix: str) -> str:
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ###### 字符串填充字符方法
@@ -2946,7 +3026,7 @@ def zfill(self, width: SupportsIndex) -> str:
 # === end 字符串填充字符方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -3001,7 +3081,7 @@ def splitlines(self, keepends: bool = False) -> list[str]:
 # === end 字符串拆分方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -3054,7 +3134,7 @@ def translate(self, table: Mapping[int, int | str | None]
 # === end 字符串替换方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -3087,7 +3167,7 @@ def format_map(map: _FormatMapMapping) -> str:
 # === end 字符串格式化方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ###### 字符串其他方法
@@ -3240,7 +3320,7 @@ def __getnewargs__() -> tuple[str]:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -3249,7 +3329,7 @@ def __getnewargs__() -> tuple[str]:
 
 ![不可变序列-元组](./python_staic/imgs/section4/4-2-2不可变序列-元组.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -3285,7 +3365,7 @@ def __getnewargs__() -> tuple[str]:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ###### 元组构造方法
@@ -3301,7 +3381,7 @@ def __new__(cls, iterable: Iterable[_T_co] =..., /) -> Self:
     pass
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -3439,7 +3519,7 @@ def __class_getitem__(cls, item: Any, /) -> GenericAlias:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -3448,7 +3528,7 @@ def __class_getitem__(cls, item: Any, /) -> GenericAlias:
 
 ![不可变序列-range](./python_staic/imgs/section4/4-2-3不可变序列-range.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ##### range基础
@@ -3477,7 +3557,7 @@ for i in range(10, -1, -1):
     print(i)
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -3485,7 +3565,7 @@ for i in range(10, -1, -1):
 ##### 范围range类
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -3508,7 +3588,7 @@ def __new__(cls, start: SupportsIndex, stop: SupportsIndex, step: SupportsIndex 
     pass
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -3589,7 +3669,7 @@ def __getitem__(self, key: SupportsIndex, /) -> int:
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -3597,7 +3677,7 @@ def __getitem__(self, key: SupportsIndex, /) -> int:
 
 ![不可变序列-字节串](./python_staic/imgs/section4/4-2-4不可变序列-字节串.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ##### 字节串基础
@@ -3654,7 +3734,7 @@ def __getitem__(self, key: SupportsIndex, /) -> int:
     ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -3662,7 +3742,7 @@ def __getitem__(self, key: SupportsIndex, /) -> int:
 ##### 字节串类bytes
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ###### 字节串构造方法
@@ -3705,7 +3785,7 @@ my_bytes = bytes(byte_values)
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -4233,7 +4313,7 @@ def __buffer__(self, flags: int, /) -> memoryview:
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -4241,7 +4321,7 @@ def __buffer__(self, flags: int, /) -> memoryview:
 
 ![可变序列-列表](./python_staic/imgs/section4/4-2-5可变序列-列表.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ##### 列表基础
@@ -4286,7 +4366,7 @@ def __buffer__(self, flags: int, /) -> memoryview:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -4294,7 +4374,7 @@ def __buffer__(self, flags: int, /) -> memoryview:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -4319,7 +4399,7 @@ def __init__(self, iterable: Iterable[_T], /) -> None:
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ###### 列表增加元素方法
@@ -4354,7 +4434,7 @@ def extend(self, iterable: Iterable[_T]) -> None:
 # === end列表增加元素的方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ###### 列表删除元素方法
@@ -4387,7 +4467,7 @@ def clear(self) -> None:
 # === end列表删除元素方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ###### 列表排序方法
@@ -4425,7 +4505,7 @@ cars.sort(key=myFunc) => ['VW', 'BMW', 'Ford', 'Mitsubishi']
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ###### 列表查找元素方法
@@ -4456,7 +4536,7 @@ def count(self, element: T) -> int:
 # === end 列表查找元素方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -4622,7 +4702,7 @@ def __class_getitem__(cls, __item: Any) -> GenericAlias:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -4631,7 +4711,7 @@ def __class_getitem__(cls, __item: Any) -> GenericAlias:
 
 ![可变序列-字节数组](./python_staic/imgs/section4/4-2-6可变序列-字节数组.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 ##### 字节数组基础
 
@@ -4641,7 +4721,7 @@ def __class_getitem__(cls, __item: Any) -> GenericAlias:
 2. 字节数组没有明确的字面量方式，只能通过字节数组构造方法去创造字节数组
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -4689,7 +4769,7 @@ int_list = [65, 66, 67]
 another_bytearray = bytearray(int_list)  
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -5295,7 +5375,7 @@ def __release_buffer__(self, buffer: memoryview, /) -> None:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -5307,24 +5387,11 @@ def __release_buffer__(self, buffer: memoryview, /) -> None:
 
 ![集合](./python_staic/imgs/section4/4-3-0集合.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
-<br>
-<br>
-<br>
-
-#### 集合set
-
-![集合set](./python_staic/imgs/section4/4-3-1集合set.png)
-
-[回到顶部](#python_docs)<div class="separator"></div>
+#### 集合基础
 
 
-
-##### 集合基础
-
-
-集合：
 1. 集合概念：不重复元素组成的无序集合
 
 2. 集合字面量：
@@ -5413,15 +5480,20 @@ def __release_buffer__(self, buffer: memoryview, /) -> None:
     my_set.discard(6)  # 如果元素不存在，不会抛出错误
     ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
-##### 集合set类
+
+#### 集合set类
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+![集合set](./python_staic/imgs/section4/4-3-1集合set.png)
 
-###### 集合构造方法
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+
+
+
+##### 集合构造方法
 
 ```python
 # 构造方法
@@ -5440,11 +5512,11 @@ def __init__(self, iterable: Iterable[_T], /) -> None:
 # === end 构造方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
-###### 集合关系判断方法
+##### 集合关系判断方法
 
 ```python
 # 判断集合关系的方法
@@ -5525,13 +5597,13 @@ def __ge__(self, other: AbstractSet[object]) -> bool:
 # === 判断集合关系的方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
 
 
-###### 集合运算方法
+##### 集合运算方法
 
 ```python
 # 集合运算方法
@@ -5610,11 +5682,11 @@ def __xor__(self, other: AbstractSet[_S]) -> set[_T | _S]:
 # === end 集合运算方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
-###### 集合运算更新集合方法
+##### 集合运算更新集合方法
 
 ```python
 # 集合运算更新集合方法
@@ -5696,12 +5768,12 @@ def __ixor__(self, other: AbstractSet[_T]) -> Self:
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
 
-###### 集合增删元素方法
+##### 集合增删元素方法
 
 ```python
 # 集合增删元素方法
@@ -5750,12 +5822,12 @@ def clear(self) -> None:
 # === end 集合增删元素方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
 
-###### 集合其他方法
+##### 集合其他方法
 
 ```python
 # 其他集合方法
@@ -5808,24 +5880,17 @@ def __class_getitem__(cls, __item: Any) -> GenericAlias:
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
 
-#### 冻结集合frozenset
+#### 冰冻集合frozenset类
 
 
 ![冻结集合frozenset](./python_staic/imgs/section4/4-3-2冰冻集合frozenset.png)
 
-
-[回到顶部](#python_docs)<div class="separator"></div>
-
-
-##### 冰冻集合基础
-
-
-冰冻集合：
+冰冻集合基础：
 1. 冻结集合概念：不重复、不可变元素组成的集合，一旦创建就不能修改
 2. 冻结集合字面量创建，访问与几何一样
 3. 冰冻集合不支持集合修改
@@ -5833,20 +5898,13 @@ def __class_getitem__(cls, __item: Any) -> GenericAlias:
 5. 集合常用运算符（除了更新集合的运算符）
 6. del语句与冰冻集合：和集合一样
 
-
-
-[回到顶部](#python_docs)<div class="separator"></div>
-
-
-
-##### 冰冻集合frozenset类
-
 除了不能使用set类型中修改set的方法，frozenset的方法与set一样
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>>
 
 
-###### 冰冻集合构造方法
+
+##### 冰冻集合构造方法
 
 
 ```python
@@ -5865,11 +5923,11 @@ def __new__(cls, iterable: Iterable[_T_co], /) -> Self:
 # === end 构造方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
-###### 冰冻集合其他方法
+##### 冰冻集合其他方法
 
 ```python
 # forzenset方法
@@ -6058,7 +6116,7 @@ def __hash__(self) -> int:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -6070,7 +6128,7 @@ def __hash__(self) -> int:
 
 ![字典](./python_staic/imgs/section4/4-4-0字典.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 #### 字典基础
 
@@ -6268,7 +6326,7 @@ def __hash__(self) -> int:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -6276,7 +6334,7 @@ def __hash__(self) -> int:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 ##### 字典构造方法
 
@@ -6340,7 +6398,7 @@ print(my_dict3)  # {}
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -6402,7 +6460,7 @@ def __ior__(self: Self,
 # === end字典访问方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ##### 字典删除元素方法
@@ -6436,7 +6494,7 @@ def clear(self) -> None:
 # === end 字典删除元素方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ##### 字典循环方法
@@ -6467,7 +6525,7 @@ def items(self) -> dict_items[_KT, _VT]:
 # === end 字典循环方法
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -6559,7 +6617,7 @@ def __ror__(self, value: Mapping[T1, T2]) -> dict[KT | T1, VT | T2]:
 
 
         
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -6709,7 +6767,7 @@ def __ror__(self, value: Mapping[T1, T2]) -> dict[KT | T1, VT | T2]:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -6720,7 +6778,7 @@ def __ror__(self, value: Mapping[T1, T2]) -> dict[KT | T1, VT | T2]:
 
 ![函数](./python_staic/imgs/section6/6-0函数.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ### 函数基础
@@ -6780,7 +6838,7 @@ def __ror__(self, value: Mapping[T1, T2]) -> dict[KT | T1, VT | T2]:
 3. 调用函数：`function_name()`
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ### 函数参数
@@ -6951,7 +7009,7 @@ def __ror__(self, value: Mapping[T1, T2]) -> dict[KT | T1, VT | T2]:
     ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -6962,7 +7020,7 @@ def __ror__(self, value: Mapping[T1, T2]) -> dict[KT | T1, VT | T2]:
 ![类](./python_staic/imgs/section7/7-0类.png)
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 <br>
@@ -7198,7 +7256,7 @@ def __ror__(self, value: Mapping[T1, T2]) -> dict[KT | T1, VT | T2]:
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -7387,7 +7445,7 @@ def __ror__(self, value: Mapping[T1, T2]) -> dict[KT | T1, VT | T2]:
     ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -7435,7 +7493,7 @@ def __ror__(self, value: Mapping[T1, T2]) -> dict[KT | T1, VT | T2]:
     ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -7551,7 +7609,7 @@ def __ror__(self, value: Mapping[T1, T2]) -> dict[KT | T1, VT | T2]:
     ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -7586,7 +7644,7 @@ def __ror__(self, value: Mapping[T1, T2]) -> dict[KT | T1, VT | T2]:
     dog = Dog('Fido', 3)
     ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -7608,7 +7666,7 @@ def __ror__(self, value: Mapping[T1, T2]) -> dict[KT | T1, VT | T2]:
 10. `__call__()` 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 #### __new__()方法
@@ -7669,7 +7727,7 @@ dog = Dog("Buddy")
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -7679,7 +7737,7 @@ dog = Dog("Buddy")
 1. 作用：用于定义对象的字符串表示形式，当使用 `str()` 函数或在打印对象时被调用
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -7700,7 +7758,7 @@ class Dog:
         return False    
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 #### __len__()方法
@@ -7760,7 +7818,7 @@ print(my_list[1])  # 输出: 25
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 #### __getattr__()方法：
@@ -7769,7 +7827,7 @@ print(my_list[1])  # 输出: 25
 `__getattr__()`方法：
 1. 返回对象属性时候被调用
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -7876,7 +7934,7 @@ print(my_list[1])  # 输出: 25
     ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -7887,7 +7945,7 @@ print(my_list[1])  # 输出: 25
 1. 作用：对实例进行调用被调用
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -7899,7 +7957,7 @@ print(my_list[1])  # 输出: 25
 
 ![模块](./python_staic/imgs/section8/8-0模块.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -7960,7 +8018,7 @@ print(my_list[1])  # 输出: 25
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -7975,7 +8033,7 @@ print(my_list[1])  # 输出: 25
 ![迭代器和生成器](./python_staic/imgs/section9/9-0迭代器和生成器.png)
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 <br>
 <br>
@@ -8066,7 +8124,7 @@ print(my_list[1])  # 输出: 25
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -8142,7 +8200,7 @@ print(my_list[1])  # 输出: 25
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -8155,7 +8213,7 @@ print(my_list[1])  # 输出: 25
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -8244,7 +8302,7 @@ print(my_list[1])  # 输出: 25
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -8253,7 +8311,7 @@ print(my_list[1])  # 输出: 25
 
 ![io模块](./python_staic/imgs/section11/11-0io系统.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ###  简单输入输出
@@ -8261,7 +8319,7 @@ print(my_list[1])  # 输出: 25
 
 ![简单输入输出](./python_staic/imgs/section11/11-1简单输入输出.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 #### input()函数
@@ -8283,7 +8341,7 @@ print(f"您的姓名是：{name}，年龄是：{age}")
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -8292,11 +8350,13 @@ print(f"您的姓名是：{name}，年龄是：{age}")
 
 ```python
 # 用途：将对象以文本形式输出到指定位置
+# 参数：
 # - *values：要输出的多个对象
 # - sep：多个对象间的分隔符，默认为空格，可为字符串或 None
 # - end：输出结束的字符，默认为换行，可为字符串或 None
 # - file：输出的目标文件对象，可为支持写入字符串的对象或 None
 # - flush：是否立即刷新输出，默认为 False
+# 返回值：无
 def print(
     *values: object,
     sep: str | None = " ",
@@ -8310,7 +8370,7 @@ def print(
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -8319,7 +8379,7 @@ def print(
 
 ![文件输入输出](./python_staic/imgs/section11/11-2文件输入输出.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -8394,7 +8454,7 @@ def print(
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 #### open()函数
@@ -8527,7 +8587,7 @@ open函数：
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -8535,7 +8595,7 @@ open函数：
 
 ![io模块](./python_staic/imgs/section11/11-3-0io模块.png)
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -8558,7 +8618,7 @@ io模块：
     * io.TextIOWrapper：为二进制流添加文本模式支持
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -8741,7 +8801,7 @@ def _checkClosed()
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -8843,7 +8903,7 @@ def __exit__(exc_type, exc_val, exc_tb)
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -8899,7 +8959,7 @@ def write(b)
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -8981,7 +9041,7 @@ def detach()
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -9099,7 +9159,7 @@ def load(fp, *, cls=None, object_hook=None, parse_float=None, parse_int=None,
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -9380,7 +9440,7 @@ def string(self):
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
         
@@ -9394,7 +9454,7 @@ Python标准库：是一组模块，我们安装的Python都包含它，使用�
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 ### 内置函数
 
@@ -9711,14 +9771,14 @@ pow(base, exp[, mod])
 ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
 ### 数学相关模块
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -9855,7 +9915,7 @@ class Random:
     # === 序列用方法 end    
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -9881,7 +9941,7 @@ class Random:
 4. UTC时间：世界标准时间
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -9899,7 +9959,7 @@ time模块有多种类型的时钟
    
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 #### datetime模块
@@ -10038,7 +10098,7 @@ strftime()和strptime() 的行为
 | %X   | 时间的本地版本 17:41:00                              |
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -10109,7 +10169,7 @@ strftime()和strptime() 的行为
     ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 ##### datetime类
 datetime类（继承Date类）：
@@ -10228,7 +10288,7 @@ datetime类（继承Date类）：
     def __gt__(self, other): -> ...
     ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -10295,7 +10355,7 @@ timedelta类对象表示两个date或者time的时间间隔
     ```
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 
@@ -10324,14 +10384,14 @@ timezone 类是 tzinfo 的子类，它的每个实例都代表一个以与 UTC �
 ### request模块
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 ### response模块
 
 
 
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ### deque模块
@@ -10380,7 +10440,7 @@ class deque(MutableSequence[_T], Generic[_T]):
         def __class_getitem__(cls, __item: Any) -> GenericAlias: ...
 ```
 
-[回到顶部](#python_docs)<div class="separator"></div>
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 

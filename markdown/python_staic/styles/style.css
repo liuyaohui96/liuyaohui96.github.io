@@ -1,0 +1,6 @@
+.separator {
+    border-top: 5px solid;
+    border-image: linear-gradient(to right, #f44336, #e91e63, #9c27b0, #673ab7, #3f51b5) 1;
+    margin: 100px auto;
+    width:10%;
+}

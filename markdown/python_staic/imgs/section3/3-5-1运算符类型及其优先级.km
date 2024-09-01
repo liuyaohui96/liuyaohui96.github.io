@@ -1,0 +1,245 @@
+{
+    "root": {
+        "data": {
+            "id": "d3tf7g7l6zk0",
+            "created": 1725038764498,
+            "text": "中心主题",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d3tf8gpfo3s0",
+                    "created": 1725038843941,
+                    "text": "算术运算符",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3tfba6mpj40",
+                            "created": 1725039064836,
+                            "text": "幂运算符具有很高优先级",
+                            "expandState": "expand",
+                            "priority": 1,
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3tfdy4h9ww0",
+                            "created": 1725039273677,
+                            "text": "其他优先级位于正负运算符和位运算符之间",
+                            "priority": 3,
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3tghmekzg00",
+                                    "created": 1725042382733,
+                                    "text": "* / // % @",
+                                    "resource": [
+                                        "31"
+                                    ]
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3tghu99d5k0",
+                                    "created": 1725042399825,
+                                    "text": "+-",
+                                    "resource": [
+                                        "32"
+                                    ]
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3tf86ya8a80",
+                    "created": 1725038822708,
+                    "text": "正负运算符",
+                    "priority": 2,
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d3tf8mbk4kw0",
+                    "created": 1725038856163,
+                    "text": "位运算运算符",
+                    "priority": 4,
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3tg4ctfvm00",
+                            "created": 1725041343129,
+                            "text": "~取反运算符具有和正负运算符一样的优先级",
+                            "layout": null,
+                            "priority": 2
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3tgibty8yo0",
+                            "created": 1725042438082,
+                            "text": "<< >>",
+                            "resource": [
+                                "41"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3tgiftddbk0",
+                            "created": 1725042446754,
+                            "text": "^",
+                            "resource": [
+                                "42"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3tgik6cut40",
+                            "created": 1725042456246,
+                            "text": "&",
+                            "resource": [
+                                "43"
+                            ]
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3tfhrnayk00",
+                    "created": 1725039573034,
+                    "text": "比较检测相关的运算符",
+                    "priority": 5,
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3tfibudslk0",
+                            "created": 1725039616998,
+                            "text": "比较运算符",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3tfidzizsg0",
+                            "created": 1725039621663,
+                            "text": "成员检测运算符in 和 not in",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3tfim59by00",
+                            "created": 1725039639423,
+                            "text": "身份检测运算符is | is not",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3tfyszgx6o0",
+                    "created": 1725040908137,
+                    "text": "逻辑运算符",
+                    "priority": 6,
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3tgj55rd340",
+                            "created": 1725042501922,
+                            "text": "not",
+                            "resource": [
+                                "61"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3tgja7lvtc0",
+                            "created": 1725042512918,
+                            "text": "and",
+                            "resource": [
+                                "62"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3tgjgqhgo00",
+                            "created": 1725042527120,
+                            "text": "or",
+                            "resource": [
+                                "63"
+                            ]
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d3tg0cwioww0",
+                    "created": 1725041029859,
+                    "text": "赋值运算符",
+                    "priority": 7,
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d3tg0njzjtc0",
+                            "created": 1725041053046,
+                            "text": "==",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3tg0wkzzsw0",
+                            "created": 1725041072698,
+                            "text": "**= += -=  *=  /= //= %= 复合赋值运算符",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

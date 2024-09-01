@@ -56,7 +56,7 @@
                                 "data": {
                                     "id": "d3orkjgnhnk0",
                                     "created": 1724565843846,
-                                    "text": "虚数字面值"
+                                    "text": "复数字面值"
                                 },
                                 "children": []
                             },
@@ -124,6 +124,6 @@
         ]
     },
     "template": "right",
-    "theme": "fresh-green",
+    "theme": "fresh-green-compat",
     "version": "1.4.43"
 }

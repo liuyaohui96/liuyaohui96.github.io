@@ -15,27 +15,77 @@
                 "children": [
                     {
                         "data": {
-                            "id": "d3ori3jbw200",
-                            "created": 1724565652451,
+                            "id": "d3tcmvv8slc0",
+                            "created": 1725031510713,
                             "text": "变量概念"
                         },
                         "children": []
                     },
                     {
                         "data": {
-                            "id": "d3orifvv5cw0",
-                            "created": 1724565679330,
+                            "id": "d3tcmvv94g80",
+                            "created": 1725031510713,
+                            "text": "变量命名规则"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3tcmvv8vvk0",
+                            "created": 1725031510713,
+                            "text": "变量声明和赋值"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d3tcmvv9cc00",
+                            "created": 1725031510713,
                             "text": "变量的数据类型"
                         },
                         "children": []
                     },
                     {
                         "data": {
-                            "id": "d3oriiujca00",
-                            "created": 1724565685780,
-                            "text": "变量作用域"
+                            "id": "d3tcmvv9vso0",
+                            "created": 1725031510714,
+                            "text": "变量作用域",
+                            "expandState": "expand"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d3tcnjdrrvs0",
+                                    "created": 1725031561899,
+                                    "text": "全局作用域"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3tcnlreikg0",
+                                    "created": 1725031567077,
+                                    "text": "函数作用域（局部作用域）"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3tcmvv9i5k0",
+                                    "created": 1725031510714,
+                                    "text": "global 语句"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d3tcmvv9v6o0",
+                                    "created": 1725031510714,
+                                    "text": "nonlocal 语句 "
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             },
@@ -50,6 +100,6 @@
         ]
     },
     "template": "right",
-    "theme": "fresh-green",
+    "theme": "fresh-green-compat",
     "version": "1.4.43"
 }
