@@ -1,13 +1,27 @@
 
 
-# blog设计思路
-1. [草图布局设计](#草图布局设计)
-2. [markdown_view_page布局设计](#markdown_view_page布局设计)
-3. [测量工具](#测量工具)
-4. [布局样式库](#布局样式库)
-5. [markdown转译文本库](#markdown转译文本库)
-6. [search卡组筛选](#search卡组筛选)
-7. [阅读跳转markdown预览](#阅读跳转markdown预览)
+# 个人博客项目设计
+1. [项目进度](#项目进度)
+2. [草图布局设计](#草图布局设计)
+3. [markdown\_view\_page布局设计](#markdown_view_page布局设计)
+4. [测量工具](#测量工具)
+5. [布局样式库](#布局样式库)
+6. [markdown转译文本库](#markdown转译文本库)
+7. [search卡组筛选](#search卡组筛选)
+8. [阅读跳转markdown预览](#阅读跳转markdown预览)
+
+
+
+## 项目进度
+1. 设计草图 ✅
+2. UI布局设计 ✅
+3. html + css + javascrip完成前端 ✅
+4. 数据后端因为内容不多，暂且选择json文件存储 ✅
+5. 完成markdown文本转html的功能 ✅
+6. 添加搜索功能 ✅
+7. 后续添加修改markdown文档 ✅
+8. 完成markdown文档预览 ❌
+9. 数据动态渲染 ❌
 
 
 ## 草图布局设计
