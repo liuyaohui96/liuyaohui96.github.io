@@ -9,6 +9,15 @@
     4. [变量和常量](#变量和常量)
     5. [运算符](#运算符)
     6. [表达式](#表达式)
+        1. [表达式概念](#表达式概念)
+        2. [表达式类型-运算返回结果的表达式](#表达式类型-运算返回结果的表达式)
+        3. [表达式类型-括号创建数据结构的表达式](#表达式类型-括号创建数据结构的表达式)
+        4. [表达式类型-抽取元素的表达式](#表达式类型-抽取元素的表达式)
+        5. [表达式类型-切片表达式](#表达式类型-切片表达式)
+        6. [表达式类型-调用有关的表达式](#表达式类型-调用有关的表达式)
+        7. [表达式类型-属性访问表达式](#表达式类型-属性访问表达式)
+        8. [表达式类型-其他产生结果的表达式](#表达式类型-其他产生结果的表达式)
+        9. [表达式求值顺序](#表达式求值顺序)
     7. [语句](#语句)
         1. [语句基础](#语句基础)
         2. [简单语句-表达式语句](#简单语句-表达式语句)
@@ -116,11 +125,13 @@
         8. [__call__()方法](#call方法)
 8. [模块](#模块)
     1. [模块基础](#模块基础)
+    2. [模块包管理](#模块包管理)
 9. [迭代器和生成器](#迭代器和生成器)
     1. [可迭代对象和迭代器对象](#可迭代对象和迭代器对象)
     2. [生成器](#生成器)
 10. [异常](#异常)
          1. [异常基础](#异常基础)
+         2. [异常类型](#异常类型)
 11. [io系统](#io系统)
      1. [简单输入输出](#简单输入输出)
          1. [input()函数](#input函数)
@@ -220,21 +231,19 @@ python简介：
         else:
             print("不加载狗的模块。")
         ```
-    * 面相对象的语言：（具体见类部分）
+    * 面向对象的语言：（具体见类部分）
         * 拥有类和对象，类是对象的模板，对象是类的实例。
         * 每个对象的方法用于定义行为，对象的属性用于保存状态信息
-        * 继承
-        * 多态
-        * 封装
+        * 支持继承，多态和和封装
        
         ```python
         # 定义了一个 Dog 类，它具有属性 name 和方法 bark
         class Dog:
-        def __init__(self, name):
-            self.name = name
+            def __init__(self, name):
+                self.name = name
 
-        def bark(self):
-            print(f"{self.name} is barking.")
+            def bark(self):
+                print(f"{self.name} is barking.")
 
         # 创建了一个名为Fido的Dog对象my_dog
         my_dog = Dog("Fido")
@@ -277,8 +286,8 @@ python简介：
         describe_dog(name="Fido", age=3)
         ```
 
-2. python应用场景：
-    * 编程入门
+1. python应用场景：
+    * 编程入门：语法简洁易懂，易于上手实践，是一门非常流行的编程语言
     * 自动化脚本：执行重复任务
     * 爬虫：爬取网页信息
     * 科学计算：进行数值计算和模拟，科研领域、工程领域、金融领域等使用
@@ -569,6 +578,22 @@ class Dog:
     * 不需要显式声明变量的数据类型
     * 通过`=`赋值
     * 根据赋值的内容动态推断变量的数据类型
+    * 对于不可变类型的赋值，赋值时表现得更像是 “值赋值”；对于列表、字典、集合等可变类型，赋值更像是 “引用赋值”
+
+    ```python
+    x = 5
+
+    # 多个变量赋值
+    a, b, c = 1, "two", [3]
+
+    # 多个变量赋相同的值
+    d = e = f = 0
+
+    # 复合赋值
+    j += 3  # 相当于 j = j + 3
+    ```
+
+
 4. 变量的数据类型：见内置数据类型章节部分
 5. 变量作用域:
     * 全局作用域：在函数外部定义，全局可以访问
@@ -734,6 +759,7 @@ class Dog:
 3. 与其他编程语言运算符的主要区别：
     * python没有++（Increment），--（Decrement）运算符
     * python没有与位运算符结合的`<<=, >>=, ^= , |=, &=`复合赋值运算符
+    * python有**运算符运算符，用于计算幂运算
     * Python 中使用`and or not`进行逻辑判断，而不是`&& || !`
 4. 运算符方法重载：改变运算符在操作类的对象时的行为，可以通过类中运算符方法重载来实现（更多见类中的特殊方法）：
     * `__add__` ：用于实现加法运算符 + 的重载
@@ -774,78 +800,184 @@ class Dog:
 
 ![表达式](./python_staic/imgs/section3/3-6表达式.png)
 
-
-1. 表达式组成：由运算符和操作数组成，产生一个值，操作数是字面量或者标识符
-
-2. 表达式求值顺序：
-    * 首先计算括号内的表达式
-    * 然后按照运算符的优先级进行计算
-    * 对于具有相同优先级的运算符，根据运算符与操作数的结合性来确定计算顺序，如大多数算术运算符是左结合的，即从左到右计算
-    * 逻辑运算符的求值顺序通常是短路的：在逻辑与（and）运算中，如果第一个操作数为假，就不再计算第二个操作数；在逻辑或（or）运算中，如果第一个操作数为真，就不再计算第二个操作数 
-
-    ```python
-    # 先计算乘法 3 * 4 = 12，然后计算加法 2 + 12 = 14
-    result = 2 + 3 * 4 
-    print(result)  
-
-    # 先计算括号内的加法 2 + 3 = 5，然后计算乘法 5 * 4 = 20
-    result = (2 + 3) * 4  
-    print(result) 
-    ```
-
-3. 表达式类型：
-    * 创建内置数据类型的表达式（详细见内置数据类型部分）
-        * 元组表达式：`(expressions...)`，用于创建元组对象
-        * 列表表达式：`[expressions...]`，用于创建列表对象
-        * 集合表达式：`{expressions...}`，用于创建集合对象
-        * 字典表达式：`{key:value}`，用于创建字典对象
-        * 推导式：列表，集合，字典还可以使用推导式创建，元组推导式生成的是生成器对象
-
-        ```python
-        # 元组表达式
-        tuple1 = (1, 2, 3)
-        # 元组推导式（实际生成的是生成器对象，需要通过tuple()转换为元组）
-        tuple2 = tuple(i for i in range(5))
-
-        # 列表表达式
-        list1 = [1, 2, 3]
-        # 列表推导式
-        list2 = [i for i in range(5)]
-
-        # 集合表达式
-        set1 = {1, 2, 3}
-        # 集合推导式
-        set2 = {i for i in range(5)}
+<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
-        # 字典表达式
-        dict1 = {'a': 1, 'b': 2}
-        # 字典推导式
-        dict2 = {f'key_{i}': i for i in range(5)}
-        ```
-    * 序列有关表达式
-        * 索引表达式`x[index]`：用于获取序列中指定位置的元素
-        * 切片表达式`x[index:index]`：用于从序列中提取一部分连续的元素
-    * 字典索引表达式：`dict_name[key_name]`通过指定的键 key_name 从字典 dict_name 中获取对应的值
-    * 函数调用表达式`x(arguments...)`：调用函数，并获取函数返回的结果
-    * 对象有关的表达式：
-        * 对象属性访问表达式：`x.attr x.method()`
-        * 对象方法调用表达式：`x.method()`
-    * 运算符相关的表达式（不再列举，参考运算符部分）
-        * 算术表达式
-        * 正负运算表达式
-        * 位运算表达式
-        * 比较检测相关的
-        * 逻辑运算符
-        * 赋值运算符
-    * 条件表达式：`value_if_true if condition else value_if_false`，而不是`?:`
-    * Lambda表达式：创建匿名函数的方式，详细见函数部分
-    * 生成器表达式和yield表达式：详细见迭代器和生成器部分
-    * await表达式：等待一个异步操作的结果，所以是表达式，这个值是等待计算出来的，所以是表达式
-   
-   
+#### 表达式概念
+
+1. 表达式概念：产生一个结果（值）的代码片段
+
+2. 根据产生结果不同的方式，表达式类型可分为：
+    * 运算返回结果的表达式
+    * 括号创建数据结构的表达式
+    * 抽取元素的表达式
+    * 调用有关的表达式
+    * 属性访问的表达式 
+    * 其他产生结果的表达式
+
+<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+
+#### 表达式类型-运算返回结果的表达式
+
+1. 运算返回结果的表达式构成：
+    * 操作数（Operand）：参与运算的对象，是字面量或者标识符
+    * 运算符（Operator）：
+    * 可选的括号（enclosure）：
+        * 括号内的表达式会被首先计算，用于明确表达式的计算顺序或者变运算符的优先级
+        * `()`Parentheses：小括号又称为圆括号 
+        * `[]`Brackets：方括号
+        * `{}`Braces：花括号
+2. 运算符表达式类型：（不再列举，参考运算符部分）
+    * 算术表达式
+    * 正负运算表达式
+    * 位运算表达式
+    * 比较检测相关的表达式  
+    * 逻辑运算符
+    * 赋值运算符
 
 [回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+
+#### 表达式类型-括号创建数据结构的表达式
+
+括号创建数据结构的表达式（详细见内置数据类型部分），类型有
+1. 通过`() `圆括号（Parentheses）， `[]`方括号（Brackets），`{}`花括号（Braces）可以用于创建数据结构
+
+2. 使用括号创建数据结构的表达式，类型有：
+    * 元组表达式：`(expressions...)`，通过`() `圆括号（Parentheses）创建元组对象
+    * 列表表达式：`[expressions...]`，通过`[]`方括号（Brackets）创建列表对象
+    * 集合表达式：`{expressions...}`，通过`{}`花括号（Braces）创建集合对象
+    * 字典表达式：`{key:value}`，通过`{}`花括号（Braces）创建字典对象
+    * 推导式：列表，集合，字典还可以使用推导式创建
+    * 元组推导式生成的是生成器对象，所以叫做生成器表达式（细见迭代器和生成器部分）
+
+    ```python
+    # 元组表达式
+    tuple1 = (1, 2, 3)
+    # 元组推导式（实际生成的是生成器对象，需要通过tuple()转换为元组）
+    tuple2 = tuple(i for i in range(5))
+
+    # 列表表达式
+    list1 = [1, 2, 3]
+    # 列表推导式
+    list2 = [i for i in range(5)]
+
+    # 集合表达式
+    set1 = {1, 2, 3}
+    # 集合推导式
+    set2 = {i for i in range(5)}
+
+
+    # 字典表达式
+    dict1 = {'a': 1, 'b': 2}
+    # 字典推导式
+    dict2 = {f'key_{i}': i for i in range(5)}
+    ```
+
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+
+
+#### 表达式类型-抽取元素的表达式
+
+1. 抽取元素的表达式：`obj[expression_list]`的方式，从对象中抽取元素，对象需要支持通过 `__getitem__()` 执行抽取操作
+2. 内置对象的元素抽取：有两种类型的对象支持元素抽取
+    * 序列索引表达式：`x[index]`用于获取序列中指定位置的元素
+    * 字典索引表达式：`dict_name[key_name]`通过指定的键 key_name 从字典 dict_name 中获取对应的值
+
+
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+
+
+#### 表达式类型-切片表达式
+
+切片表达式：`x[index:index]`：用于从序列中提取一部分连续的元素
+
+
+#### 表达式类型-调用有关的表达式
+
+调用有关的表达式：
+1. 函数调用表达式`x(arguments...)`：调用函数，并获取函数返回的结果
+2. 对象方法调用表达式：`x.method()`
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+
+
+#### 表达式类型-属性访问表达式
+
+对象属性访问表达式：`x.attr`
+
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+
+#### 表达式类型-其他产生结果的表达式
+
+其他产生结果的表达式：
+1. 条件表达式：`value_if_true if condition else value_if_false`，而不是`?:`
+2. Lambda表达式：创建匿名函数的方式，详细见函数部分
+3. yield表达式：详细见迭代器和生成器部分
+4. await表达式：等待一个异步操作的结果，所以是表达式，这个值是等待计算出来的，所以是表达式
+
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+
+
+
+#### 表达式求值顺序
+
+![运算符优先级](./python_staic/imgs/section3/3-5运算符优先级.png)
+
+1. 首先计算括号内的表达式
+2. 然后按照运算符的优先级进行计算
+3. 对于具有相同优先级的运算符，根据运算符与操作数的结合性来确定计算顺序，如大多数算术运算符是左结合的，即从左到右计算
+4. 逻辑运算符的求值顺序通常是短路的：在逻辑与（and）运算中，如果第一个操作数为假，就不再计算第二个操作数；在逻辑或（or）运算中，如果第一个操作数为真，就不再计算第二个操作数 
+
+```python
+# 下列表达式将按其后缀次序求值
+expr1, expr2, expr3, expr4
+(expr1, expr2, expr3, expr4)
+{expr1: expr2, expr3: expr4}
+expr1 + expr2 * (expr3 - expr4)
+expr1(expr2, expr3, *expr4, **expr5)
+expr3, expr4 = expr1, expr2
+
+
+
+# 先计算乘法 3 * 4 = 12，然后计算加法 2 + 12 = 14
+result = 2 + 3 * 4 
+print(result)  
+
+# 先计算括号内的加法 2 + 3 = 5，然后计算乘法 5 * 4 = 20
+result = (2 + 3) * 4  
+print(result) 
+
+
+# 相同优先级的运算符结合性
+# 除法和乘法优先级相同，从左到右计算
+# 10 / 2 得到 5，然后 5 * 5 得到 25
+result = 10 / 2 * 5
+print(result)
+
+
+# 逻辑与（and）短路求值
+condition1 = False
+condition2 = True
+
+# 由于 condition1 为 False，不会再判断 condition2
+if condition1 and condition2:  
+    print("不会执行到这里")
+else:
+    print("因为 condition1 为 False，短路了，所以执行这里")
+
+
+# 逻辑或（or）短路求值
+condition3 = True
+condition4 = False
+
+if condition3 or condition4:  # 由于 condition3 为 True，不会再判断 condition4
+    print("因为 condition3 为 True，短路了，所以执行这里")
+else:
+    print("不会执行到这里")
+```
+
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+
+
 
 
 
@@ -869,7 +1001,7 @@ class Dog:
         * 复合语句分类：
             * 控制程序结构：条件语句、循环语句
             * 封装功能：函数定义（见函数部分）、类定义（见类部分）
-            * 其他功能：try语句（见依次部分）、with语句等
+            * 其他功能：try语句（见异常部分）、with语句等
 
 
 
@@ -891,9 +1023,7 @@ class Dog:
 关键字语句(通过关键字指定完成某些操作的语句)：
 1. gloabl 和 nonlocal语句：变量部分已经介绍
 
-2. break和continue语句：在复合语句中的循环语句部分介绍
-
-3. del语句：删除变量、对象或对象的某些元素
+2. del语句：删除变量、对象或对象的某些元素
     * 删除列表，列表的删除将从左至右递归地删除每一个目标；
     * 名称的删除将从局部或全局命名空间中移除该名称的绑定；
     * 索引访问，切片访问，属性访问的删除会被传递给相应的原型对象;
@@ -918,6 +1048,9 @@ class Dog:
     print(my_list)  
     # 输出：[1, 2, 7, 8, 9]
     ```
+
+3. break和continue语句：在复合语句中的循环语句部分介绍
+
        
 4. return语句（函数相关语句）：结束当前函数返回表达式列表的值，没有值返回则返回`None`，详细见函数部分
 
@@ -993,6 +1126,10 @@ else:
 1. 循环语句：
     * while循环语句
     * for循环语句
+    * while循环和for循环都是为了实现代码的重复执行，让程序能够多次执行特定的任务，在很多情况下，while 循环和 for 循环可以相互转换来实现相同的功能
+    * 不同
+        * for循环通常用于遍历一个可迭代对象，循环次数通常是由可迭代对象的长度决定的；适用于已知循环次数或者需要遍历一个可迭代对象的情况
+        * while循环根据一个条件来决定是否继续循环，适用于不确定循环次数，只根据某个条件来决定是否继续循环的情况
 
 2. while循环语句：`while condition [else]`，表达式结果为真时重复执行
     * condition 是一个条件表达式
@@ -1065,7 +1202,6 @@ else:
     ```
 
 
-
 [回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
@@ -1090,17 +1226,19 @@ with open('example.txt', 'r') as file:
 ### 程序构成
 
 ![程序构成](./python_staic/imgs/section3/3-8程序构成.png)
+
 1. 程序构成：
     * 程序是由若干语句构成的
-    * 复合语句是可以控制程序结构，封装功能的代码块
-    * 简单语句是一条语句
     * 简单语句可以分为关键字语句和表达式语句
-    * 表达式语句构成：标识符 + 操作数 -> 表达式 -> 表达式语句
+    * 表达式语句里与运算相关的表达式由运算符和操作数，可选的括号构成
+    * 操作数是标识符或者字面量
 
-2. 运算符，表达式，语句的区别：
-    * 运算符只是单个的运算符号或关键字，本身不产生结果
-    * 表达式是运算符对操作数运算，产生一个值
-    * 语句不一定产生值，表示执行特定操作
+2. 运算符，表达式，语句的联系与区别：
+    * 运算符对操作数参与运算的符号或者关键字
+    * 运算符可以组成表达式，表达式不一定有由算符构成
+    * 表达式是产生一个结果的代码片段
+    * 表达式可以组成语句，语句不一定是由表达式构成
+    * 语句用来执行特定的操作
 
 
 
@@ -1115,6 +1253,18 @@ with open('example.txt', 'r') as file:
 ## 内置数据类型
 
 ![内置数据类型](./python_staic/imgs/section4/4-0内置数据类型.png)
+
+
+
+数据类型可以分为可变和不可变的数据类型
+1. 不可变类型是指创建后不能再修改的对象类型：
+2. 可变类型是指可以在其创建后进行修改的对象类型：
+    * 可以在对象创建后修改其内容，而不会创建一个全新的对象
+    * 当多个变量引用同一个可变对象时，对该对象的修改会影响所有引用它的变量
+    * 可变类型通常提供了一系列方法来修改其内容
+3. 可变类型的注意事项
+    * 副作用：在函数中传递可变类型的参数时，要注意函数内部对参数的修改可能会影响到外部的变量，这可能会导致意外的副作用
+    * 对于可变类型，使用 == 进行相等性判断时，是比较它们的内容是否相同。而 is 操作符是比较两个对象是否是同一个对象。
 
 
 [回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
@@ -2309,7 +2459,11 @@ def __bool__(self) -> bool:
 
 #### 序列基础
 
-1. 序列的概念：有序的集合，可以通过索引访问
+1. 序列的概念：
+    * 序列是一组按特定顺序排列的数据元素的集合，这些数据元素可以是任意的基础数据类型
+    * 有序性：这种有序性使得可以通过索引来访问序列中的特定元素
+    * 可变或者不可变的：些序列是可变的，意味着可以添加、删除或修改其中的元素；而另一些序列是不可变的，一旦创建就不能被修改
+    * 长度：序列具有一定的长度，表示其中包含的元素个数
 
 2. 序列的类型
     * 不可变序列：不可变序列类型的对象一旦创建就不能再改变，不能直接修改其元素，会报`TypeError`错误，但可以通过创建新的对象来实现类似的效果；不可变序列包括字符串，元组，字节串。
@@ -2639,6 +2793,95 @@ def __bool__(self) -> bool:
 
 ##### 字符串str类
 
+
+以下是对`str`类中的方法进行分类：
+
+1. 大小写转换相关的方法：
+    - `capitalize()`：将字符串的第一个字符转换为大写，其余字符转换为小写。例如，“hello world”.capitalize() 返回 “Hello world”。
+    - `casefold()`：将字符串转换为小写形式，比`lower()`更彻底，能处理一些特殊字符。例如，“ß”.casefold() 返回 “ss”，而“ß”.lower() 在某些情况下可能无法完全转换。
+    - `lower()`：将字符串中的所有大写字符转换为小写。例如，“HELLO”.lower() 返回 “hello”。
+    - `upper()`：将字符串中的所有小写字符转换为大写。例如，“hello”.upper() 返回 “HELLO”。
+    - `swapcase()`：将字符串中的大写字符转换为小写，小写字符转换为大写。例如，“Hello, WORLD!”.swapcase() 返回 “hELLO, world!”。
+    - `title()`：将字符串中每个单词的首字母转换为大写，其余字母转换为小写。例如，“hello world, how are you?”.title() 返回 “Hello World, How Are You?”。
+
+2. 填充对齐相关的方法：
+    - `center(width[, fillchar])`：返回一个原字符串居中，并使用指定字符（默认为空格）填充至指定宽度的新字符串。例如，“hello”.center(10) 返回 “  hello   ”。
+    - `ljust(width[, fillchar])`：返回一个原字符串左对齐，并使用指定字符（默认为空格）填充至指定宽度的新字符串。例如，“hello”.ljust(10) 返回 “hello     ”。
+    - `rjust(width[, fillchar])`：返回一个原字符串右对齐，并使用指定字符（默认为空格）填充至指定宽度的新字符串。例如，“hello”.rjust(10) 返回 “     hello”。
+    - `zfill(width)`：用“0”填充字符串至指定宽度，常用于填充数字字符串。例如，“123”.zfill(5) 返回 “00123”。
+
+3. 查找相关的方法：
+    - `count(sub[, start[, end]])`：返回子字符串在原字符串中出现的次数。例如，“hello world”.count('l') 返回 3。
+    - `find(sub[, start[, end]])`：查找子字符串在原字符串中的首次出现位置，如果未找到则返回 -1。例如，“hello world”.find('o') 返回 4。
+    - `index(sub[, start[, end]])`：与`find()`类似，但如果未找到子字符串会引发 ValueError 异常。例如，“hello world”.index('o') 返回 4。
+    - `rfind(sub[, start[, end]])`：从右往左查找子字符串在原字符串中的首次出现位置，如果未找到则返回 -1。例如，“hello world”.rfind('l') 返回 9。
+    - `rindex(sub[, start[, end]])`：与`rfind()`类似，但如果未找到子字符串会引发 ValueError 异常。例如，“hello world”.rindex('l') 返回 9。
+
+4. 分割相关的方法：
+    - `partition(sep)`：根据指定分隔符将字符串分割为三部分，返回一个包含三个元素的元组（分隔符前的部分、分隔符、分隔符后的部分）。如果字符串中不存在分隔符，则返回原字符串和两个空字符串组成的元组。例如，“hello world”.partition(' ') 返回 (“hello”, “ “, “world”)。
+    - `rpartition(sep)`：从右往左根据指定分隔符将字符串分割为三部分，返回一个包含三个元素的元组。例如，“hello world”.rpartition(' ') 返回 (“hello”, “ “, “world”)。
+    - `split(sep=None, maxsplit=-1)`：根据指定分隔符将字符串分割为多个子字符串，并返回一个列表。如果不指定分隔符，则以空白字符（空格、制表符、换行符等）进行分割。例如，“hello world”.split(' ') 返回 [“hello”, “world”]。
+    - `rsplit(sep=None, maxsplit=-1)`：与`split()`类似，但从右往左进行分割。例如，“hello world”.rsplit(' ', 1) 返回 [“hello”, “world”]。
+    - `splitlines(keepends=False)`：按照行分隔符（如换行符）将字符串分割为多个行，并返回一个列表。如果`keepends`为`True`，则保留行分隔符。例如，“hello\nworld”.splitlines() 返回 [“hello”, “world”]。
+
+5. 去除字符相关的方法：
+    - `lstrip([chars])`：去除字符串左侧的指定字符（默认为空白字符）。例如，“  hello”.lstrip() 返回 “hello”。
+    - `rstrip([chars])`：去除字符串右侧的指定字符（默认为空白字符）。例如，“hello  ”.rstrip() 返回 “hello”。
+    - `strip([chars])`：去除字符串两侧的指定字符（默认为空白字符）。例如，“  hello  ”.strip() 返回 “hello”。
+    - `removeprefix(prefix)`：如果字符串以指定前缀开头，则移除该前缀并返回剩余部分。例如，“hello world”.removeprefix(“hello ”) 返回 “world”。
+    - `removesuffix(suffix)`：如果字符串以指定后缀结尾，则移除该后缀并返回剩余部分。例如，“hello world”.removesuffix(“ world”) 返回 “hello”。
+
+6. 判断相关的方法：
+    - `isalnum()`：判断字符串是否只包含字母和数字。例如，“hello123”.isalnum() 返回 True，“hello world”.isalnum() 返回 False。
+    - `isalpha()`：判断字符串是否只包含字母。例如，“hello”.isalpha() 返回 True，“hello123”.isalpha() 返回 False。
+    - `isascii()`：判断字符串是否只包含 ASCII 字符。例如，“hello”.isascii() 返回 True，包含非 ASCII 字符的字符串则返回 False。
+    - `isdecimal()`：判断字符串是否只包含十进制数字。例如，“123”.isdecimal() 返回 True，“12.3”.isdecimal() 返回 False。
+    - `isdigit()`：判断字符串是否只包含数字。例如，“123”.isdigit() 返回 True，“12.3”.isdigit() 返回 False，“①”.isdigit() 返回 False。
+    - `isidentifier()`：判断字符串是否是有效的 Python 标识符。例如，“hello_world”.isidentifier() 返回 True，“123hello”.isidentifier() 返回 False。
+    - `islower()`：判断字符串是否全部为小写字母。例如，“hello”.islower() 返回 True，“Hello”.islower() 返回 False。
+    - `isnumeric()`：判断字符串是否只包含数字字符，包括 Unicode 数字字符。例如，“123”.isnumeric() 返回 True，“①”.isnumeric() 返回 True，“12.3”.isnumeric() 返回 False。
+    - `isprintable()`：判断字符串是否只包含可打印字符。例如，“hello world”.isprintable() 返回 True，包含不可打印字符（如换行符等）的字符串则返回 False。
+    - `isspace()`：判断字符串是否只包含空白字符。例如，“  ”.isspace() 返回 True，“hello”.isspace() 返回 False。
+    - `istitle()`：判断字符串是否符合标题格式，即每个单词的首字母大写，其余字母小写。例如，“Hello World”.istitle() 返回 True，“hello world”.istitle() 返回 False。
+    - `isupper()`：判断字符串是否全部为大写字母。例如，“HELLO”.isupper() 返回 True，“Hello”.isupper() 返回 False。
+    - `startswith(prefix[, start[, end]])`：判断字符串是否以指定前缀开头。例如，“hello world”.startswith(“hello”) 返回 True。
+    - `endswith(suffix[, start[, end]])`：判断字符串是否以指定后缀结尾。例如，“hello world”.endswith(“world”) 返回 True。
+
+7. 连接相关的方法：
+    - `join(iterable)`：将可迭代对象中的字符串连接起来，使用调用该方法的字符串作为分隔符。例如，“-”.join([“hello”, “world”]) 返回 “hello-world”。
+
+8. 格式化相关的方法：
+    - `format(*args, **kwargs)`：使用位置参数或关键字参数对字符串进行格式化。例如，“Hello, {}. My name is {}.”.format(“you”, “Tom”) 返回 “Hello, you. My name is Tom.”。
+    - `format_map(mapping)`：类似于`format()`，但接受一个字典作为参数，通过字典中的键值对进行格式化。例如，d = {“name”: “Tom”, “age”: 20}，“Hello, {name}. I am {age} years old.”.format_map(d) 返回 “Hello, Tom. I am 20 years old.”。
+
+9. 编码相关的方法：
+    - `encode(encoding='utf-8', errors='strict')`：将字符串编码为指定的字节序列。例如，“你好”.encode() 返回 b'\xe4\xbd\xa0\xe5\xa5\xbd'。
+
+10. 翻译相关的方法：
+    - `maketrans(from, to, deletechars=None)`：创建一个转换表，用于`translate()`方法。例如，table = str.maketrans(“aeiou”, “12345”)。
+    - `translate(table)`：使用转换表对字符串进行翻译。例如，“hello world”.translate(table)，如果 table 是上述创建的转换表，则返回 “h2ll4 w4rld”。
+
+11. 数学运算相关的方法：
+    - `__add__(other)`：实现字符串的加法操作，即连接两个字符串。例如，“hello” + “world”相当于调用“hello”.__add__(“world”)，返回 “helloworld”。
+    - `__mod__(format)`：实现字符串的格式化操作，类似于`format()`方法，但使用`%`运算符。例如，“Hello, %s” % “world”相当于调用“Hello, %s”.__mod__(“world”)，返回 “Hello, world”。
+    - `__mul__(n)`：实现字符串的乘法操作，即重复字符串`n`次。例如，“hello” * 3 相当于调用“hello”.__mul__(3)，返回 “hellohellohello”。
+    - `__rmul__(n)`：与`__mul__()`类似，但当左侧操作数不是字符串时被调用。例如，3 * “hello”相当于调用“hello”.__rmul__(3)，返回 “hellohellohello”。
+
+12. 比较相关的方法：
+    - `__eq__(other)`：判断两个字符串是否相等。例如，“hello” == “world”返回 False。
+    - `__ge__(other)`：判断当前字符串是否大于或等于另一个字符串。例如，“hello” >= “world”返回 False。
+    - `__gt__(other)`：判断当前字符串是否大于另一个字符串。例如，“hello” > “world”返回 False。
+    - `__le__(other)`：判断当前字符串是否小于或等于另一个字符串。例如，“hello” <= “world”返回 False。
+    - `__lt__(other)`：判断当前字符串是否小于另一个字符串。例如，“hello” < “world”返回 True（按字典序比较）。
+    - `__ne__(other)`：判断两个字符串是否不相等。例如，“hello”!= “world”返回 True。
+
+13. 其他方法：
+    - `__contains__(item)`：判断字符串是否包含指定的子字符串。例如，“hello world”.__contains__(“world”) 返回 True。
+    - `__getitem__(index)`：通过索引获取字符串中的字符。例如，“hello”[1]相当于调用“hello”.__getitem__(1)，返回 “e”。
+    - `__hash__()`：返回字符串的哈希值。哈希值通常用于在集合和字典中快速确定对象的唯一性。例如，hash(“hello”) 返回一个整数哈希值。
+    - `__iter__()`：返回一个迭代器，用于遍历字符串中的字符。例如，for char in “hello”: print(char) 实际上是通过调用“hello”.__iter__() 获取迭代器进行遍历。
+    - `__len__()`：返回字符串的长度。例如，len(“hello”)相当于调用“hello”.__len__()，返回 5。
+    - `__getnewargs__()`：在某些情况下用于序列化和反序列化对象，具体用途相对较少。一般情况下，你可能不会直接调用这个方法。
 
 
 [回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
@@ -4371,6 +4614,22 @@ def __buffer__(self, flags: int, /) -> memoryview:
 
 
 ##### 列表list类
+
+1. 初始化相关的方法：`__init__`
+2. 复制相关的方法：`copy`
+3. 元素添加相关的方法：`append`、`extend`、`insert`
+4. 元素删除相关的方法：`pop`、`remove`
+5. 元素查找相关的方法：`index`、`count`
+6. 排序相关的方法：`sort`
+7. 长度获取相关的方法：`__len__`
+8. 迭代相关的方法：`__iter__`
+9. 索引操作相关的方法：`__getitem__`、`__setitem__`、`__delitem__`
+10. 相加相关的方法：`__add__`、`__iadd__`
+11. 乘法相关的方法：`__mul__`、`__rmul__`、`__imul__`
+12. 包含判断相关的方法：`__contains__`
+13. 反转相关的方法：`__reversed__`
+14. 比较相关的方法：`__gt__`、`__ge__`、`__lt__`、`__le__`、`__eq__`
+15. 类索引相关的方法（Python 3.9 及以上）：`__class_getitem__`
 
 
 
@@ -6232,6 +6491,7 @@ def __hash__(self) -> int:
     ```
 
 5. 字典遍历：使用for循环遍历，字典中元素的排列顺序与定义时相同，通常for循环遍历字典需要配合以下字典方法：
+    * 遍历字典时，默认遍历字典的键
     * `dict.keys()`：返回由字典键组成的一个新视图
     * `dict.values()`: 返回由字典值组成的一个新视图
     * `dict.items()`：返回由字典项 (键值对) 组成的一个新视图
@@ -8024,8 +8284,21 @@ print(my_list[1])  # 输出: 25
 
 
 
+### 模块包管理
 
+以下是一些常见的 `pip` 命令：
+1. `pip install <package_name>` ：安装指定的包。
+2. `pip install <package_name>==<version>` ：安装指定版本的包。
+3. `pip uninstall <package_name>` ：卸载指定的包。
+4. `pip list` ：列出已安装的所有包。
+5. `pip show <package_name>` ：显示指定包的详细信息。
+6. `pip search <keyword>` ：搜索包含指定关键字的包。
+7. `pip freeze` ：以需求文件格式列出已安装的包及其版本。
+8. `pip check` ：检查已安装的包是否有兼容性问题或损坏。
 
+这些是 `pip` 命令的一些常见用法，可根据您的具体需求进行选择和使用。
+
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 ## 迭代器和生成器
 
@@ -8306,12 +8579,87 @@ print(my_list[1])  # 输出: 25
 
 
 
+#### 异常类型
+1. `BaseException`：所有异常的基类。
+2. `GeneratorExit`：生成器退出异常。
+3. `KeyboardInterrupt`：键盘中断异常。
+4. `SystemExit`：系统退出异常。
+5. `Exception`：常规异常。
+6. `StopIteration`：迭代停止异常。
+7. `OSError`：操作系统错误异常。
+8. `EnvironmentError`：环境错误异常（与 `OSError` 类似）。
+9. `IOError`：输入输出错误异常（与 `OSError` 类似）。
+10. `WindowsError`：仅在 Windows 平台上的特定错误异常。
+11. `ArithmeticError`：算术错误异常。
+12. `AssertionError`：断言错误异常。
+13. `AttributeError`：属性错误异常。
+14. `BufferError`：缓冲区错误异常。
+15. `EOFError`：文件结束错误异常。
+16. `ImportError`：导入错误异常。
+17. `LookupError`：查找错误异常。
+18. `MemoryError`：内存错误异常。
+19. `NameError`：名称错误异常。
+20. `ReferenceError`：引用错误异常。
+21. `RuntimeError`：运行时错误异常。
+22. `StopAsyncIteration`：异步迭代停止异常。
+23. `SyntaxError`：语法错误异常。
+24. `SystemError`：系统错误异常。
+25. `TypeError`：类型错误异常。
+26. `ValueError`：值错误异常。
+27. `FloatingPointError`：浮点数错误异常（继承自 `ArithmeticError`）。
+28. `OverflowError`：溢出错误异常（继承自 `ArithmeticError`）。
+29. `ZeroDivisionError`：零除错误异常（继承自 `ArithmeticError`）。
+30. `ModuleNotFoundError`：模块未找到错误异常（继承自 `ImportError`）。
+31. `IndexError`：索引错误异常（继承自 `LookupError`）。
+32. `KeyError`：键错误异常（继承自 `LookupError`）。
+33. `UnboundLocalError`：未绑定本地错误异常（继承自 `NameError`）。
+34. `BlockingIOError`：阻塞 I/O 错误异常（继承自 `OSError`）。
+35. `ChildProcessError`：子进程错误异常（继承自 `OSError`）。
+36. `ConnectionError`：连接错误异常（继承自 `OSError`）。
+37. `BrokenPipeError`：管道破裂错误异常（继承自 `ConnectionError`）。
+38. `ConnectionAbortedError`：连接中止错误异常（继承自 `ConnectionError`）。
+39. `ConnectionRefusedError`：连接拒绝错误异常（继承自 `ConnectionError`）。
+40. `ConnectionResetError`：连接重置错误异常（继承自 `ConnectionError`）。
+41. `FileExistsError`：文件已存在错误异常（继承自 `OSError`）。
+42. `FileNotFoundError`：文件未找到错误异常（继承自 `OSError`）。
+43. `InterruptedError`：中断错误异常（继承自 `OSError`）。
+44. `IsADirectoryError`：是目录错误异常（继承自 `OSError`）。
+45. `NotADirectoryError`：不是目录错误异常（继承自 `OSError`）。
+46. `PermissionError`：权限错误异常（继承自 `OSError`）。
+47. `ProcessLookupError`：进程查找错误异常（继承自 `OSError`）。
+48. `TimeoutError`：超时错误异常（继承自 `OSError`）。
+49. `NotImplementedError`：未实现错误异常（继承自 `RuntimeError`）。
+50. `RecursionError`：递归错误异常（继承自 `RuntimeError`）。
+51. `IndentationError`：缩进错误异常（继承自 `SyntaxError`）。
+52. `TabError`：制表符错误异常（继承自 `IndentationError`）。
+53. `UnicodeError`：Unicode 错误异常。
+54. `UnicodeDecodeError`：Unicode 解码错误异常（继承自 `UnicodeError`）。
+55. `UnicodeEncodeError`：Unicode 编码错误异常（继承自 `UnicodeError`）。
+56. `UnicodeTranslateError`：Unicode 转换错误异常（继承自 `UnicodeError`）。
+57. `Warning`：警告类。
+58. `UserWarning`：用户警告类（继承自 `Warning`）。
+59. `DeprecationWarning`：弃用警告类（继承自 `Warning`）。
+60. `SyntaxWarning`：语法警告类（继承自 `Warning`）。
+61. `RuntimeWarning`：运行时警告类（继承自 `Warning`）。
+62. `FutureWarning`：未来警告类（继承自 `Warning`）。
+63. `PendingDeprecationWarning`：待弃用警告类（继承自 `Warning`）。
+64. `ImportWarning`：导入警告类（继承自 `Warning`）。
+65. `UnicodeWarning`：Unicode 警告类（继承自 `Warning`）。
+66. `BytesWarning`：字节警告类（继承自 `Warning`）。
+67. `ResourceWarning`：资源警告类（继承自 `Warning`）。
+
+
+[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+
+
+
+
 ## io系统
 
 
 ![io模块](./python_staic/imgs/section11/11-0io系统.png)
 
-[回到顶部](#python_docs)<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
+<div style="text-align:center"><br><br>⭐⭐⭐⭐⭐⭐⭐<br><br><br></div>
 
 
 ###  简单输入输出
@@ -9458,21 +9806,90 @@ Python标准库：是一组模块，我们安装的Python都包含它，使用�
 
 ### 内置函数
 
+python内置函数分类：
+
+以下是优化整理后的 Python 内置函数分类：
+
+1. 数学计算相关的：
+    * `abs()`：返回数字的绝对值。
+    * `divmod()`：返回商和余数的元组。
+    * `pow()`：返回 x 的 y 次幂。
+    * `round()`：对数字进行四舍五入。
+    * `sum()`：计算可迭代对象中所有元素的总和。
+
+2. 其他数值相关的内置函数：
+    * `callable()`：判断对象是否可调用。
+    * `hash()`：获取对象的哈希值。只需要将需要计算哈希值的对象作为参数传递给hash()函数即可。需要注意的是，对于不可变对象（如整数、字符串、元组等），只要它们的值相同，其哈希值也相同。而对于可变对象（如列表、字典等），由于它们的内容可能会改变，所以它们通常是不可哈希的，尝试对可变对象使用hash()函数会引发TypeError错误
+
+3. 字符编码相关的：
+    * `ord(c)`：返回字符 c 的 Unicode 码值（整数）。
+    * `chr(i)`：返回 Unicode 码值为 i 的字符。
+    * `ascii(obj)`：以可打印的形式返回对象的表示，对非 ASCII 字符进行转义编码。
+
+4. 序列和迭代相关的：
+    * `len()`：返回对象（如字符串、列表、元组等）的长度。
+    * `reversed()`：返回一个反转的迭代器。
+    * `sorted()`：对可迭代对象进行排序并返回一个新的已排序列表。
+    * `enumerate()`：为可迭代对象生成带有索引的枚举对象。
+    * `zip()`：将多个可迭代对象中的元素组合成元组。
+    * `all()`：如果可迭代对象中的所有元素都为真（或可迭代对象为空），则返回 True。
+    * `any()`：如果可迭代对象中至少有一个元素为真，则返回 True。
+    * `max()`：返回可迭代对象中的最大值。
+    * `min()`：返回可迭代对象中的最小值。
+
+5. 对象和类相关的：
+    * `isinstance()`：判断对象是否属于指定的类或类元组。
+    * `issubclass()`：判断类是否是指定类或类元组的子类。
+    * `type()`：返回对象的类型。
+    * `vars()`：返回对象的属性和属性值的字典。
+
+6. 输入输出相关的：
+    * `print()`：用于输出数据。
+    * `input()`：用于获取用户输入。
+
+7. 文件操作相关的：
+    * `open()`：用于打开文件。
+
+8. 求值执行相关的：
+    * `eval()`：将字符串作为 Python 表达式进行求值。
+    * `exec()`：执行储存在字符串或文件中的 Python 语句。
+
+9. 数据类型转换相关的：
+    * `int()`：将值转换为整数类型。
+    * `float()`：将值转换为浮点数类型。
+    * `complex()`：创建复数对象。
+    * `str()`：将对象转换为字符串类型。
+    * `bytes()`：与字节相关的操作。
+    * `tuple()`：将可迭代对象转换为元组。
+    * `list()`：将可迭代对象转换为列表。
+    * `bytearray()`：创建可变的字节序列。
+    * `set()`：创建一个集合。
+    * `dict()`：创建一个字典。
+    * `oct()`：将整数转换为八进制字符串。
+    * `hex()`：将整数转换为十六进制字符串。
+    * `bin()`：将整数转换为二进制字符串。
+    * `memoryview()`：用于内存视图操作。
+
+10. 异常处理相关的类：见异常类型
+
+11. 其他：
+    * `globals()`：返回当前全局符号表的字典。
+    * `locals()`：返回当前局部符号表的字典。
+    * `delattr()`：删除对象的属性。
+    * `dir()`：返回对象的属性和方法列表。
+    * `help()`：提供交互式帮助信息。
+    * `license()`：显示软件的许可证信息。
+    * `quit()`：退出程序。
+    * `setattr()`：设置对象的属性值。
+    * `__import__()`：动态导入模块。
+    * `__build_class__()`：用于创建类（通常在内部使用）。
+    * 此外，还有一些在特定版本中添加的内置函数，如在 Python 3.10 及以上版本中新增的 `aiter()`和`anext()`用于异步迭代。
 
 
-内置函数：
-1. 类型相关：int，float，complex，str，bytes，bytearray，memoryview，bool，slice，tuple，list，dict，set，frozenset，enumerate，range，property
-2. 数据操作相关：all，any，ascii，bin，callable，chr，compile，eval，exec，format，getattr，globals，hasattr，iter，len，locals，max，min，next，oct，ord，pow，print，repr，round，sorted，sum，vars，zip
-3. 文件操作相关：open
-4. 异常处理相关：BaseException，GeneratorExit，KeyboardInterrupt，SystemExit，Exception，StopIteration，OSError，EnvironmentError，IOError，WindowsError（仅在 Windows 平台），ArithmeticError，AssertionError，AttributeError，BufferError，EOFError，ImportError，LookupError，MemoryError，NameError，ReferenceError，RuntimeError，StopAsyncIteration，SyntaxError，SystemError，TypeError，ValueError，FloatingPointError，OverflowError，ZeroDivisionError，ModuleNotFoundError，IndexError，KeyError，UnboundLocalError，BlockingIOError，ChildProcessError，ConnectionError，BrokenPipeError，ConnectionAbortedError，ConnectionRefusedError，ConnectionResetError，FileExistsError，FileNotFoundError，InterruptedError，IsADirectoryError，NotADirectoryError，PermissionError，ProcessLookupError，TimeoutError，NotImplementedError，RecursionError，IndentationError，TabError，UnicodeError，UnicodeDecodeError，UnicodeEncodeError，UnicodeTranslateError，Warning，UserWarning，DeprecationWarning，SyntaxWarning，RuntimeWarning，FutureWarning，PendingDeprecationWarning，ImportWarning，UnicodeWarning，BytesWarning，ResourceWarning（在 Python 3.10 及以上版本还有 EncodingWarning）
-5. 其他相关：abs，delattr，dir，help，license，quit，setattr，`__import__`，`__build_class__`（仅在 Python 3.10 及以上版本还有 aiter，anext）
 
 
 
-已经进一步整理的函数：
-* len()
-* sorted() reversed()
-* max() min()
+
 
 
 ```python
@@ -9785,6 +10202,49 @@ pow(base, exp[, mod])
 
 
 #### math模块
+
+
+1. 特殊浮点值相关的属性：e、pi、inf、nan、tau
+2. 反三角函数相关的方法：acos、acosh、asin、asinh、atan、atan2、atanh
+3. 立方根相关的方法（3.11 及以上版本）：cbrt
+4. 向上取整相关的方法：ceil
+5. 组合数相关的方法：comb
+6. 复制符号相关的方法：copysign
+7. 三角函数相关的方法：cos、cosh、sin、sinh、tan、tanh
+8. 角度转换相关的方法：degrees、radians
+9. 距离计算相关的方法：dist
+10. 误差函数相关的方法：erf、erfc
+11. 指数相关的方法：exp、exp2（3.11 及以上版本）、expm1
+12. 绝对值相关的方法：fabs
+13. 阶乘相关的方法：factorial
+14. 取余相关的方法：fmod
+15. 小数分离相关的方法：frexp
+16. 浮点数求和相关的方法：fsum
+17. 伽马函数相关的方法：gamma
+18. 最大公约数相关的方法：gcd
+19. 欧几里得范数相关的方法：hypot
+20. 浮点数比较相关的方法：isclose、isinf、isfinite、isnan
+21. 整数平方根相关的方法：isqrt
+22. 指数与小数分离相关的方法：ldexp
+23. 对数相关的方法：log、log10、log1p、log2
+24. 小数部分和整数部分分离相关的方法：modf
+25. 下一个浮点数相关的方法：nextafter（3.9 及以上版本，3.12 版本带额外参数）
+26. 排列数相关的方法：perm
+27. 幂运算相关的方法：pow
+28. 乘积相关的方法：prod
+29. 平方根相关的方法：sqrt
+30. 截断相关的方法：trunc
+31. 最小精度单位相关的方法（3.9 及以上版本）：ulp
+32. 融合乘加相关的方法（3.13 及以上版本）：fma
+
+
+
+
+<br>
+<br>
+<br>
+
+
 1. 常量
     ```python
     pi # 数学常数 π = 3.141592...
@@ -9848,6 +10308,45 @@ pow(base, exp[, mod])
 
 
 #### Random
+
+
+在使用random模块之前，需要先导入它
+
+1. 初始化相关的方法：`__init__`、`seed`
+2. 状态操作相关的方法：`getstate`、`setstate`
+3. 整数随机生成相关的方法：`randrange`、`randint`
+4. 字节随机生成相关的方法（Python 3.9 及以上）：`randbytes`
+5. 序列随机选择相关的方法：`choice`、`choices`
+6. 序列随机打乱相关的方法（Python 3.11 及以上）：`shuffle`
+7. 序列随机抽样相关的方法（Python 3.9 及以上）：`sample`
+8. 浮点数随机生成相关的方法：`uniform`、`triangular`
+9. 概率分布随机生成相关的方法：`binomialvariate`（Python 3.12 及以上）、`betavariate`、`expovariate`、`gammavariate`、`gauss`/`normalvariate`（Python 3.11 及以上）、`lognormvariate`、`vonmisesvariate`、`paretovariate`、`weibullvariate` 
+
+
+```python
+import random
+
+# 生成一个 1 到 100 之间的随机整数
+random_number = random.randint(1, 100)
+print(f"随机生成的整数是：{random_number}")
+
+# 从列表中随机选择一个元素
+fruits = ['apple', 'banana', 'orange', 'grape']
+random_fruit = random.choice(fruits)
+print(f"随机选择的水果是：{random_fruit}")
+
+# 随机打乱列表中的元素
+numbers = [1, 2, 3, 4, 5]
+random.shuffle(numbers)
+print(f"打乱后的数字列表是：{numbers}")
+```
+
+<br>
+<br>
+<br>
+
+
+
 ```python
 # 生成伪随机数
 class Random:

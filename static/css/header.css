@@ -25,7 +25,8 @@ nav span.logo-text {
 
 
 /* 导航栏简历转换过渡效果 */
-.transform-scale {
+/* 动画效果，暂且不用 */
+/* .transform-scale {
   display: inline-block;
   animation: transform-scale .8s infinite;
 }
@@ -38,4 +39,4 @@ nav span.logo-text {
   100% {
     transform: scale(1.2);
   }
-}
+} */

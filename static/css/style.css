@@ -72,7 +72,7 @@ main .card-footer{
     padding: .5rem 1rem;
     background-color: rgba(0,0,0,.03);
     border-top: 1px solid rgba(0,0,0,.125);
-    text-align: right;
+    text-align: left;
     font-size: .7rem;
     color: #6c757d;
 }
