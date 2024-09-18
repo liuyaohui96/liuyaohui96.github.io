@@ -33,7 +33,7 @@ const card_list = [
       "card_paragraph": "简介，基本语法，内置数据类型，函数，类，模块，迭代器和生成器，异常等",
       "card_link_button": "阅读 python 文档",
       "card_file_path": "./python_docs.md",
-      "card_address": "https://gitee.com/liuyaohui96_admin/docs/tree/master/python"
+      "card_address": "https://gitee.com/liuyaohui96_admin/docs/tree/master/04后端-python"
     },
     {
       "card_header": "scratch 文档",
@@ -69,7 +69,7 @@ const card_list = [
       "card_title": "1.1版本",
       "card_paragraph": "卡片式英语情景对话，英语单词学习等",
       "card_link_button": "阅读英语学习系统设计文档",
-      "card_file_path": "./penglish_learning_system.md",
+      "card_file_path": "./english_learning_system.md",
       "card_address": "https://gitee.com/liuyaohui96_admin/english_learning_system"
     }
   ],
@@ -84,7 +84,7 @@ const card_list = [
       "card_paragraph": "html 各标签的介绍",
       "card_link_button": "阅读 html 文档",
       "card_file_path": "./html_docs.md",
-      "card_address": "https://gitee.com/liuyaohui96_admin/docs/tree/master/02%E5%89%8D%E7%AB%AF-html"
+      "card_address": "https://gitee.com/liuyaohui96_admin/docs/tree/master/02前端-html"
     },
     {
       "card_header": "css 文档",
@@ -110,6 +110,14 @@ const card_list = [
   // fourth row start
   [
     {
+      "card_header": "儿童编程",
+      "card_title": "儿童编程",
+      "card_paragraph": "Scratch，wedo2.0，ev3，python等相关",
+      "card_link_button": "阅读儿童编程",
+      "card_file_path": "./children_program.md",
+      "card_address": "https://gitee.com/liuyaohui96_admin/docs/tree/master/05题解-青少年编程竞赛"
+    },
+    {
       "card_header": "成语接龙游戏",
       "card_title": "游戏实现概述",
       "card_paragraph": "scratch成语接龙游戏实现的对象分析，模块分析等",
@@ -125,14 +133,7 @@ const card_list = [
       "card_file_path": "./xingqiu_game.md",
       "card_address": "https://gitee.com/liuyaohui96_admin/docs/tree/master/05题解-编程"
     },
-    {
-      "card_header": "儿童编程",
-      "card_title": "儿童编程",
-      "card_paragraph": "Scratch，wedo2.0，ev3，python等相关",
-      "card_link_button": "阅读儿童编程",
-      "card_file_path": "./children_program.md",
-      "card_address": "https://gitee.com/liuyaohui96_admin/docs/tree/master/05题解-青少年编程竞赛"
-    },
+   
   ],
   // end fourth row
 
