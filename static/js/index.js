@@ -71,7 +71,7 @@ const card_list = [
       "card_link_button": "阅读英语学习系统设计文档",
       "card_file_path": "./english_learning_system.md",
       "card_address": "https://gitee.com/liuyaohui96_admin/english_learning_system"
-    }
+    },
   ],
   // end second row
 
