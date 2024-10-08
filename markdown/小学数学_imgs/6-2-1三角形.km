@@ -1,0 +1,210 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "三角形"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4en4f4b5dk0",
+                    "created": 1727193854999,
+                    "text": "三角形概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4en4f4bcm80",
+                    "created": 1727193855000,
+                    "text": "三角形的构成",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4en4f4bmt40",
+                            "created": 1727193855000,
+                            "text": "三角形顶点"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4en4f4bxag0",
+                            "created": 1727193855001,
+                            "text": "三角形边"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4en4f4c1k80",
+                            "created": 1727193855001,
+                            "text": "三角形高"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4en4f4c3a80",
+                            "created": 1727193855001,
+                            "text": "三角形内角"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4en4f4cqc80",
+                            "created": 1727193855002,
+                            "text": "三角形外角"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4en4f4cg1s0",
+                    "created": 1727193855002,
+                    "text": "三角形的性质",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4en4f4ctts0",
+                            "created": 1727193855002,
+                            "text": "三角形稳定性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4en4f4cg5k0",
+                            "created": 1727193855002,
+                            "text": "三角形三边关系"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4en4f4dhpc0",
+                    "created": 1727193855003,
+                    "text": "三角形的分类",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4en4f4d87k0",
+                            "created": 1727193855003,
+                            "text": "按角分类",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4en4f4ddsg0",
+                                    "created": 1727193855003,
+                                    "text": "锐角三角形"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4en4f4dpgg0",
+                                    "created": 1727193855004,
+                                    "text": "直角三角形"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4en4f4dsm00",
+                                    "created": 1727193855004,
+                                    "text": "钝角三角形"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4en4f4dops0",
+                            "created": 1727193855004,
+                            "text": "按边分类",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4en4f4eg6g0",
+                                    "created": 1727193855005,
+                                    "text": "普通三角形"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4en4f4ebl40",
+                                    "created": 1727193855005,
+                                    "text": "等腰三角形"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4en4f4eq340",
+                                    "created": 1727193855005,
+                                    "text": "等边三角形"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4en4f4f1ko0",
+                    "created": 1727193855006,
+                    "text": "三角形数量关系",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4en4f4fbns0",
+                            "created": 1727193855006,
+                            "text": "三角形内角和"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4en4f4f5fk0",
+                            "created": 1727193855006,
+                            "text": "周长"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4en4f4fhgg0",
+                            "created": 1727193855007,
+                            "text": "面积"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

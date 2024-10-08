@@ -1,0 +1,46 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "立体图形"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4enfnyjm0g0",
+                    "created": 1727194736248,
+                    "text": "长方体"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4enfr8obq00",
+                    "created": 1727194743391,
+                    "text": "正方体"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4enfwpbe140",
+                    "created": 1727194755281,
+                    "text": "圆柱"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4eng17ux9s0",
+                    "created": 1727194765109,
+                    "text": "圆锥"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

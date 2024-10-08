@@ -1,0 +1,289 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "圆"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4end6dsfxc0",
+                    "created": 1727194541259,
+                    "text": "圆",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4end6du0ls0",
+                            "created": 1727194541262,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4end6dugtc0",
+                            "created": 1727194541263,
+                            "text": "构成",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4end6dvlrc0",
+                                    "created": 1727194541264,
+                                    "text": "圆心"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4end6dvu5k0",
+                                    "created": 1727194541265,
+                                    "text": "半径"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4end6dwhq80",
+                                    "created": 1727194541266,
+                                    "text": "直径"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4end6dwwmo0",
+                            "created": 1727194541267,
+                            "text": "性质"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4endzb9rrc0",
+                                    "created": 1727194604234,
+                                    "text": "圆心半径决定"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4ene1jaxjc0",
+                                    "created": 1727194609073,
+                                    "text": "圆是轴对称图形"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4ene422f6g0",
+                                    "created": 1727194614561,
+                                    "text": "圆是中心对称图形"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4end6dz5zc0",
+                            "created": 1727194541270,
+                            "text": "数量关系",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4end6dzk4w0",
+                                    "created": 1727194541271,
+                                    "text": "圆周率"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4end6dzwhc0",
+                                    "created": 1727194541272,
+                                    "text": "周长"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4end6e0ia00",
+                                    "created": 1727194541273,
+                                    "text": "面积"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4end6e1aao0",
+                            "created": 1727194541274,
+                            "text": "记忆 2π 到 9π 的值"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4end6e1a6w0",
+                    "created": 1727194541274,
+                    "text": "扇形",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4end6e1nhc0",
+                            "created": 1727194541275,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4end6e2pk80",
+                            "created": 1727194541276,
+                            "text": "构成",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4end6e29g00",
+                                    "created": 1727194541276,
+                                    "text": "弧"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4end6e4bs00",
+                                    "created": 1727194541279,
+                                    "text": "两条半径"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4end6e5ja80",
+                            "created": 1727194541281,
+                            "text": "数量关系",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4end6e675k0",
+                                    "created": 1727194541282,
+                                    "text": "弧长"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4end6e6r7c0",
+                                    "created": 1727194541283,
+                                    "text": "周长"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4end6e6gso0",
+                                    "created": 1727194541283,
+                                    "text": "面积"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4end6e70g00",
+                    "created": 1727194541284,
+                    "text": "圆环",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4end6e7wog0",
+                            "created": 1727194541285,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4end6e8c680",
+                            "created": 1727194541286,
+                            "text": "构成",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4end6e8w1c0",
+                                    "created": 1727194541287,
+                                    "text": "外圆（大圆）"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4end6e9gds0",
+                                    "created": 1727194541288,
+                                    "text": "内圆（小圆）"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4end6e9jt40",
+                            "created": 1727194541288,
+                            "text": "数量关系",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4end6eaelc0",
+                                    "created": 1727194541289,
+                                    "text": "周长"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4end6eab7s0",
+                                    "created": 1727194541289,
+                                    "text": "面积"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

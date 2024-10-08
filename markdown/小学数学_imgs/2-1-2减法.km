@@ -1,0 +1,164 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "减法"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4dlrbm1l800",
+                    "created": 1727088447564,
+                    "text": "减法概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dlriisp4w0",
+                    "created": 1727088462605,
+                    "text": "减法运算法则",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dlrbm20680",
+                            "created": 1727088447565,
+                            "text": "整数减法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dlrbm26eg0",
+                            "created": 1727088447565,
+                            "text": "小数减法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dlrbm2eqw0",
+                            "created": 1727088447565,
+                            "text": "分数减法",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4dlrbm24io0",
+                                    "created": 1727088447565,
+                                    "text": "同分母分数减法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4dlrbm2x4g0",
+                                    "created": 1727088447566,
+                                    "text": "异分母分数减法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4dlrbm2srk0",
+                                    "created": 1727088447566,
+                                    "text": "带分数相减"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4dlrbm2sps0",
+                            "created": 1727088447566,
+                            "text": "整数与小数相减"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dlrbm33j40",
+                            "created": 1727088447566,
+                            "text": "整数与分数相减"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dlrbm38740",
+                            "created": 1727088447567,
+                            "text": "小数与分数相减"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4dlrbm3kf40",
+                    "created": 1727088447567,
+                    "text": "减法运算性质"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dlrtu6un40",
+                            "created": 1727088487239,
+                            "text": "减两个数"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dlrvrn1so0",
+                            "created": 1727088491438,
+                            "text": "减两个数的差"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4dlrbm3dog0",
+                    "created": 1727088447567,
+                    "text": "差的变化规律"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dls0ro7qw0",
+                            "created": 1727088502324,
+                            "text": "被减数增加或者减少，差的变化"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dls32tjds0",
+                            "created": 1727088507351,
+                            "text": "减数增加或者减少，差的变化"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dls5ym6ds0",
+                            "created": 1727088513628,
+                            "text": "被减数和减数都增加（减少）m，差不变"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

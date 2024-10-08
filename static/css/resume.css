@@ -4,6 +4,11 @@ main {
   letter-spacing: 2px;
 }
 
+/* 重置p */
+p{
+  margin-bottom: .5rem;
+}
+
 
 /* 基础信息 */
 .basic-info {
@@ -28,18 +33,14 @@ main img {
 /* === 基础信息 end */
 
 
-/* 教育背景 */
-.education {
-  margin-top: 40px;
-}
 
-.section-header {
+.card-header {
   position: relative;
   font-size: 20px;
   font-weight: 600;
 }
 
-.section-header::after {
+.card-header::after {
   position: absolute;
   content: '';
   top: calc(100% + 5px);
@@ -50,37 +51,19 @@ main img {
   transition: width .8s;
 }
 
-.education:hover .section-header::after {
-  width: 100%;
-}
 
-.education-content {
-  margin-top: 20px;
-}
-
-
-/* ability */
-.ability {
+.card {
   margin-top: 40px;
 }
 
-.ability:hover .section-header::after {
+.card:hover .card-header::after {
   width: 100%;
 }
 
-.ability-content {
+.card-content {
   margin-top: 20px;
 }
 
-.ability .ability-content div{
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-.ability div li{
-  margin-left: 40px;
-}
-/* ability end */
 
 
 /* @media */

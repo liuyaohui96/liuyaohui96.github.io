@@ -1,0 +1,54 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "空间与图形"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4emlmd2ylk0",
+                    "created": 1727192381848,
+                    "text": "线和角"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4emlrn1hn40",
+                    "created": 1727192393334,
+                    "text": "平面图形"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4emltjt4iw0",
+                    "created": 1727192397492,
+                    "text": "立体图形"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4emlwkv0ow0",
+                    "created": 1727192404086,
+                    "text": "图形位置"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4emm70arw80",
+                    "created": 1727192426788,
+                    "text": "图形变换"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

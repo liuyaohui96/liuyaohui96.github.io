@@ -1,0 +1,240 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "线",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4emq3npjs00",
+                    "created": 1727192732953,
+                    "text": "直线"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4emq6db2g80",
+                            "created": 1727192738854,
+                            "text": "直线的概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4emqh5bq680",
+                            "created": 1727192762317,
+                            "text": "直线的符号方法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4emqjea9tc0",
+                            "created": 1727192767211,
+                            "text": "直线的性质"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4emqna8mo00",
+                    "created": 1727192775674,
+                    "text": "直线位置关系"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4emqtjtiy00",
+                            "created": 1727192789314,
+                            "text": "平行"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4emt7tbkls0",
+                                    "created": 1727192977092,
+                                    "text": "平行概念"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4emt9w0wuo0",
+                                    "created": 1727192981609,
+                                    "text": "平行符号表示"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4emtcfikj40",
+                                    "created": 1727192987141,
+                                    "text": "平行性质"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4emuiopi000",
+                                            "created": 1727193079122,
+                                            "text": "直线外一点的平行线数量"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4emukx0ic00",
+                                            "created": 1727193083977,
+                                            "text": "平行的传递性"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d4emupkro540",
+                                    "created": 1727193094121,
+                                    "text": "平行线间的距离"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4emqvqfgqo0",
+                            "created": 1727192794067,
+                            "text": "相交与垂直"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4emqz147mo0",
+                                    "created": 1727192801244,
+                                    "text": "相交概念"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4emr1mzieo0",
+                                    "created": 1727192806920,
+                                    "text": "垂直概念"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4emr4lox5k0",
+                                    "created": 1727192813372,
+                                    "text": "垂直符号表示"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4emre4uzco0",
+                                    "created": 1727192834122,
+                                    "text": "垂直性质"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4emrjygnf40",
+                                            "created": 1727192846796,
+                                            "text": "直线外一点垂线数量"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4emrqkzrmg0",
+                                            "created": 1727192861219,
+                                            "text": "垂线段最短"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4emutsshyw0",
+                    "created": 1727193103313,
+                    "text": "射线"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4emuvv62ug0",
+                            "created": 1727193107810,
+                            "text": " 射线概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4emuypqcyo0",
+                            "created": 1727193114012,
+                            "text": "射线符号表示"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4emv0uk0hs0",
+                    "created": 1727193118657,
+                    "text": "线段"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4emv2wx92g0",
+                            "created": 1727193123154,
+                            "text": " 线段概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4emv4zkfgo0",
+                            "created": 1727193127667,
+                            "text": "线段符号表示"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4emv729cfc0",
+                            "created": 1727193132184,
+                            "text": "线段性质"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4emv9gpdtc0",
+                                    "created": 1727193137411,
+                                    "text": "两点之间，线段最短"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

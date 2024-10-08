@@ -1,0 +1,62 @@
+{
+    "root": {
+        "data": {
+            "id": "d4chiwyymd40",
+            "created": 1726974944384,
+            "text": "数的认识"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4chkajixwg0",
+                    "created": 1726975052289,
+                    "text": "整数"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4chkclc59k0",
+                    "created": 1726975056753,
+                    "text": "小数"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4chkfoyaaw0",
+                    "created": 1726975063501,
+                    "text": "分数和百分数"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4cznw6ghzk0",
+                    "created": 1727026114459,
+                    "text": "数之间的关系"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4chkiekijs0",
+                    "created": 1726975069404,
+                    "text": "因数和倍数"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4czo8r66g00",
+                    "created": 1727026141833,
+                    "text": "正数和负数"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

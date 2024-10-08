@@ -1,0 +1,90 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "正方体"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4eniedz7yo0",
+                    "created": 1727194950506,
+                    "text": "概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4eniee0mzk0",
+                    "created": 1727194950508,
+                    "text": "构成",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4eniee12gg0",
+                            "created": 1727194950509,
+                            "text": "顶点"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4eniee2pco0",
+                            "created": 1727194950511,
+                            "text": "棱"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4eniee39hs0",
+                            "created": 1727194950512,
+                            "text": "面"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4eniee38dc0",
+                    "created": 1727194950512,
+                    "text": "数量关系",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4eniee3lug0",
+                            "created": 1727194950513,
+                            "text": "棱长总和"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4eniee49c00",
+                            "created": 1727194950514,
+                            "text": "表面积"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4eniee414g0",
+                            "created": 1727194950514,
+                            "text": "体积"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

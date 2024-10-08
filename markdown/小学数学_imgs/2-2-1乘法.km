@@ -1,0 +1,139 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "乘法"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4dm3hqkvk00",
+                    "created": 1727089401270,
+                    "text": "乘法概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dm3zby7140",
+                    "created": 1727089439566,
+                    "text": "乘法运算法则",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dm3hqmerc0",
+                            "created": 1727089401271,
+                            "text": "整数乘法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm3hqmmsg0",
+                            "created": 1727089401272,
+                            "text": "小数乘法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm3hqnalc0",
+                            "created": 1727089401273,
+                            "text": "分数乘法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm3hqnf5s0",
+                            "created": 1727089401273,
+                            "text": "整数与小数相乘"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm3hqnzm80",
+                            "created": 1727089401274,
+                            "text": "整数与分数相乘"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm3hqogb40",
+                            "created": 1727089401275,
+                            "text": "小数与分数相乘"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4dm49ddjsg0",
+                    "created": 1727089461420,
+                    "text": "乘法运算定律",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dm3hqoc2g0",
+                            "created": 1727089401275,
+                            "text": "乘法交换律"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm3hqpdgg0",
+                            "created": 1727089401276,
+                            "text": "乘法结合律"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm3hqp0dc0",
+                            "created": 1727089401276,
+                            "text": "乘法分配律"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4dm3hqpmy80",
+                    "created": 1727089401277,
+                    "text": "积的变化规律"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dm3l4y7c00",
+                            "created": 1727089408668,
+                            "text": "一个因数变化"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm3nezq6w0",
+                            "created": 1727089413629,
+                            "text": "两个因数变化"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

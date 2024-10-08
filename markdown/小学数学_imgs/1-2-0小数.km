@@ -1,0 +1,238 @@
+{
+    "root": {
+        "data": {
+            "id": "d4cjce7n4x40",
+            "created": 1726980075585,
+            "text": "小数"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4cksazkymw0",
+                    "created": 1726984143503,
+                    "text": "小数概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4cksg6xh7s0",
+                    "created": 1726984154832,
+                    "text": "小数组成"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4cksibe4eo0",
+                            "created": 1726984159455,
+                            "text": "整数部分，0，小数部分"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4cksovq8v40",
+                    "created": 1726984173745,
+                    "text": "小数分类"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4cksxe4hmo0",
+                            "created": 1726984192272,
+                            "text": "整数部分是否是0"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4ckt2fihls0",
+                                    "created": 1726984203240,
+                                    "text": "纯小数"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4ckt9ev5tc0",
+                                    "created": 1726984218438,
+                                    "text": "带小数"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4cktcrr5vc0",
+                            "created": 1726984225748,
+                            "text": "小数部分是否无限"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4cktk83nww0",
+                                    "created": 1726984241974,
+                                    "text": "有限小数"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4cktmycjyo0",
+                                    "created": 1726984247914,
+                                    "text": "无限小数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4cktqtm79s0",
+                                            "created": 1726984256335,
+                                            "text": "无限不循环小数"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4ckttrttq80",
+                                            "created": 1726984262758,
+                                            "text": "无限循环小数"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4cktwm13o00",
+                                                    "created": 1726984268937,
+                                                    "text": "无限纯循环小数"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4cktzssbxk0",
+                                                    "created": 1726984275876,
+                                                    "text": "无限混循环小数"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4ckuo07fds0",
+                    "created": 1726984328568,
+                    "text": "小数基本性质"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4ckvokrtds0",
+                    "created": 1726984408175,
+                    "text": "小数点移动规律"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4cku2jm7u80",
+                    "created": 1726984281852,
+                    "text": "小数的读写"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4cku74bad40",
+                            "created": 1726984291811,
+                            "text": "小数计数单位"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cku93ogm80",
+                            "created": 1726984296126,
+                            "text": "小数数位"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4ckygnexzk0",
+                            "created": 1726984626013,
+                            "text": "小数位数"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4ckuid1xi00",
+                            "created": 1726984316284,
+                            "text": "小数读法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4ckukcjg000",
+                            "created": 1726984320606,
+                            "text": "小数写法"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4ckvvqzi3c0",
+                    "created": 1726984423788,
+                    "text": "小数改写"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4ckz2hsvmo0",
+                            "created": 1726984673563,
+                            "text": "改写成“万“为单位的数"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4ckz5mkqc00",
+                            "created": 1726984680382,
+                            "text": "改写成“亿“为单位的数"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4ckvypmsjs0",
+                    "created": 1726984430237,
+                    "text": "小数近似数"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4ckw3d850g0",
+                    "created": 1726984440371,
+                    "text": "小数比较大小"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

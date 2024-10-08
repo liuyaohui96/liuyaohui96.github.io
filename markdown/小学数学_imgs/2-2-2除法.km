@@ -1,0 +1,139 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "除法"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4dm8vnjb6g0",
+                    "created": 1727089823381,
+                    "text": "除法概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dm91k3bxk0",
+                    "created": 1727089836233,
+                    "text": "除法运算法则",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dm8vnlf140",
+                            "created": 1727089823384,
+                            "text": "整数除法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm8vnl7tk0",
+                            "created": 1727089823384,
+                            "text": "小数除法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm8vnlvj40",
+                            "created": 1727089823385,
+                            "text": "分数除法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm8vnluz40",
+                            "created": 1727089823385,
+                            "text": "整数与小数相除"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm8vnmntk0",
+                            "created": 1727089823386,
+                            "text": "整数与分数相除"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm8vnmpqw0",
+                            "created": 1727089823386,
+                            "text": "小数与分数相除"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4dm8vnnb0o0",
+                    "created": 1727089823387,
+                    "text": "除法运算性质"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dmb62nxfk0",
+                            "created": 1727090002792,
+                            "text": "除以两个数"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dmb8gvis00",
+                            "created": 1727090008004,
+                            "text": "除以两个数的商"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4dm9eopxw80",
+                    "created": 1727089864811,
+                    "text": "商的变化规律",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dm8vnn9200",
+                            "created": 1727089823387,
+                            "text": "被除数变化"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm8vnnnj40",
+                            "created": 1727089823388,
+                            "text": "除数变化"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dm8vnno1s0",
+                            "created": 1727089823388,
+                            "text": "被除数和除数变化"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

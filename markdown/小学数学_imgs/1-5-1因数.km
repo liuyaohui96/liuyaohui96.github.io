@@ -1,0 +1,246 @@
+{
+    "root": {
+        "data": {
+            "id": "d4cz06xobd40",
+            "created": 1727024257133,
+            "text": "因数",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4cz0nnn0e00",
+                    "created": 1727024293531,
+                    "text": "因数概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4cz23ofeoo0",
+                    "created": 1727024406772,
+                    "text": "因数特点"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4cz25tmroo0",
+                            "created": 1727024411440,
+                            "text": "因数个数"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cz28jquv40",
+                            "created": 1727024417373,
+                            "text": "最小最大因数"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cz2b1mons0",
+                            "created": 1727024422808,
+                            "text": "0"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4cz36mji000",
+                    "created": 1727024491552,
+                    "text": "找因数的方法"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4cz39pawo80",
+                    "created": 1727024498250,
+                    "text": "质数和合数"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4cz3g97hkg0",
+                            "created": 1727024512514,
+                            "text": "质数概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cz3iil7vk0",
+                            "created": 1727024517435,
+                            "text": "合数概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cz3nlfpwg0",
+                            "created": 1727024528491,
+                            "text": "质数合数特征"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4cz613rf280",
+                                    "created": 1727024714625,
+                                    "text": "因数个数"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4cz63iu5eo0",
+                                    "created": 1727024719890,
+                                    "text": "质数合数数量"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4cz65qm2u80",
+                                    "created": 1727024724714,
+                                    "text": "最小质数和最小合数"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4cz682qf3s0",
+                                    "created": 1727024729802,
+                                    "text": "2"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4cz6ettdgo0",
+                    "created": 1727024744499,
+                    "text": "分解质因数"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4cz6hyg1oo0",
+                            "created": 1727024751309,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cz6jww6000",
+                            "created": 1727024755569,
+                            "text": "方法"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4cz6w7m7hc0",
+                                    "created": 1727024782339,
+                                    "text": "逐步试除"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4cz6yjkz8o0",
+                                    "created": 1727024787416,
+                                    "text": "最小质因数短除法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4cz735uj4w0",
+                    "created": 1727024797469,
+                    "text": "公因数与最大公因数"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4cz8vrc1fs0",
+                            "created": 1727024938082,
+                            "text": "公因数概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cz8ygmdig0",
+                            "created": 1727024943965,
+                            "text": "最大公因数概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cz90dr1800",
+                            "created": 1727024948145,
+                            "text": "求最大公因数的方法"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4cz92kasyo0",
+                                    "created": 1727024952895,
+                                    "text": "列举法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4cz94ruxv40",
+                                    "created": 1727024957705,
+                                    "text": "短除法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4cz96mkbvk0",
+                                    "created": 1727024961739,
+                                    "text": "辗转相除法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4cz996s6cg0",
+                                    "created": 1727024967315,
+                                    "text": "分解质因数法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4cz9hl3iew0",
+                    "created": 1727024985594,
+                    "text": "互质概念"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

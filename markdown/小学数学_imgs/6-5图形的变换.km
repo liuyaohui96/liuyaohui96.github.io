@@ -1,0 +1,145 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "图形的变换"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4eny2m294g0",
+                    "created": 1727196178700,
+                    "text": "平移",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4eny2m2sj40",
+                            "created": 1727196178701,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4eny2m3gmw0",
+                            "created": 1727196178702,
+                            "text": "性质：图形的形状、大小和方向都不改变"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4eny2m3fg80",
+                    "created": 1727196178702,
+                    "text": "旋转",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4eny2m47qw0",
+                            "created": 1727196178703,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4eny2m46400",
+                            "created": 1727196178703,
+                            "text": "性质：形状不变、大小不变、方向改变、对应点到旋转中心的距离相等"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4eny2m4yyw0",
+                    "created": 1727196178704,
+                    "text": "图形的缩放",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4eny2m4qm80",
+                            "created": 1727196178704,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4eny2m57sg0",
+                            "created": 1727196178705,
+                            "text": "性质：形状不变、大小按缩放比例变化"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4eny2m62zs0",
+                    "created": 1727196178706,
+                    "text": "对称",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4eny2m67vs0",
+                            "created": 1727196178706,
+                            "text": "轴对称图形",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4eny2m6he80",
+                                    "created": 1727196178707,
+                                    "text": "概念"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4eny2m6uow0",
+                                    "created": 1727196178707,
+                                    "text": "性质：对称轴两侧的图形全等、对应点的连线被对称轴垂直平分"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4eny2m71f40",
+                                    "created": 1727196178708,
+                                    "text": "各图形的对称轴",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4eny2m7ei80",
+                            "created": 1727196178708,
+                            "text": "中心对称图形"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

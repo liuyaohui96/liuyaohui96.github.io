@@ -1,0 +1,412 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "四边形"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4enb5vf6740",
+                    "created": 1727194383420,
+                    "text": "四边形",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4enb5vfv3c0",
+                            "created": 1727194383421,
+                            "text": "四边形概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enb5vg84w0",
+                            "created": 1727194383422,
+                            "text": "分类",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4enb5vglko0",
+                                    "created": 1727194383423,
+                                    "text": "一般四边形"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enb5vh8c80",
+                                    "created": 1727194383424,
+                                    "text": "平行四边形",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4enb5vhffs0",
+                                            "created": 1727194383424,
+                                            "text": "特殊的平行四边形-长方形"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4enb5vhsyo0",
+                                            "created": 1727194383425,
+                                            "text": "特殊的平行四边形-正方形"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enb5vi7qw0",
+                                    "created": 1727194383425,
+                                    "text": "梯形"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4enb5viqww0",
+                    "created": 1727194383426,
+                    "text": "平行四边形",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4enb5viwrk0",
+                            "created": 1727194383426,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enb5vikz40",
+                            "created": 1727194383426,
+                            "text": "构成",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4enb5vjg4g0",
+                                    "created": 1727194383427,
+                                    "text": "边"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enb5vjk680",
+                                    "created": 1727194383427,
+                                    "text": "高"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enb5vjlt40",
+                                    "created": 1727194383428,
+                                    "text": "角"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4enb5vjyf40",
+                            "created": 1727194383428,
+                            "text": "数量关系",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4enb5vkhbs0",
+                                    "created": 1727194383429,
+                                    "text": "周长"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enb5vknrk0",
+                                    "created": 1727194383429,
+                                    "text": "面积"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4enb5vkko80",
+                    "created": 1727194383429,
+                    "text": "长方形",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4enb5vkvrs0",
+                            "created": 1727194383430,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enb5vl7vs0",
+                            "created": 1727194383430,
+                            "text": "构成",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4enb5vllaw0",
+                                    "created": 1727194383431,
+                                    "text": "边"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enb5vldjs0",
+                                    "created": 1727194383431,
+                                    "text": "角"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4enb5vmi9c0",
+                            "created": 1727194383432,
+                            "text": "数量关系",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4enb5vm1c00",
+                                    "created": 1727194383432,
+                                    "text": "周长"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enb5vm1sw0",
+                                    "created": 1727194383432,
+                                    "text": "面积"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4enb5vn1cg0",
+                    "created": 1727194383433,
+                    "text": "正方形",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4enb5vmnt40",
+                            "created": 1727194383433,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enb5vn47k0",
+                            "created": 1727194383433,
+                            "text": "构成",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4enb5vn5cw0",
+                                    "created": 1727194383434,
+                                    "text": "边"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enb5vo42o0",
+                                    "created": 1727194383435,
+                                    "text": "角"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4enb5vnz4o0",
+                            "created": 1727194383435,
+                            "text": "数量关系",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4enb5vnu680",
+                                    "created": 1727194383435,
+                                    "text": "周长"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enb5vop480",
+                                    "created": 1727194383436,
+                                    "text": "面积"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4enb5voijs0",
+                    "created": 1727194383436,
+                    "text": "梯形",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4enb5vpbe00",
+                            "created": 1727194383437,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enb5vpgrk0",
+                            "created": 1727194383437,
+                            "text": "构成",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4enb5voyt40",
+                                    "created": 1727194383437,
+                                    "text": "上底和下底"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enb5vpmbk0",
+                                    "created": 1727194383438,
+                                    "text": "腰"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enb5vqd880",
+                                    "created": 1727194383439,
+                                    "text": "高"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enb5vr0xk0",
+                                    "created": 1727194383440,
+                                    "text": "角"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4enb5vrjx40",
+                            "created": 1727194383441,
+                            "text": "分类",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4enb5vs4ww0",
+                                    "created": 1727194383442,
+                                    "text": "等腰梯形"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enb5vs2hs0",
+                                    "created": 1727194383442,
+                                    "text": "直角梯形"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4enb5vsihs0",
+                            "created": 1727194383443,
+                            "text": "数量关系"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enb5vtg080",
+                            "created": 1727194383444,
+                            "text": "周长"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enb5vt5ao0",
+                            "created": 1727194383444,
+                            "text": "面积"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

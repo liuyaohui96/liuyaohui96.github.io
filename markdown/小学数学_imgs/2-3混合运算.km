@@ -1,0 +1,97 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "混合运算"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4dmghl8cp40",
+                    "created": 1727090419681,
+                    "text": "混合运算概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dmghla1gg0",
+                    "created": 1727090419682,
+                    "text": "混合运算运算顺序"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dmgku4syw0",
+                    "created": 1727090426748,
+                    "text": "乘方",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dmghl9zko0",
+                            "created": 1727090419682,
+                            "text": "乘方概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dmghlalc00",
+                            "created": 1727090419683,
+                            "text": "常见乘方"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4dmghlabkw0",
+                    "created": 1727090419683,
+                    "text": "简算方法"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dmghla9b40",
+                    "created": 1727090419683,
+                    "text": "估算"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dmgyj8v6o0",
+                            "created": 1727090456565,
+                            "text": "估算符号"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dmh0bw5fs0",
+                            "created": 1727090460474,
+                            "text": " 整数估算"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dmh2s6smw0",
+                            "created": 1727090465813,
+                            "text": "小数或者分数估算"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

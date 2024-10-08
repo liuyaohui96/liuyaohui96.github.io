@@ -1,0 +1,30 @@
+{
+    "root": {
+        "data": {
+            "id": "d4cz06xobd40",
+            "created": 1727024257133,
+            "text": "因数和倍数"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4cz0dkd19k0",
+                    "created": 1727024271565,
+                    "text": "因数"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4cz0fbauf40",
+                    "created": 1727024275371,
+                    "text": "倍数"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

@@ -1,0 +1,295 @@
+{
+    "root": {
+        "data": {
+            "id": "d4chpmfk9r40",
+            "created": 1726975469992,
+            "text": "整数",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4chxz48za80",
+                    "created": 1726976124519,
+                    "text": "整数概念",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4chykzgh0o0",
+                    "created": 1726976172119,
+                    "text": "整数分类",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4chpx8p7c80",
+                            "created": 1726975493522,
+                            "text": "正整数",
+                            "layout": null,
+                            "resource": [
+                                "自然数"
+                            ],
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4chq1m3qdc0",
+                            "created": 1726975503039,
+                            "text": "0",
+                            "layout": null,
+                            "resource": [
+                                "自然数"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4chq32rv6o0",
+                            "created": 1726975506224,
+                            "text": "负整数",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4chysuzvgw0",
+                    "created": 1726976189263,
+                    "text": "自然数",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4chyvy2k8g0",
+                            "created": 1726976195980,
+                            "text": "概念",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4chza09ebs0",
+                            "created": 1726976226587,
+                            "text": "性质",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4ci02o6pmw0",
+                    "created": 1726976288984,
+                    "text": "整数读写",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4ci097x9kg0",
+                            "created": 1726976303238,
+                            "text": "整数计算单位",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4ci0bit71c0",
+                            "created": 1726976308250,
+                            "text": "整数数位",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4ci0fo0sjc0",
+                            "created": 1726976317272,
+                            "text": "整数位数",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4ci0j9ola80",
+                            "created": 1726976325112,
+                            "text": "整数读法",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4ci0phrwnk0",
+                            "created": 1726976338662,
+                            "text": "整数写法",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4cip5xkbig0",
+                    "created": 1726978255185,
+                    "text": "整数改写",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4ciqg7u4zk0",
+                            "created": 1726978355938,
+                            "text": "整万或整亿改写",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4circhghns0",
+                            "created": 1726978426177,
+                            "text": "非整万或非整亿改写",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4cio2096w80",
+                    "created": 1726978168278,
+                    "text": "近似数",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4cio87wa000",
+                            "created": 1726978181799,
+                            "text": "概念",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4ciobb4lnc0",
+                            "created": 1726978188525,
+                            "text": "近似数精确度表述",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4cl02hzk400",
+                                    "created": 1726984751939,
+                                    "text": "精确到某一数位"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4cl05d9jj40",
+                                    "created": 1726984758183,
+                                    "text": "保留几位数"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4cl08gcva80",
+                                    "created": 1726984764901,
+                                    "text": "保留几个有效数字"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4ciofwruhs0",
+                            "created": 1726978198541,
+                            "text": "求近似数方法",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4cl0k1len40",
+                                    "created": 1726984790129,
+                                    "text": "四舍五入法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4cl0mfty6g0",
+                                    "created": 1726984795344,
+                                    "text": "进一法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4cl0ocpa8w0",
+                                    "created": 1726984799508,
+                                    "text": "去尾法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4cioqhuugo0",
+                    "created": 1726978221584,
+                    "text": "整数大小比较",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4ciox23q1k0",
+                            "created": 1726978235869,
+                            "text": "位数不同",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cioyr0hrs0",
+                            "created": 1726978239552,
+                            "text": "位数相同",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

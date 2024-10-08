@@ -17,7 +17,7 @@ function getRandomDateInLastSevenDays() {
 // 每个card_list内有若干list
 // 每个list作为一行，每一行（row）有三个card
 const card_list = [
-  // row
+  // row start
   [
     {
       "card_header": "建站方案",
@@ -26,6 +26,35 @@ const card_list = [
       "card_link_button": "阅读建站方案",
       "card_file_path": "./README.md",
       "card_address": "../index.html"
+    },
+    {
+      "card_header": "学科-数学",
+      "card_title": "小学数学",
+      "card_paragraph": "数，运算，计量单位，方程，比例，平面和立体几何，应用题等",
+      "card_link_button": "阅读小学文档",
+      "card_file_path": "./小学数学.md",
+      "card_address": "https://gitee.com/liuyaohui96_admin/docs/tree/master/学科-数学"
+    },
+    {
+      "card_header": "学科-英语",
+      "card_title": "英语语法",
+      "card_paragraph": "字母，音标，句子成分，词类，时态，句子类型等",
+      "card_link_button": "阅读英语语法文档",
+      "card_file_path": "./英语语法.md",
+      "card_address": "https://gitee.com/liuyaohui96_admin/docs/tree/master/学科-英语"
+    }
+  ],
+  // end row
+
+  // row start
+  [
+    {
+      "card_header": "工具-office",
+      "card_title": "excel",
+      "card_paragraph": "文件，工作簿，工作表，单元格，插入，页面，公式，数据，审阅，视图，函数类型等",
+      "card_link_button": "阅读excel文档",
+      "card_file_path": "./excel.md",
+      "card_address": "https://gitee.com/liuyaohui96_admin/docs/tree/master/00工具-office"
     },
     {
       "card_header": "python 文档",
@@ -44,9 +73,9 @@ const card_list = [
       "card_address": "https://gitee.com/liuyaohui96_admin/docs/tree/master/图形化编程-scratch"
     }
   ],
-  // end row
+  // end row end
 
-  //second row start
+  //row start
   [
     {
       "card_header": "编程笔记汇总",
@@ -73,10 +102,10 @@ const card_list = [
       "card_address": "https://gitee.com/liuyaohui96_admin/english_learning_system"
     },
   ],
-  // end second row
+  // end srow
 
 
-   // third row start
+   // row start
    [
     {
       "card_header": "html文档",
@@ -103,11 +132,11 @@ const card_list = [
       "card_address": "https://gitee.com/liuyaohui96_admin/docs/tree/master/02前端-javascript"
     },
   ],
-  // end third row
+  // end row
 
 
 
-  // fourth row start
+  // row start
   [
     {
       "card_header": "儿童编程",
@@ -135,11 +164,11 @@ const card_list = [
     },
    
   ],
-  // end fourth row
+  // end row
 
 
 
-  // fifth row start
+  // row start
   [
     {
       "card_header": "typescript 文档",
@@ -150,10 +179,14 @@ const card_list = [
       "card_address": "https://gitee.com/liuyaohui96_admin/docs/tree/master/02前端-javascript"
     },
   ]
-  // end fifth row
+  // end row
 
 
 ]
+
+// end 数据
+
+
 
 
 const main = document.querySelector('main')

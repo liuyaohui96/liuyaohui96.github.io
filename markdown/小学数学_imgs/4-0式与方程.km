@@ -1,0 +1,112 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "式与方程"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4dqviyba5c0",
+                    "created": 1727102882549,
+                    "text": "用字母表示数"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dqvp0caz40",
+                            "created": 1727102895733,
+                            "text": "作用"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dqvqtmjug0",
+                            "created": 1727102899680,
+                            "text": "书写规则"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4dqvsypbag0",
+                                    "created": 1727102904341,
+                                    "text": "数字与字母相乘"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4dqvus2fn40",
+                                    "created": 1727102908293,
+                                    "text": "字母与字母相乘"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4dqvxa0p8g0",
+                                    "created": 1727102913732,
+                                    "text": "含有字母的除法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4dqwaop15s0",
+                                    "created": 1727102942918,
+                                    "text": "单位处理"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4dqwd7osbk0",
+                    "created": 1727102948420,
+                    "text": " 方程的概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dqwgwmwxc0",
+                    "created": 1727102956459,
+                    "text": "等式性质"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dqwjg2vdc0",
+                    "created": 1727102961988,
+                    "text": "方程的解"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dqwlxl8rk0",
+                    "created": 1727102967400,
+                    "text": "解方程"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dqwo69mzk0",
+                    "created": 1727102972279,
+                    "text": "列方程解决问题"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

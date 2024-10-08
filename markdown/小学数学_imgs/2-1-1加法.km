@@ -1,0 +1,157 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "加法"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4dlb9pzcsw0",
+                    "created": 1727087189622,
+                    "text": "加法概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dld29dja80",
+                    "created": 1727087330109,
+                    "text": "加法运算法则",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dlb9q0ahk0",
+                            "created": 1727087189623,
+                            "text": "整数加法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dlb9q0cko0",
+                            "created": 1727087189624,
+                            "text": "小数加法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dlb9q0rkw0",
+                            "created": 1727087189624,
+                            "text": "分数加法",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4dlb9q0gkg0",
+                                    "created": 1727087189624,
+                                    "text": "同分母分数相加"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4dlb9q16w00",
+                                    "created": 1727087189625,
+                                    "text": "异分母分数相加"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4dlb9q1c2g0",
+                                    "created": 1727087189625,
+                                    "text": "带分数相加"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4dlb9q1y400",
+                            "created": 1727087189626,
+                            "text": "整数与小数相加"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dlb9q1zog0",
+                            "created": 1727087189626,
+                            "text": "整数与分数相加"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dlb9q2nao0",
+                            "created": 1727087189627,
+                            "text": "小数与分数相加"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4dldtxx60w0",
+                    "created": 1727087390366,
+                    "text": "加法运算定律",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dlb9q380g0",
+                            "created": 1727087189628,
+                            "text": "加法交换律"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dlb9q38600",
+                            "created": 1727087189628,
+                            "text": "加法结合律"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4dlb9q3pk80",
+                    "created": 1727087189629,
+                    "text": "和的变化规律"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dlj90x0dc0",
+                            "created": 1727087815020,
+                            "text": "一个加数变化"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dljcv2ts80",
+                            "created": 1727087823374,
+                            "text": "两个加数变化"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

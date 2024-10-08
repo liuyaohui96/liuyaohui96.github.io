@@ -1,0 +1,131 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "统计与概率"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4dtkj6uft40",
+                    "created": 1727110484389,
+                    "text": "统计表",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dtkncy0rk0",
+                            "created": 1727110493465,
+                            "text": "统计表概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dtkrrgsp40",
+                            "created": 1727110503050,
+                            "text": "统计表构成"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dtkzi75uo0",
+                            "created": 1727110519905,
+                            "text": "统计表分类"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4dtl6edn3k0",
+                    "created": 1727110534911,
+                    "text": "统计图"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dtlautr340",
+                            "created": 1727110544612,
+                            "text": "条形统计图"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dtldath3s0",
+                            "created": 1727110549933,
+                            "text": "折线统计图"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4dtlhqn2lc0",
+                            "created": 1727110559597,
+                            "text": "扇形统计图"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4dtlkk0gig0",
+                    "created": 1727110565726,
+                    "text": "平均数"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dtlmnsl7k0",
+                    "created": 1727110570309,
+                    "text": "概率"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dtloimctk0",
+                            "created": 1727110574349,
+                            "text": "可能性"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4dtlqqsd280",
+                                    "created": 1727110579198,
+                                    "text": "确定事件"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4dtlu6qymg0",
+                                    "created": 1727110586692,
+                                    "text": "不确定事件"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4dtm6r3bgg0",
+                            "created": 1727110614044,
+                            "text": "可能性大小"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

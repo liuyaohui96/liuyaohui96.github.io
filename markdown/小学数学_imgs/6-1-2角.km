@@ -1,0 +1,89 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "角"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4emw1wujs00",
+                    "created": 1727193199337,
+                    "text": "角的概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4emw7atxr40",
+                    "created": 1727193211066,
+                    "text": "角的符号表示方法"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4emw9nodgw0",
+                    "created": 1727193216196,
+                    "text": "角的度量单位"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4emx45nywo0",
+                            "created": 1727193282588,
+                            "text": "度，分，秒"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4emwbmdfqo0",
+                    "created": 1727193220471,
+                    "text": "角的分类"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4emwsnsacw0",
+                            "created": 1727193257562,
+                            "text": "锐角、直角、钝角、平角、周角。"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4emww94su80",
+                    "created": 1727193265383,
+                    "text": "角的大小比较"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4emwy63tx40",
+                            "created": 1727193269554,
+                            "text": "度量法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4emx05jw200",
+                            "created": 1727193273874,
+                            "text": "叠合法"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

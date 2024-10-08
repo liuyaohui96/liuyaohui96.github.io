@@ -1,0 +1,64 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "平面图形"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4emzhvg61c0",
+                    "created": 1727193469173,
+                    "text": "三角形"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4emzjf7n4w0",
+                    "created": 1727193472545,
+                    "text": "四边形"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4emzmj60q00",
+                            "created": 1727193479314,
+                            "text": "特殊的四边形-长方形"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4emzmj60q00",
+                            "created": 1727193479314,
+                            "text": "特殊的四边形-正方形"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4emzxocoa00",
+                    "created": 1727193503573,
+                    "text": "圆"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4en03figcg0",
+                            "created": 1727193516099,
+                            "text": "圆，扇形，圆环"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

@@ -1,0 +1,98 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "圆柱"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4enm4i1g3c0",
+                    "created": 1727195242440,
+                    "text": "概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4enm4i25280",
+                    "created": 1727195242441,
+                    "text": "构成",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4enm4i2l1c0",
+                            "created": 1727195242442,
+                            "text": "高"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enm4i1t9k0",
+                            "created": 1727195242441,
+                            "text": "底面"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enm4i29c00",
+                            "created": 1727195242441,
+                            "text": "侧面"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4enm4i2jrk0",
+                    "created": 1727195242442,
+                    "text": "数量关系",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4enm4i2glk0",
+                            "created": 1727195242442,
+                            "text": "底面积"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enm4i3b1c0",
+                            "created": 1727195242443,
+                            "text": "侧面积"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enm4i2zkw0",
+                            "created": 1727195242443,
+                            "text": "表面积"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enm4i3dlc0",
+                            "created": 1727195242443,
+                            "text": "体积"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

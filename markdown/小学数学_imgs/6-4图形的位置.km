@@ -1,0 +1,126 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl6g1x6dc0",
+            "created": 1727086811584,
+            "text": "图形的位置"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4enrv9squw0",
+                    "created": 1727195692536,
+                    "text": "观察立体图形",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4enrkcwzmw0",
+                            "created": 1727195668780,
+                            "text": "三视图",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4enrkcz7eg0",
+                                    "created": 1727195668783,
+                                    "text": "主视图"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enrkczmqo0",
+                                    "created": 1727195668784,
+                                    "text": "俯视图"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4enrkd00080",
+                                    "created": 1727195668785,
+                                    "text": "左视图"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4enrkd0h280",
+                            "created": 1727195668785,
+                            "text": "正方体的展开和折叠"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4enrkd2ba00",
+                    "created": 1727195668788,
+                    "text": "方向",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4enrkd2b3s0",
+                            "created": 1727195668788,
+                            "text": "四个基本方向"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enrkd2f080",
+                            "created": 1727195668789,
+                            "text": "四个辅助方向"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4enrkd2r6w0",
+                    "created": 1727195668789,
+                    "text": "位置",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4enrkd2g2o0",
+                            "created": 1727195668789,
+                            "text": "位置概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enrkd2hkg0",
+                            "created": 1727195668789,
+                            "text": "位置的相对性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4enrkd33b40",
+                            "created": 1727195668790,
+                            "text": "数对"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

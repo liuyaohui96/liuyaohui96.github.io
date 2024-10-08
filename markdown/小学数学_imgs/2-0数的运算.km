@@ -1,0 +1,38 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dl60qhdq80",
+            "created": 1727086778240,
+            "text": "数的运算"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4dl6vipeoo0",
+                    "created": 1727086845250,
+                    "text": "加法和减法"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dl6yqyt1s0",
+                    "created": 1727086852280,
+                    "text": "乘法和除法"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4dl75wsmi80",
+                    "created": 1727086867870,
+                    "text": "混合运算"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}

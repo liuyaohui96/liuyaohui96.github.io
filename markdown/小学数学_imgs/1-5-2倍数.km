@@ -1,0 +1,196 @@
+{
+    "root": {
+        "data": {
+            "id": "d4cz06xobd40",
+            "created": 1727024257133,
+            "text": "倍数",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4cz2ext6dk0",
+                    "created": 1727024431284,
+                    "text": "倍数概念"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4cz2gus4c00",
+                    "created": 1727024435454,
+                    "text": "倍数特点"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4cz2kyvhwg0",
+                            "created": 1727024444409,
+                            "text": "倍数个数"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cz2mwiapk0",
+                            "created": 1727024448619,
+                            "text": "最小最大倍数"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cz2pn19y00",
+                            "created": 1727024454577,
+                            "text": "0"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cz2u8tfk80",
+                            "created": 1727024464601,
+                            "text": "倍数关系的传递性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cz2we5dn40",
+                            "created": 1727024469277,
+                            "text": "常见倍数特征"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4cz2za740w0",
+                    "created": 1727024475568,
+                    "text": "找倍数方法"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d4cz9zofwjc0",
+                    "created": 1727025024979,
+                    "text": "奇数和偶数"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4cza4p4weg0",
+                            "created": 1727025035905,
+                            "text": "偶数概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4cza6ix9l40",
+                            "created": 1727025039883,
+                            "text": "奇数概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4czadh4bh40",
+                            "created": 1727025055011,
+                            "text": "奇数偶数性质"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4czag32nv40",
+                                    "created": 1727025060692,
+                                    "text": "奇数偶数加减法性质"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4czahsdlnk0",
+                                    "created": 1727025064399,
+                                    "text": "奇数偶数乘法性质"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4czaoz2dsw0",
+                            "created": 1727025080041,
+                            "text": "奇数和偶数个位数特征"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4czatr3rlc0",
+                    "created": 1727025090443,
+                    "text": "公倍数和最小公倍数"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4czax95suo0",
+                            "created": 1727025098065,
+                            "text": "公倍数概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4czb4g6k8w0",
+                            "created": 1727025113727,
+                            "text": "最小公倍数概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4czb7hmeuo0",
+                            "created": 1727025120345,
+                            "text": "求最小公倍数的方法"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4czb9s9at40",
+                                    "created": 1727025125342,
+                                    "text": "列举法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4czbbm2u0o0",
+                                    "created": 1727025129321,
+                                    "text": "短除法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4czbdyzjg00",
+                                    "created": 1727025134456,
+                                    "text": "分解质因数法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}
